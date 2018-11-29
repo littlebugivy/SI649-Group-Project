@@ -1,0 +1,50 @@
+{
+  "name": "",
+  "codeName": "Gamora",
+  "url": "https://www.marvel.com/characters/gamora",
+  "movies": {},
+  "story-moment": {
+    "POWER STONE": "Alongside her new teammates, Gamora made a stand against Ronan, harnessing the Power Stone against him.",
+    "GAMORA SAVES NEBULA": "When Nebula came after Gamora on Ego\u2019s planet, Gamora ended up saving her, leading to reconciliation between the sisters.",
+    "THANOS TRICKS GAMORA": "Gamora believed she had fatally wounded Thanos on Knowhere, only for him to reveal it was all a ruse.",
+    "SOUL STONE": "On Vormir, Gamora and Thanos learned the price to pay to gain the Soul Stone, as Gamora discovered what Thanos truly felt about her."
+  },
+  "powers+abilities": {
+    "SPACE SURVIVAL": "Thanks to the bionic upgrades given to her by Thanos, Gamora is able to survive in the vacuum of space for a short amount of time.",
+    "DEADLY ASSASSIN": "Given the moniker \u201cthe deadliest woman in the galaxy,\u201d Gamora is a feared and skilled assassin.",
+    "SKILLED SWORDSWOMAN": "Gamora is a skilled swordswoman, expertly wielding her blade in combat."
+  },
+  "allies": [
+    "Star-Lord",
+    "Nebula",
+    "Rocket",
+    "Groot",
+    "Drax",
+    "Mantis",
+    "Yondu",
+    "Thor"
+  ],
+  "enemies": [
+    "Thanos",
+    "Ego"
+  ],
+  "groups": [
+    "Nebula",
+    "Thanos"
+  ],
+  "bio": {
+    "HEIGHT": "6'",
+    "WEIGHT": "170 lbs.",
+    "GENDER": "Female",
+    "EYES": "Yellow (formerly green)",
+    "HAIR": "Black"
+  },
+  "matrix": {
+    "DURABILITY": "3",
+    "ENERGY": "1",
+    "FIGHTING SKILLS": "6",
+    "INTELLIGENCE": "3",
+    "SPEED": "4",
+    "STRENGTH": "3"
+  }
+}

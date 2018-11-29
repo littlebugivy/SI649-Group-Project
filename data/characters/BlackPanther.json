@@ -1,0 +1,65 @@
+{
+  "name": "T'Challa",
+  "codeName": "Black Panther",
+  "url": "https://www.marvel.com/characters/black-panther-t-challa",
+  "movies": {},
+  "story-moment": {
+    "PURSUING BUCKY": "Mistakenly believing Bucky Barnes was responsible for his father\u2019s death, T\u2019Challa teamed with Iron Man and his allies against Captain America\u2019s rogue team.",
+    "CHALLENGED BY KILLMONGER": "Challenged by the man called Killmonger, T\u2019Challa was nearly killed in combat and left for dead.",
+    "DEFEATING KILLMONGER": "With both Wakanda and the world\u2019s future at stake, T\u2019Challa returned to battle Killmonger for his nation\u2019s throne, ultimately defeating his cousin.",
+    "BATTLE OF WAKANDA": "Agreeing to give aid to Captain America, T\u2019Challa led his people in a hard fought battle against Thanos\u2019 army, as they attempted to invade Wakanda to gain control of Vision and the Mind Stone he possessed."
+  },
+  "powers+abilities": {
+    "HAND-TO-HAND COMBAT": "A terrific hand-to-hand combatant, T\u2019Challa is highly skilled in one-on-one fighting, even without the powers of the Black Panther.",
+    "BULLETPROOF COSTUME": "Black Panther\u2019s bulletproof costume, designed by his sister Shuri, is stored within his necklace and can envelop T\u2019Challa whenever he wishes.",
+    "VIBRANIUM CLAWS": "The Black Panther costume includes very tough and sharp vibranium claws, which can retract back into the gloves.",
+    "ENERGY PULSE": "The Black Panther costume absorbs kinetic energy, and then redistributes it, allowing T\u2019Challa to either increase the strength of his kicks and punches, or release all the energy at once in the form of a powerful energy pulse."
+  },
+  "allies": [
+    "Nakia",
+    "Okoye",
+    "Shuri",
+    "Captain America",
+    "Winter Soldier",
+    "Iron Man",
+    "Black Widow",
+    "Falcon",
+    "Vision",
+    "Scarlet Witch",
+    "Thor",
+    "Rocket",
+    "Groot",
+    "Spider-Man",
+    "War Machine",
+    "Hulk",
+    "Hawkeye",
+    "Guardians of the Galaxy"
+  ],
+  "enemies": [
+    "Thanos",
+    "Erik Killmonger",
+    "Ulysses Klaue",
+    "Corvus Glaive",
+    "Cull Obsidian",
+    "Proxima Midnight"
+  ],
+  "groups": [
+    "Shuri",
+    "Erik Killmonger"
+  ],
+  "bio": {
+    "HEIGHT": "6'",
+    "WEIGHT": "200 lbs.",
+    "GENDER": "Male",
+    "EYES": "Brown",
+    "HAIR": "Black"
+  },
+  "matrix": {
+    "DURABILITY": "3",
+    "ENERGY": "3",
+    "FIGHTING SKILLS": "5",
+    "INTELLIGENCE": "5",
+    "SPEED": "2",
+    "STRENGTH": "3"
+  }
+}

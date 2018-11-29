@@ -1,0 +1,26 @@
+{
+  "name": "Taneleer Tivan",
+  "codeName": "The Collector",
+  "url": "https://www.marvel.com/characters/collector-taneleer-tivan",
+  "movies": {},
+  "story-moment": {},
+  "powers+abilities": {},
+  "allies": [],
+  "enemies": [],
+  "groups": [],
+  "bio": {
+    "HEIGHT": "6'2''",
+    "WEIGHT": "450 lbs.",
+    "GENDER": "Male",
+    "EYES": "No visible irses",
+    "HAIR": "Humanoid: white, Alien Form: bald"
+  },
+  "matrix": {
+    "DURABILITY": "6",
+    "ENERGY": "4",
+    "FIGHTING SKILLS": "2",
+    "INTELLIGENCE": "4",
+    "SPEED": "2",
+    "STRENGTH": "4"
+  }
+}

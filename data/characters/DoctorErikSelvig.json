@@ -1,0 +1,37 @@
+{
+  "name": "Erik Selvig",
+  "codeName": "Doctor Erik Selvig",
+  "url": "https://www.marvel.com/characters/doctor-erik-selvig",
+  "movies": {},
+  "story-moment": {
+    "MEETING THOR": "When Dr. Selvig and his students Jane Foster and Darcy Lewis came upon an astronomical anomaly on Earth, they accidentally hit a man with their van, who claimed to be the Asgardian Thor Odinson, a legend from Norse mythology.",
+    "STABILIZING THE TESSERACT": "S.H.I.E.L.D. sought Selvig out to stabilize the Tesseract, an unknown source of immense energy, but housing an Infinity Stone known as the Space Stone.",
+    "RECOVERING FROM NEW YORK": "The events of the Battle of New York and Loki's mind control took a toll on Selvig who had difficulty recovering his mental faculties causing him running around nude claiming he was saving people and spouting theories about the Convergence.",
+    "A CONVERGENCE IN GREENWICH": "Selvig discerned through calculations that Greenwich, England was the spot in the Convergence where the Aether could be used, and thus where Malekith would invade.",
+    "GOING UPSTATE": "Due to his expertise in science and Asgard, Selvig was recruited to work for the Avengers at their new facility in upstate New York."
+  },
+  "powers+abilities": {
+    "ASTROPHYSICS": "While he has no super human abilities, Doctor Erik Selvig is a renowned astrophysicist who studies cosmic energy.",
+    "WORMHOLE EXPERT": "After working alongside Jane Foster and discovering the existence of wormholes, he becomes an expert on the subject.",
+    "P.E.G.A.S.U.S. PROJECT": "For his scientific prowess, S.H.I.E.L.D. invites him to consult on a secret project called P.E.G.A.S.U.S., studying the powerful object known as the Tesseract.",
+    "EXPERT ON CONVERGENCE": "Once his mind was recalibrated and recovered somewhat from Loki\u2019s mind control, he seemed to understand the nature of the Convergence, a singular event where the Nine Realms in the universe aligned."
+  },
+  "allies": [
+    "Thor",
+    "Hulk",
+    "Hawkeye",
+    "Iron Man",
+    "Black Widow",
+    "Captain America"
+  ],
+  "enemies": [
+    "Loki"
+  ],
+  "groups": [],
+  "bio": {
+    "GENDER": "Male",
+    "EYES": "Blue",
+    "HAIR": "Blond"
+  },
+  "matrix": {}
+}

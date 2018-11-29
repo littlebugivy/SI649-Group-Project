@@ -1,0 +1,55 @@
+{
+  "name": "Clint Barton",
+  "codeName": "Hawkeye",
+  "url": "https://www.marvel.com/characters/hawkeye-clint-barton",
+  "movies": {},
+  "story-moment": {
+    "FRIENDSHIP WITH BLACK WIDOW": "Fury sent Barton to kill the Russian assassin codenamed Black Widow. Instead, he offered to bring Natasha Romanoff over to their side and the two not only became faithful allies, but also good friends.",
+    "UNDER LOKI'S CONTROL": "Under Loki\u2019s control, Clint Barton stole the Tesseract and helped Loki and Selvig escape, nearly killing Director Fury and Agent Hill in the process.",
+    "CHITAURI BATTLE": "Assembling alongside Captain America, Black Widow, Iron Man, Thor, and the Hulk, Hawkeye fought the oncoming Chitauri warriors with his military combat skills and weaponized arrows.",
+    "MEETING THE FAMILY": "Following the destruction from the battle between Iron Man and the Hulk in a South African town, Hawkeye flew the Avengers to a safehouse\u2014his secret homestead\u2014where they met Barton\u2019s pregnant wife and children.",
+    "SAVING WANDA": "Amidst the battle in Sokovia with Ultron, Hawkeye saved Wanda who was suffering from a panic attack, while giving her the option to stay inside and safe, or to exit the building to fight, as an Avenger."
+  },
+  "powers+abilities": {
+    "MASTER ARCHER": "As the World\u2019s greatest marksman, Hawkeye is a master archer specialized in various bows and arrows with near-precise accuracy.",
+    "COMBAT EXPERT": "An expert acrobat and military-trained combatant with exceptional endurance, stamina, and agility, Barton can stand toe-to-toe with some of the best fighters around.",
+    "SKILLED TACTICIAN": "As one of S.H.I.E.L.D.\u2019s best agents, Hawkeye is a skilled tactician and field commander.",
+    "SPECIALIZED WEAPONS": "Hawkeye\u2019s specialized equipment include recurve bows, compound bows, a specialized arrow quiver, speed loader, Busse dagger, a S.H.I.E.L.D.-issued handgun, and collapsible baton."
+  },
+  "allies": [
+    "Black Widow",
+    "Captain America",
+    "Scarlet Witch",
+    "Falcon",
+    "Iron Man",
+    "War Machine",
+    "Vision",
+    "Spider-Man",
+    "Thor",
+    "Hulk",
+    "Doctor Erik Selvig"
+  ],
+  "enemies": [
+    "Loki",
+    "Ultron",
+    "Ulysses Klaue"
+  ],
+  "groups": [
+    "Avengers"
+  ],
+  "bio": {
+    "HEIGHT": "6'3''",
+    "WEIGHT": "230 lbs.",
+    "GENDER": "Male",
+    "EYES": "Blue",
+    "HAIR": "Blond"
+  },
+  "matrix": {
+    "DURABILITY": "2",
+    "ENERGY": "1",
+    "FIGHTING SKILLS": "4",
+    "INTELLIGENCE": "2",
+    "SPEED": "2",
+    "STRENGTH": "2"
+  }
+}

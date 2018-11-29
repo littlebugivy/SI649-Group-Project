@@ -1,0 +1,64 @@
+{
+  "name": "Steve Rogers",
+  "codeName": "Captain America",
+  "url": "https://www.marvel.com/characters/captain-america-steve-rogers",
+  "movies": {},
+  "story-moment": {
+    "BECOMING AN AVENGER": "Discovered in modern times, Captain America joined forces with the heroes who would become the Avengers during the attack by Loki and the Chitauri on New York.",
+    "ENEMY REVEAL": "Fighting the infamous assassin known as the Winter Soldier, Steve Rogers was shocked to discover he was in fact battling his old friend, Bucky Barnes.",
+    "BATTLE BETWEEN FRIENDS": "A disagreement over the Superhuman Registration Act led to a rift with Tony Stark, and eventually, a brutal fight between the two friends.",
+    "LAST STAND IN WAKANDA": "Having lived as a fugitive for two years, Steve Rogers and those who stayed by his side came out of hiding to help protect the Mind Stone from Thanos, making a last stand in Wakanda."
+  },
+  "powers+abilities": {
+    "SPEED & STAMINA": "His speed and stamina increased by the Super-Soldier serum, Captain America is usually the first leading the way into battle, with few able to keep up with him.",
+    "SKILLED FIGHTER": "A skilled fighter, Captain America has bested formidable, highly trained operatives from around the world.",
+    "ACROBAT": "Highly acrobatic, Steve Rogers is able to pull off surprisingly agile moves for a man his size.",
+    "VIBRANIUM SHIELD": "Captain America carries a remarkable, one of a kind vibranium shield. Phenomenally tough and durable when it comes to defending Rogers from attack, the shield is also an impressive tool in combat that Rogers deftly use as a throwing weapon."
+  },
+  "allies": [
+    "Winter Soldier",
+    "Iron Man",
+    "Falcon",
+    "Black Widow",
+    "Hulk",
+    "Hawkeye",
+    "Thor",
+    "Scarlet Witch",
+    "Vision",
+    "War Machine",
+    "Spider-Man",
+    "Black Panther",
+    "Shuri",
+    "Okoye",
+    "Howard Stark",
+    "Guardians of the Galaxy",
+    "Groot",
+    "Rocket"
+  ],
+  "enemies": [
+    "Ulysses Klaue",
+    "Ultron",
+    "Thanos",
+    "Corvus Glaive",
+    "Proxima Midnight",
+    "Cull Obsidian"
+  ],
+  "groups": [
+    "Avengers"
+  ],
+  "bio": {
+    "HEIGHT": "6'2''",
+    "WEIGHT": "240 lbs.",
+    "GENDER": "Male",
+    "EYES": "Blue",
+    "HAIR": "Blond"
+  },
+  "matrix": {
+    "DURABILITY": "3",
+    "ENERGY": "1",
+    "FIGHTING SKILLS": "6",
+    "INTELLIGENCE": "3",
+    "SPEED": "2",
+    "STRENGTH": "3"
+  }
+}

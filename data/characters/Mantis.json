@@ -1,0 +1,54 @@
+{
+  "name": "",
+  "codeName": "Mantis",
+  "url": "https://www.marvel.com/characters/mantis",
+  "movies": {},
+  "story-moment": {
+    "DISCOVERED BY EGO": "Orphaned on her home world, Mantis is discovered by Ego while still in a larva state, who raises her by hand and keeps her as his own to quell his neurotic behaviors.",
+    "MEETING THE GUARDIANS": "Mantis encounters the Guardians of the Galaxy Star-Lord, Gamora, Drax, Rocket and Groot, after Ego saves them from an impeding attack from the Sovereign.",
+    "UNEARTHING EGO'S PLAN": "Caring for her new friends, Mantis could no longer keep her knowledge of Ego\u2019s true plans for Peter Quill and the Expansion to Drax, Gamora and Nebula.",
+    "PUTTING PLANET EGO TO SLEEP": "Empowered by Drax\u2019s belief in her, Mantis harnessed her powers to force Ego the living planet to sleep as the Guardians attacked.",
+    "SUBDUING THANOS": "Presenting a strong front against the Mad Titan, Mantis subdues Thanos with her empathic powers as Spider-Man and Iron Man are close to remove Thanos\u2019 grip on the Infinity Gauntlet."
+  },
+  "powers+abilities": {
+    "POWERFUL EMPATH": "Mantis is an empath who can sense others\u2019 feelings and emotions with a touch, to which her antennae respond by lighting up.",
+    "SLEEP INDUCTION": "Mantis can induce sleep and manipulate emotions to a degree, able to make Ego sleep when he is in planet form or debilitate the Mad Titan Thanos for a time.",
+    "EMOTION MANIPULATION": "Mantis can also alter emotions, helping a sad person feel contentment or a stubborn person compliant.",
+    "ENHANCED DURABILITY": "Mantis has enhanced durability, as she has proven to be resilient to injury."
+  },
+  "allies": [
+    "Drax",
+    "Star-Lord",
+    "Gamora",
+    "Rocket",
+    "Groot",
+    "Yondu",
+    "Nebula",
+    "Iron Man",
+    "Doctor Strange",
+    "Spider-Man",
+    "Avengers"
+  ],
+  "enemies": [
+    "Ego",
+    "Thanos"
+  ],
+  "groups": [
+    "Guardians of the Galaxy"
+  ],
+  "bio": {
+    "HEIGHT": "5'6\"",
+    "WEIGHT": "115 lbs.",
+    "GENDER": "Female",
+    "EYES": "Green",
+    "HAIR": "Black"
+  },
+  "matrix": {
+    "DURABILITY": "7",
+    "ENERGY": "3",
+    "FIGHTING SKILLS": "6",
+    "INTELLIGENCE": "3",
+    "SPEED": "7",
+    "STRENGTH": "3"
+  }
+}

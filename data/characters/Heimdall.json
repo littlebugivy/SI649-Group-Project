@@ -1,0 +1,53 @@
+{
+  "name": "",
+  "codeName": "Heimdall",
+  "url": "https://www.marvel.com/characters/heimdall",
+  "movies": {},
+  "story-moment": {
+    "ACCESS TO JOTUNHEIM": "Heimdall, unable to see how the Frost Giants broke into Odin\u2019s vault to steal back their Casket of Ancient Winters, allows Thor and his allies access to Jotunheim.",
+    "REMOVED AS GATEKEEPER": "Accused of treason, Loki relieves Heimdall of his duties as gatekeeper and removes his Asgardian citizenship, prompting Heimdall to attack with Hofund.",
+    "DESTROYING THE DARK ELVES": "Heimdall seeing their arrival of the Dark Elves to Asgard from the Bifrost Observatory and jumped onto their aircraft, destroying it with his knives.",
+    "SAVING ASGARDIAN SURVIVORS": "As the Revengers held off Hela, Fenris and her army, Heimdall helped load the remaining Asgardian survivors to safety on Loki and the escaped Sakaar gladiators\u2019 ship, the Statesman.",
+    "HELPING OUT THE HULK": "A wounded Heimdall gathered his remaining dark energy that Odin has bestowed upon him to send Hulk back to Earth, to warn them of Thanos\u2019 search for the Infinity Stones and imminent arrival."
+  },
+  "powers+abilities": {
+    "EXTRASENSORY CAPABILITIES": "Heimdall sees and hears all thanks to his extrasensory capabilities. His sight can extend across all Nine Realms; able to see 10 trillion souls.",
+    "ENHANCED ABILITIES": "As an Asgardian, he has super strength, speed, durability, and longevity.",
+    "MASTER COMBATANT": "Heimdall is a master combatant and swordsman\u2014using knives and his broadsword Hofund\u2014and capable of taking out multiple threats whether on foot or by air.",
+    "THE BIFROST": "Using his Hofund, Heimdall can direct the Bifrost, drawing energy from the center of Asgard, to a desired location, typically one of the other Nine Realms including Earth."
+  },
+  "allies": [
+    "Thor",
+    "Loki",
+    "Odin",
+    "Warriors Three",
+    "Skurge",
+    "Valkyrie",
+    "Hulk"
+  ],
+  "enemies": [
+    "Hela",
+    "Thanos",
+    "Loki",
+    "Corvus Glaive",
+    "Proxima Midnight",
+    "Ebony Maw",
+    "Cull Obsidian"
+  ],
+  "groups": [],
+  "bio": {
+    "HEIGHT": "7'2''",
+    "WEIGHT": "525 lbs.",
+    "GENDER": "Male",
+    "EYES": "Gray",
+    "HAIR": "Brown"
+  },
+  "matrix": {
+    "DURABILITY": "3",
+    "ENERGY": "1",
+    "FIGHTING SKILLS": "4",
+    "INTELLIGENCE": "2",
+    "SPEED": "3",
+    "STRENGTH": "5"
+  }
+}

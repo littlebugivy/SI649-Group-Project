@@ -1,0 +1,54 @@
+{
+  "name": "Stephen Strange",
+  "codeName": "Doctor Strange",
+  "url": "https://www.marvel.com/characters/doctor-strange-stephen-strange",
+  "movies": {},
+  "story-moment": {
+    "ACCIDENT AND RECOVERY": "Doctor Stephen Strange is in a terrible car accident, resulting in injuries to his hands that stop him from being able to continue working as a surgeon.",
+    "TRAINING AT KAMAR-TAJ": "Strange begins to master the mystic arts under the tutelage of the Ancient One, aided by Mordo.",
+    "BARGAINING WITH DORMAMMU": "Doctor Strange uses the Eye of Agamotto\u2019s power to force Dormammu into a bargain to save the Earth.",
+    "THE SEARCH FOR ODIN": "When Thor comes looking for his father, Odin, on Earth, Doctor Strange offers him assistance.",
+    "FIGHT ON TITAN": "On Titan, Doctor Strange joins several other heroes in a battle against Thanos, attempting to remove the Infinity Gauntlet from his hand."
+  },
+  "powers+abilities": {
+    "MASTER OF THE MYSTIC ARTS": "As a Master of the Mystic Arts, Doctor Strange possesses incredible magical knowledge and power, able to conjure powerful spells within moments.",
+    "ASTRAL PROJECTION": "Doctor Strange can send his astral projection away from his body.",
+    "TELEPORTATION": "Doctor Strange\u2019s sling ring allows him to teleport himself or others, opening and closing portals to far-off locations.",
+    "EYE OF AGAMATTO": "The Eye of Agamatto, which is in fact the Time Stone, allows Strange to alter time around objects, locations, or other beings, or to see potential futures.",
+    "CLOAK OF LEVITATION": "Doctor Strange\u2019s Cloak of Levitation allows him to fly, and can be used to grab hold of objects or enemies as needed."
+  },
+  "allies": [
+    "Wong",
+    "Iron Man",
+    "Spider-Man",
+    "Hulk",
+    "Star-Lord",
+    "Drax",
+    "Mantis",
+    "Nebula",
+    "Thor"
+  ],
+  "enemies": [
+    "Dormammu",
+    "Ebony Maw",
+    "Thanos",
+    "Cull Obsidian",
+    "Loki"
+  ],
+  "groups": [],
+  "bio": {
+    "HEIGHT": "6'2 1/2''",
+    "WEIGHT": "180 lbs.",
+    "GENDER": "Male",
+    "EYES": "Grey",
+    "HAIR": "Black, white at temples"
+  },
+  "matrix": {
+    "DURABILITY": "3",
+    "ENERGY": "6",
+    "FIGHTING SKILLS": "3",
+    "INTELLIGENCE": "4",
+    "SPEED": "7",
+    "STRENGTH": "2"
+  }
+}

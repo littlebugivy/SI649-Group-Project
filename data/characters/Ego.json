@@ -1,0 +1,46 @@
+{
+  "name": "",
+  "codeName": "Ego",
+  "url": "https://www.marvel.com/characters/ego",
+  "movies": {},
+  "story-moment": {
+    "THE CELESTIAL": "After millions of years of existence, Ego the Celestial not only gained intelligence and strength, but also figured out how to manipulate molecules and energy around him, building his own planet.",
+    "EGO THE HUMANOID": "Wanting more out of his immortal life, Ego created a humanoid form for himself and sought to find other life among the stars. Disappointed and unimpressed by what he found, he used his seedlings to reshape whole planets in his image.",
+    "MEREDITH QUILL": "In 1980, Ego spent time on Earth in Missouri with a woman named Meredith Quill \u2013 his \u201cRiver Lily\u201d who he loved. To not derail his mission, he gave her a brain tumor leaving his son Peter Quill without any parents on Earth.",
+    "THE SEARCH FOR HIS OFFSPRING": "Ego searched for his offspring, including Peter Quill, whom Yondu Udonta failed to deliver. Upon hearing about a Terran who managed to hold the Power Stone without dying, he knew Star-Lord to be his son possessing the Celestial gene.",
+    "HARNESSING CELESTIAL POWER": "Ego convinces Peter that he is the father he always yearned for despite Yondu kidnapping him for reasons unknown. Making up for lost time, Ego teaches him how to harness the Celestial power within him, and invites him into his expansion mission."
+  },
+  "powers+abilities": {
+    "ENERGY MANIPULATION": "Ego\u2019s Celestial physiology allows him to manipulate matter, molecules, and energy around him, capable of not only building his own planet but also a humanoid vessel housing an extension of his consciousness.",
+    "SUPER STRENGTH": "As a Celestial, Ego can wield super strength.",
+    "MIND CONTROL": "Ego has evolved to a highly intelligent entity with the ability to manipulate other beings, gain their trust, and compel them to act on his behalf.",
+    "REGENERATION": "Ego can rebuild and repair himself while under attack, even heavily altering his physical appearance, making him almost impervious to physical attacks. He cannot be destroyed unless his core is destroyed.",
+    "POWER OF LIGHT": "Ego\u2019s power of light can not only restrain and incapacitate the Guardians but is also powerful enough to destroy all the Sovereign spaceships."
+  },
+  "allies": [
+    "Star-Lord",
+    "Gamora",
+    "Yondu",
+    "Rocket",
+    "Groot",
+    "Drax",
+    "Mantis"
+  ],
+  "enemies": [
+    "Star-Lord"
+  ],
+  "groups": [],
+  "bio": {
+    "HEIGHT": "(Diameter) 4165 miles",
+    "WEIGHT": "(Mass) 3.82 x 10^20 tons",
+    "GENDER": "Male"
+  },
+  "matrix": {
+    "DURABILITY": "7",
+    "ENERGY": "7",
+    "FIGHTING SKILLS": "2",
+    "INTELLIGENCE": "6",
+    "SPEED": "7",
+    "STRENGTH": "7"
+  }
+}

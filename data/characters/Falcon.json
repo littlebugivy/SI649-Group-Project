@@ -1,0 +1,60 @@
+{
+  "name": "Sam Wilson",
+  "codeName": "Falcon",
+  "url": "https://www.marvel.com/characters/falcon-sam-wilson",
+  "movies": {},
+  "story-moment": {
+    "THE FALCON FLYING SUIT": "Captain America and Black Widow assisted Sam Wilson in stealing the Falcon flying suit he\u2019d used in the Air Force from Camp Mead.",
+    "TRACKING DOWN BUCKY": "Sam Wilson turned down Nick Fury\u2019s offer to help him track down HYDRA operatives, instead deciding to help Steve Rogers track down Bucky Barnes.",
+    "BECOMING AN AVENGER": "Falcon became a member of the Avengers in a new incarnation of the team that included Captain America, Black Widow, Vision, James \u201cRhodey\u201d Rhodes AKA War Machine, and Wanda Maximoff AKA Scarlet Witch.",
+    "POST CIVIL WAR": "Along with Hawkeye, Scarlet Witch, and Ant-Man, Falcon was locked up after the airport battle in the underwater prison called the Raft.",
+    "SAVING VISION": "After two years on the run, Falcon, Captain America, and Black Widow publicly surfaced when they assisted Scarlet Witch in stopping Proxima Midnight and Corvus Glaive from removing the Mind Stone from Vision\u2019s head for their master, Thanos."
+  },
+  "powers+abilities": {
+    "EXO-7 FALCON FLIGHT SUIT": "A highly trained member of the United States Air Force, Sam Wilson mastered the EXO-7 Falcon flight suit.",
+    "FIGHTING SKILLS": "Thanks to first his military training and then the Avengers program, Wilson has become an incredible fighter, using a combination of his suit, firearms, and fighting skills to best his enemies.",
+    "REDWING": "Redwing, a weaponized drone that Wilson can use for both surveillance and combat, also comes as part of the package."
+  },
+  "allies": [
+    "Captain America",
+    "Black Widow",
+    "Iron Man",
+    "Scarlet Witch",
+    "Hawkeye",
+    "Vision",
+    "Spider-Man",
+    "War Machine",
+    "Hulk",
+    "Thor",
+    "Black Panther",
+    "Okoye",
+    "Shuri",
+    "Rocket",
+    "Groot",
+    "Guardians of the Galaxy"
+  ],
+  "enemies": [
+    "Thanos",
+    "Corvus Glaive",
+    "Proxima Midnight",
+    "Cull Obsidian"
+  ],
+  "groups": [
+    "Avengers"
+  ],
+  "bio": {
+    "HEIGHT": "6'2''",
+    "WEIGHT": "240 lbs.",
+    "GENDER": "Male",
+    "EYES": "Brown",
+    "HAIR": "Black"
+  },
+  "matrix": {
+    "DURABILITY": "2",
+    "ENERGY": "1",
+    "FIGHTING SKILLS": "4",
+    "INTELLIGENCE": "2",
+    "SPEED": "3",
+    "STRENGTH": "2"
+  }
+}

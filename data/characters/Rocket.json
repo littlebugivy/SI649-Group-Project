@@ -1,0 +1,65 @@
+{
+  "name": "",
+  "codeName": "Rocket",
+  "url": "https://www.marvel.com/characters/rocket",
+  "movies": {},
+  "story-moment": {
+    "MOURNING FOR GROOT": "Rocket mourned the loss of Groot when his friend sacrificed himself to save his teammates.",
+    "STEALING BATTERIES": "After taking a job to save valuable batteries belonging to Sovereign, Rocket then couldn\u2019t resist stealing some of those same batteries for himself \u2013 sending the Sovereign after the Guardians.",
+    "LOCKED UP WITH YONDU": "Rocket was locked up alongside Yondu by Ravagers but with Groot and Kraglin\u2019s help broke out and struck back at their enemies.",
+    "CREATING A WEAPON": "Rocket volunteered himself and Groot to join Thor on his journey to create a new weapon to battle Thanos."
+  },
+  "powers+abilities": {
+    "EXPERT ENGINEER": "Rocket is a highly intelligent engineer and is particularly adept when it comes to improvised devices and weaponry.",
+    "SKILLED MARKSMAN": "Rocket is a skilled marksman and is able to expertly use weapons of varied background and design.",
+    "ACCOMPLISHED PILOT": "Rocket is an accomplished pilot, having proven his worth in both escape and combat scenarios - while continuing a rivalry with Peter Quill about who is the best.",
+    "AGILITY": "Rocket is notably strong for his size and highly agile, able to take on multiple opponents within moments."
+  },
+  "allies": [
+    "Groot",
+    "Star-Lord",
+    "Gamora",
+    "Drax",
+    "Mantis",
+    "Nebula",
+    "Thor",
+    "Yondu",
+    "Captain America",
+    "Vision",
+    "Black Panther",
+    "Okoye",
+    "Shuri",
+    "Black Widow",
+    "Scarlet Witch",
+    "Hulk",
+    "Falcon",
+    "War Machine",
+    "Winter Soldier",
+    "Avengers"
+  ],
+  "enemies": [
+    "Thanos",
+    "Ego",
+    "Proxima Midnight",
+    "Cull Obsidian",
+    "Corvus Glaive"
+  ],
+  "groups": [
+    "Guardians of the Galaxy"
+  ],
+  "bio": {
+    "HEIGHT": "4'",
+    "WEIGHT": "55 lbs.",
+    "GENDER": "Male",
+    "EYES": "Brown (sometimes varies due to tapetal reflection)",
+    "HAIR": "Brown, white and black"
+  },
+  "matrix": {
+    "DURABILITY": "2",
+    "ENERGY": "1",
+    "FIGHTING SKILLS": "4",
+    "INTELLIGENCE": "3",
+    "SPEED": "2",
+    "STRENGTH": "2"
+  }
+}

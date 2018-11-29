@@ -1,0 +1,51 @@
+{
+  "name": "Natasha Romanoff",
+  "codeName": "Black Widow",
+  "url": "https://www.marvel.com/characters/black-widow-natasha-romanoff",
+  "movies": {},
+  "story-moment": {
+    "RAISED IN THE RED ROOM": "At a young age, Natasha Romanoff was indoctrinated by the Red Room, a Russian training program that took young girls and turned them into lethal undercover agents.",
+    "RECRUITING BRUCE BANNER": "S.H.I.E.L.D. agent Phil Coulson sent Agent Romanoff on an undercover mission in India, after Agent Barton had been compromised, to recruit Bruce Banner AKA the Hulk to aid in locating the Tesseract been stolen by Loki.",
+    "THE FALL OF S.H.I.E.L.D.": "Black Widow and Captain America went to Camp Leigh where the consciousness of Arnim Zola revealed HYDRA had not only survived World War II, but has manipulated S.H.I.E.L.D. from the beginning, with the Winter Soldier.",
+    "TEAM CAP": "At the climax of the Civil War, Natasha Romanoff revealed she had been on Steve Rogers\u2019 side the entire time, even holding off the Black Panther in order for Rogers and Barnes to deal with Helmut Zemo.",
+    "BATTLE OF WAKANDA": "During the battle at Wakanda, Black Widow, Okoye, and Scarlet Witch worked together to permanently neutralize Thanos' follower Proxima Midnight."
+  },
+  "powers+abilities": {
+    "MASTER FIGHTER": "She is extensively trained to near perfection in various fighting styles, such as karate, judo, kung fu, and wrestling. Combining all manner of weapons with her background in gymnastics, acrobatics, and ballet, she always accomplishes her mission.",
+    "STRENGTH AND AGILITY": "Exhibiting no super human abilities, the Black Widow boasts ultimate human levels of strength, agility, and stamina.",
+    "WIDOW'S BITE": "Her signature weapons include dual batons, a pair of Glock 26s and the Black Widow\u2019s Bite\u2014bracelets that discharge electricity.",
+    "MASTER HACKER": "Romanoff also displays great skill when it comes to hacking in computers and technological systems to dig for information or regaining control."
+  },
+  "allies": [
+    "Captain America",
+    "Hawkeye",
+    "Falcon",
+    "Hulk",
+    "Iron Man",
+    "Vision",
+    "War Machine",
+    "Scarlet Witch",
+    "Black Panther",
+    "Thor",
+    "Okoye",
+    "Shuri",
+    "Spider-Man",
+    "Winter Soldier",
+    "Groot",
+    "Rocket",
+    "Guardians of the Galaxy"
+  ],
+  "enemies": [
+    "Ultron",
+    "Thanos",
+    "Cull Obsidian",
+    "Corvus Glaive",
+    "Proxima Midnight",
+    "Ulysses Klaue"
+  ],
+  "groups": [
+    "Avengers"
+  ],
+  "bio": {},
+  "matrix": {}
+}

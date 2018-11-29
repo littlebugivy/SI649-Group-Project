@@ -1,0 +1,51 @@
+{
+  "name": "",
+  "codeName": "Shuri",
+  "url": "https://www.marvel.com/characters/shuri",
+  "movies": {},
+  "story-moment": {
+    "SHURI'S INVENTIONS": "Shuri presents T\u2019Challa with new inventions she\u2019s made for him, including an upgraded Black Panther suit.",
+    "REMOTE DRIVING": "Using her remote device, Shuri drives a car in South Korea from her lab in Wakanda.",
+    "FIGHTING WITH VIBRANIUM": "Shuri joins the fight against Erik Killmonger, wielding her vibranium gauntlets.",
+    "UTILIZING TECHNOLOGY": "Shuri operates on Vision, attempting to remove the Mind Stone from his forehead before Thanos can get ahold of it."
+  },
+  "powers+abilities": {
+    "GENIUS INTELLIGENCE": "Shuri is a genius-level inventor, creating numerous weapons, equipment and gear for use by the Black Panther and other Wakandan warriors.",
+    "INVENTIONS": "Shuri is able to participate in pursuits from continents away using an invention of hers that allows for remote driving and piloting in a simulation of the vehicle being controlled.",
+    "CREATION OF VIBRANIUM GAUNTLETS": "Shuri has created vibranium gauntlets for use in battle herself, which are capable of emitting powerful energy blasts."
+  },
+  "allies": [
+    "Black Panther",
+    "Okoye",
+    "Nakia",
+    "Winter Soldier",
+    "Captain America",
+    "Vision",
+    "Scarlet Witch",
+    "Falcon",
+    "Hulk",
+    "Black Widow",
+    "Thor",
+    "Rocket",
+    "Groot",
+    "Avengers",
+    "Guardians of the Galaxy"
+  ],
+  "enemies": [
+    "Thanos",
+    "Erik Killmonger",
+    "Corvus Glaive",
+    "Cull Obsidian",
+    "Proxima Midnight"
+  ],
+  "groups": [
+    "Black Panther",
+    "Erik Killmonger"
+  ],
+  "bio": {
+    "GENDER": "Female",
+    "EYES": "Brown",
+    "HAIR": "Black"
+  },
+  "matrix": {}
+}

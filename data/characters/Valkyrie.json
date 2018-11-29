@@ -1,0 +1,47 @@
+{
+  "name": "",
+  "codeName": "Valkyrie",
+  "url": "https://www.marvel.com/characters/valkyrie",
+  "movies": {},
+  "story-moment": {
+    "DEATH OF THE VALKYRIOR": "When Odin ordered the Valkyrior to drive his daughter Hela, the Goddess of Death, into a prison of Odin\u2019s making, Valkyrie alone survived the assault thanks to another\u2019s sacrifice that saved her.",
+    "SCRAPPER 142": "After the traumatizing defeat and feeling no love for the Asgardian monarchy, she exiled herself to the planet Sakaar where she became Scrapper 142, a bounty hunter for the Grandmaster\u2019s Contest of Champions.",
+    "FINDING THOR": "Valkyrie saves Thor from Sakaaran scrappers before tagging him with an Obedience Disk and selling him to the Grandmaster for 10 million units.",
+    "ESCAPE FROM SAKAAR": "Offering the captured Loki as a peace offering, Valkyrie joined Thor and Bruce Banner on a mission to escape Sakaar and save Asgard from Hela.",
+    "FACING HELA": "Donning traditional Valkyrior armor, Valkyrie faced the Goddess of Death Hela once more to save the remaining Asgardians."
+  },
+  "powers+abilities": {
+    "ASGARDIAN TRAITS": "Valkyrie possesses typical Asgardian physiological traits including super strength, stamina, speed, durability, and reflexes.",
+    "ENHANCED STRENGTH": "Her strength is greater than the typical Asgardian allowing her to capture Thor and Loki, and even knock down the Hulk.",
+    "EXPERT SWORDSWOMAN": "She is also an expert combatant and master swordswoman, capable of wielding her double-edged sword, Dragonfang, and dual daggers. Valkyrie is equipped with armor, standard issue of being a member of the Valkyrior.",
+    "PILOT": "Valkyrie is an expert pilot as well. As a bounty hunter on Sakaar, she flies the Warsong, an aircraft that has remotely-controlled gaitlings: holographic gauntlets that control the Warsong\u2019s weaponry."
+  },
+  "allies": [
+    "Thor",
+    "Hulk",
+    "Loki",
+    "Skurge",
+    "Grandmaster"
+  ],
+  "enemies": [
+    "Hela",
+    "Grandmaster",
+    "Skurge"
+  ],
+  "groups": [],
+  "bio": {
+    "HEIGHT": "Sam Parrington: 5'7\", Valkyrie: 6'3\"",
+    "WEIGHT": "Sam Parrington: 130 lbs., Valkyrie: 475 lbs.",
+    "GENDER": "Female",
+    "EYES": "Blue",
+    "HAIR": "Blonde"
+  },
+  "matrix": {
+    "DURABILITY": "4",
+    "ENERGY": "1",
+    "FIGHTING SKILLS": "5",
+    "INTELLIGENCE": "3",
+    "SPEED": "2",
+    "STRENGTH": "5"
+  }
+}

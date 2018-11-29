@@ -1,0 +1,46 @@
+{
+  "name": "",
+  "codeName": "Erik Killmonger",
+  "url": "https://www.marvel.com/characters/erik-killmonger",
+  "movies": {},
+  "story-moment": {
+    "FATHER'S LAND": "As a boy, the discovery of the body of his father, N\u2019Jobu, and information about N\u2019Jobu\u2019s home of Wakanda, would define the life of the man who would become Erik Killmonger.",
+    "BRAZEN THEFT": "Assisted by Ulysses Klaue, among others, Erik Killmonger's brazen theft of a Wakandan artifact was the first step in his plan.",
+    "RUTHLESS KILLING": "Erik Killmonger revealed just how ruthless he was when he killed Ulysses Klaue and his other accomplices, either feeling they were expendable or, in Klaue's case, a means to an end.",
+    "CHALLENGE FOR THE THRONE": "Challenging T\u2019Challa as leader of Wakanda, Erik Killmonger showed no mercy, defeating T\u2019Challa in combat and seemingly killing him.",
+    "REMATCH": "When T\u2019Challa resurfaced, a rematch occurred, with both Erik Killmonger and T\u2019Challa now using the powers and costume of the Black Panther. Badly injured in the fight, Erik Killmonger refused medical assistance and died with his cousin by his side."
+  },
+  "powers+abilities": {
+    "WEAPONS PROWESS": "Erik Killmonger is highly skilled in numerous weapons, showing notable prowess with firearms and bladed weapons.",
+    "SUPERHUMAN STRENGTH": "After ingesting Wakanda\u2019s Heart-Shaped Herb, Erik Killmonger gained the abilities of the Black Panther, including increased strength and stamina.",
+    "BLACK PANTHER SUIT": "Erik Killmonger donned a Black Panther suit designed by Shuri and intended for T\u2019Challa. The suit, which can be stored within an accompanying necklace, is bulletproof and able to absorb and redistribute kinetic energy."
+  },
+  "allies": [
+    "Ulysses Klaue"
+  ],
+  "enemies": [
+    "Black Panther",
+    "Shuri",
+    "Nakia",
+    "Okoye"
+  ],
+  "groups": [
+    "Black Panther",
+    "Shuri"
+  ],
+  "bio": {
+    "HEIGHT": "6'6''",
+    "WEIGHT": "225 lbs.",
+    "GENDER": "Male",
+    "EYES": "Brown",
+    "HAIR": "Black"
+  },
+  "matrix": {
+    "DURABILITY": "3",
+    "ENERGY": "1",
+    "FIGHTING SKILLS": "5",
+    "INTELLIGENCE": "5",
+    "SPEED": "2",
+    "STRENGTH": "4"
+  }
+}

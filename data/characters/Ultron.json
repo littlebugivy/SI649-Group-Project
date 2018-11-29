@@ -1,0 +1,48 @@
+{
+  "name": "",
+  "codeName": "Ultron",
+  "url": "https://www.marvel.com/characters/ultron",
+  "movies": {},
+  "story-moment": {
+    "ULTRON PROGRAM": "Fueling the growing friction among the Avengers, Tony Stark and Bruce Banner developed the Ultron Program where robotic sentries would take on cataclysmic threats, replacing the need for the Avengers.",
+    "RESISTANCE": "Ultron resisted the idea of existing only as a consciousness and global peacekeeping initiative designed by Mr. Stark",
+    "USING THE MAXIMOFFS": "Manipulating twins Wanda and Pietro Maximoff\u2019s hatred of Tony Stark, Ultron used them as a distraction against the Avengers as he devised a plan in Sokovia to cleanse the planet, leaving room for his robotic populace.",
+    "REGENERATION CRADLE": "Ultron ordered Dr. Helen Cho to use her Regeneration Cradle combined with Vibranium and the Mind Stone to create an ultra-powerful body for him to inhabit.",
+    "VISION ENDS ULTRON": "With one last burst of intense hatred for humanity, Ultron lunged at Vision, but the Avenger blasted him out of existence with the Mind Stone ending his reign of terror."
+  },
+  "powers+abilities": {
+    "ARTIFICIAL INTELLIGENCE": "Born out of the Mind Stone and Tony Stark\u2019s brain patterns, Ultron can use his incredible artificial intelligence to access every piece of data available on Earth with astonishing quickness.",
+    "KILLER DRONES": "Ultron has the ability to transfer his consciousness to any computer system ranging from assembly line bots to killer drones, and command them to do his bidding."
+  },
+  "allies": [
+    "Ulysses Klaue",
+    "Scarlet Witch"
+  ],
+  "enemies": [
+    "Iron Man",
+    "Hulk",
+    "Captain America",
+    "Hawkeye",
+    "Vision",
+    "War Machine",
+    "Thor",
+    "Black Widow",
+    "Scarlet Witch"
+  ],
+  "groups": [],
+  "bio": {
+    "HEIGHT": "6' (variable)",
+    "WEIGHT": "535 lbs. (variable)",
+    "GENDER": "Male",
+    "EYES": "Glowing red (variable)",
+    "HAIR": "None (variable)"
+  },
+  "matrix": {
+    "DURABILITY": "7",
+    "ENERGY": "6",
+    "FIGHTING SKILLS": "4",
+    "INTELLIGENCE": "4",
+    "SPEED": "3",
+    "STRENGTH": "6"
+  }
+}

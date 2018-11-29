@@ -1,0 +1,69 @@
+{
+  "name": "",
+  "codeName": "Loki",
+  "url": "https://www.marvel.com/characters/loki",
+  "movies": {},
+  "story-moment": {
+    "ASGARDIAN PRINCE": "Following a war between the Frost Giants and Asgardians, Odin, King of Asgard, found Loki and took him home to raise as his son and an Asgardian prince along with his biological son Thor.",
+    "GERMANY KNEELS": "In Germany, Loki strode out into a terrified crowd of humans, amused by their inferiority, and demanded they kneel before him.",
+    "BROTHERS UNITE OVER REVENGE": "Overcome with grief and remorse, an imprisoned Loki agrees to aid Thor in confronting the Dark Elves seeking revenge for their mother Frigga.",
+    "PLAYING KING": "Masquerading for a long period as King Odin, Loki enjoys life as the ruler of Asgard.",
+    "RELINQUISHING THE TESSERACT": "Threatened with Thor\u2019s death, Loki relinquishes the Tesseract to Thanos, promising his brother the sun will shine on both of them again."
+  },
+  "powers+abilities": {
+    "ENERGY MANIPULATION": "Loki\u2019s abilities include astral projection, shape-shifting, hypnosis, molecular rearrangement, energy blasts, levitating, conjuration, cryokinesis, telekinesis and teleportation.",
+    "TELEPATHY": "Loki can connect to others telepathically and see into their memories, mystically imbue objects, and create rifts between dimensions.",
+    "HIGH INTELLIGENCE": "A master of manipulation and deceit, Loki is highly intelligent with immense knowledge and skill in wielding mystical artifacts, arcane lore, and human as well as alien technology.",
+    "MANIPULATION": "A highly-tactical thinker, Loki is able to manipulate opportunities and events in his favor.",
+    "EXPERT COMBATANT": "Loki, an expert combatant, typically wields throwing knives and other small blades, but has also wielded a Chitauri Scepter gifted by the Other and Thanos, Odin\u2019s Gungnir spear, the Casket of the Ancient Winters, and the Tesseract."
+  },
+  "allies": [
+    "Thor",
+    "Hulk",
+    "Valkyrie",
+    "Heimdall",
+    "Warriors Three",
+    "Skurge",
+    "Grandmaster"
+  ],
+  "enemies": [
+    "Thanos",
+    "Warriors Three",
+    "Cull Obsidian",
+    "Proxima Midnight",
+    "Ebony Maw",
+    "Corvus Glaive",
+    "Doctor Erik Selvig",
+    "Hela",
+    "Grandmaster",
+    "Heimdall",
+    "Thor",
+    "Avengers",
+    "Hulk",
+    "Iron Man",
+    "Captain America",
+    "Black Widow",
+    "Hawkeye",
+    "Doctor Strange"
+  ],
+  "groups": [
+    "Thor",
+    "Odin",
+    "Hela"
+  ],
+  "bio": {
+    "HEIGHT": "6'4\"",
+    "WEIGHT": "525 lbs.",
+    "GENDER": "Male",
+    "EYES": "Green",
+    "HAIR": "Black-gray"
+  },
+  "matrix": {
+    "DURABILITY": "6",
+    "ENERGY": "6",
+    "FIGHTING SKILLS": "3",
+    "INTELLIGENCE": "5",
+    "SPEED": "7",
+    "STRENGTH": "5"
+  }
+}

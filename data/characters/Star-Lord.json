@@ -1,0 +1,55 @@
+{
+  "name": "Peter Quill",
+  "codeName": "Star-Lord",
+  "url": "https://www.marvel.com/characters/star-lord-peter-quill",
+  "movies": {},
+  "story-moment": {
+    "THE ORB": "Star-Lord acquired knowledge of a valuable item called the Orb, but also acquired the interest of the Kree warrior Ronan, who wanted the Orb for his lord, the dreaded Thanos.",
+    "ESCAPE FROM PRISION": "Arrested by the Nova Corps and unceremoniously thrown into prison, Star-Lord gained the partnership of Gamora, Rocket, Groot, and Drax, and together the little band escaped from incarceration and made their way to the far-off place called Knowhere.",
+    "POWER STONE": "In accessing the Power Stone's power for himself, Star-Lord drew strength from a vision of his late mother and also from his team and together they defeated Ronan and saved the galaxy.",
+    "NEW CELESTIAL ABILITIES": "At first reveling in his new Celestial abilities, Star-Lord turned on his father once he learned Ego killed his mother and planned on terraforming countless worlds in his own image with Quill\u2019s added power.",
+    "FIGHTING THANOS": "Star-Lord devises a plan for the Guardians, along with Iron Man, Doctor Strange, and Spider-Man, to stop Thanos from gaining Strange\u2019s Infinity Stone."
+  },
+  "powers+abilities": {
+    "HALF CELESTIAL": "Half Celestial and half human, Peter Quill has superhuman abilities, allowing him to physically withstand the exposure of the Power Stone without dying.",
+    "ENERGY MANIPULATION": "Due to his parentage, Star-Lord is able to manipulate energy and matter.",
+    "SKILLED THIEF": "As a result of being raised among Ravagers, Star-Lord picked up their skills of the trade\u2014thievery and evasion.",
+    "ACCOMPLISHED PILOT": "Star-Lord is an accomplished pilot of the Milano.",
+    "COMBAT": "Plucky and resourceful, Star-Lord is highly-skilled at hand-to-hand combat as well as an expert marksman with his two Quad Blasters."
+  },
+  "allies": [
+    "Gamora",
+    "Rocket",
+    "Groot",
+    "Drax",
+    "Mantis",
+    "Nebula",
+    "Yondu",
+    "Iron Man",
+    "Spider-Man",
+    "Doctor Strange",
+    "Thor"
+  ],
+  "enemies": [
+    "Thanos",
+    "Ego"
+  ],
+  "groups": [
+    "Ego"
+  ],
+  "bio": {
+    "HEIGHT": "6'2\"",
+    "WEIGHT": "175 lbs.",
+    "GENDER": "Male",
+    "EYES": "Blue",
+    "HAIR": "Blond, formerly brown"
+  },
+  "matrix": {
+    "DURABILITY": "3",
+    "ENERGY": "1",
+    "FIGHTING SKILLS": "4",
+    "INTELLIGENCE": "4",
+    "SPEED": "2",
+    "STRENGTH": "3"
+  }
+}

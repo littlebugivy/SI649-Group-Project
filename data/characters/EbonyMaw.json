@@ -1,0 +1,40 @@
+{
+  "name": "",
+  "codeName": "Ebony Maw",
+  "url": "https://www.marvel.com/characters/ebony-maw",
+  "movies": {},
+  "story-moment": {
+    "DEVASTATION ON ZEN-WHOBERI": "Ebony Maw was with Thanos when he arrived on Zen-Whoberi, speaking to the terrified populace as they were rounded up before half of them were killed.",
+    "DESTRUCTION OF THE ASGARDIANS": "Ebony Maw was with Thanos when he arrived on Zen-Whoberi, speaking to the terrified populace as they were rounded up before half of them were killed.",
+    "KIDNAPPING DOCTOR STRANGE": "In New York, Maw, joined by Cull Obsidian, came for the Time Stone, fighting Iron Man, Doctor Strange and Wong as they sought to protect the stone.",
+    "SHOWDOWN IN SPACE": "Iron Man surprised Maw on his ship, blasting a hole in the hull that sent Maw out into space and to his demise."
+  },
+  "powers+abilities": {
+    "TELEKINESIS": "Maw has powerful telekinetic abilities, effortlessly moving large objects with his mind, or quickly causing bricks to be reformed into dangerous spikes.",
+    "LEVITATION": "Maw\u2019s telekinesis allows him to levitate with ease, including rotating his entire body upside down.",
+    "MASTER OF TORTURE": "Maw\u2019s dark skill set, in service of Thanos, includes knowledge of torture and how to inflict great pain on those he is targeting."
+  },
+  "allies": [
+    "Thanos",
+    "Corvus Glaive",
+    "Proxima Midnight",
+    "Cull Obsidian"
+  ],
+  "enemies": [
+    "Loki",
+    "Heimdall",
+    "Doctor Strange",
+    "Wong",
+    "Iron Man",
+    "Thor",
+    "Hulk",
+    "Spider-Man"
+  ],
+  "groups": [],
+  "bio": {
+    "GENDER": "Male",
+    "EYES": "Blue",
+    "HAIR": "White"
+  },
+  "matrix": {}
+}

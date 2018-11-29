@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "codeName": "Howard Stark",
+  "url": "https://www.marvel.com/characters/howard-stark",
+  "movies": {},
+  "story-moment": {},
+  "powers+abilities": {},
+  "allies": [],
+  "enemies": [],
+  "groups": [],
+  "bio": {
+    "HEIGHT": "6'",
+    "WEIGHT": "170 lbs.",
+    "GENDER": "Male",
+    "EYES": "Blue",
+    "HAIR": "Gray with white temples (formerly black)"
+  },
+  "matrix": {
+    "DURABILITY": "2",
+    "ENERGY": "1",
+    "FIGHTING SKILLS": "3",
+    "INTELLIGENCE": "5",
+    "SPEED": "2",
+    "STRENGTH": "2"
+  }
+}

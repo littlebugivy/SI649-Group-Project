@@ -1,0 +1,60 @@
+{
+  "name": "Peter Parker",
+  "codeName": "Spider-Man",
+  "url": "https://www.marvel.com/characters/spider-man-peter-parker",
+  "movies": {},
+  "story-moment": {
+    "TEAMING UP": "In Berlin, Spider-Man found himself fighting alongside Iron Man and several other Super Heroes against a rogue Captain America and his allies.",
+    "STATEN ISLAND FERRY": "Encountering a villain called the Vulture, Spider-Man tried to save the Staten Island Ferry from sinking, but needed Iron Man\u2019s help to save everyone on board.",
+    "TAKING ON VULTURE": "With Tony Stark taking back his high tech suit, Peter used his original homemade costume to take on the Vulture.",
+    "NEW SUIT": "While attempting to save Doctor Strange, Peter was given a new, advanced suit by Tony that better protected him as he found himself traveling to space.",
+    "BATTLING THANOS": "On Titan, Spider-Man joined forces with several other heroes against Thanos, attempting to remove the Infinity Gauntlet from his hand."
+  },
+  "powers+abilities": {
+    "AGILITY": "Spider-Man has incredible agility, allowing him to catch his enemies off guard with how quickly he can move and contort in battle.",
+    "AWARENESS": "Spider-Man has shown an extrasensory awareness of impending danger.",
+    "WEB SHOOTERS": "Peter Parker\u2019s own invention, which were then upgraded by Tony Stark, Spider-Man\u2019s web-shooters can be used as weapons, a means to travel the city, and much more.",
+    "PINCERS": "Even more advanced than the first costume Tony Stark gave him, Peter\u2019s armored suit includes pincers that can be used to help root Spider-Man in place."
+  },
+  "allies": [
+    "Iron Man",
+    "Captain America",
+    "Avengers",
+    "Doctor Strange",
+    "Star-Lord",
+    "Guardians of the Galaxy",
+    "Wong",
+    "Drax",
+    "Mantis",
+    "Hawkeye",
+    "Black Widow",
+    "War Machine",
+    "Winter Soldier",
+    "Vision",
+    "Nebula"
+  ],
+  "enemies": [
+    "Vulture",
+    "Thanos",
+    "Ebony Maw",
+    "Cull Obsidian"
+  ],
+  "groups": [
+    "Avengers"
+  ],
+  "bio": {
+    "HEIGHT": "5'10\"",
+    "WEIGHT": "167 lbs.",
+    "GENDER": "Male",
+    "EYES": "Hazel",
+    "HAIR": "Brown"
+  },
+  "matrix": {
+    "DURABILITY": "3",
+    "ENERGY": "1",
+    "FIGHTING SKILLS": "4",
+    "INTELLIGENCE": "4",
+    "SPEED": "3",
+    "STRENGTH": "4"
+  }
+}

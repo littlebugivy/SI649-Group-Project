@@ -1,0 +1,81 @@
+{
+  "name": "",
+  "codeName": "Thor",
+  "url": "https://www.marvel.com/characters/thor-thor-odinson",
+  "movies": {},
+  "story-moment": {
+    "WORTHY OF THE HAMMER": "His hammer and power stripped from him by Odin, Thor found himself in a small New Mexico town, where he proved he was worthy in a battle against the Destroyer.",
+    "JOINING THE AVENGERS": "After initial conflicts, Thor gained new comrades among the Avengers, taking part in the battle to defend New York from Loki and the Chitauri.",
+    "DEFEATING MALEKITH": "Thor defeated the Dark Elf, Malekith, on the heels of a struggle that sent them hurtling through the Nine Realms.",
+    "FIGHTING HELA": "On the heels of her taking his hammer, Thor lost an eye fighting the goddess of death, Hela.",
+    "ACQUIRING STORMBREAKER": "With a new weapon, the axe called Stormbreaker, Thor joined the fight in Wakanda against Thanos and his forces, with the fate of the universe at stake."
+  },
+  "powers+abilities": {
+    "SUMMONING MJOLNIR": "Thor\u2019s mighty hammer Mjolnir has immense destructive capabilities and can be summoned to Thor\u2019s hand whenever the god of thunder wishes it.",
+    "FLIGHT": "By hurling Mjolnir while still holding on to the hammer, Thor is able to soar through the skies.",
+    "GOD OF THUNDER": "As the god of thunder, Thor \u2013 whether using Mjolnir to help harness his abilities or on his own \u2013 can bring forth thunder and lightning to use against his foes.",
+    "STORMBREAKER & THE BIFROST": "With Mjolnir destroyed, Thor received a new weapon, the axe, Stormbreaker. Like Mjolnir, it can help harness his powers, and is also capable of opening the Bifrost."
+  },
+  "allies": [
+    "Warriors Three",
+    "Valkyrie",
+    "Loki",
+    "Heimdall",
+    "Doctor Erik Selvig",
+    "Iron Man",
+    "Captain America",
+    "Black Widow",
+    "Scarlet Witch",
+    "Vision",
+    "Hulk",
+    "War Machine",
+    "Falcon",
+    "Valkyrie",
+    "Star-Lord",
+    "Rocket",
+    "Groot",
+    "Hawkeye",
+    "Gamora",
+    "Drax",
+    "Mantis",
+    "Guardians of the Galaxy",
+    "Winter Soldier",
+    "Okoye",
+    "Shuri",
+    "Black Panther",
+    "Doctor Strange",
+    "Skurge"
+  ],
+  "enemies": [
+    "Thanos",
+    "Corvus Glaive",
+    "Proxima Midnight",
+    "Cull Obsidian",
+    "Ebony Maw",
+    "Grandmaster",
+    "Hela",
+    "Loki",
+    "Ultron",
+    "Ulysses Klaue"
+  ],
+  "groups": [
+    "Loki",
+    "Odin",
+    "Hela"
+  ],
+  "bio": {
+    "HEIGHT": "Thor: 6\u20196\u201d, Donald Blake: 5\u20199\u201d",
+    "WEIGHT": "Thor: 640 lbs., Donald Blake: 150 lbs.",
+    "GENDER": "Male",
+    "EYES": "Blue",
+    "HAIR": "Blond"
+  },
+  "matrix": {
+    "DURABILITY": "6",
+    "ENERGY": "6",
+    "FIGHTING SKILLS": "4",
+    "INTELLIGENCE": "2",
+    "SPEED": "7",
+    "STRENGTH": "7"
+  }
+}

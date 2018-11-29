@@ -1,0 +1,74 @@
+{
+  "name": "",
+  "codeName": "Thanos",
+  "url": "https://www.marvel.com/characters/thanos",
+  "movies": {},
+  "story-moment": {
+    "ALLIANCE WITH LOKI": "Thanos directed the Other to make contact with Loki of Asgard to bequeath a special scepter to him that he might use to wreak havoc on Earth.",
+    "RETRIEVING THE ORB": "Thanos directed Ronan\u2019s mission to retrieve the powerful Orb and tasked Gamora and Nebula to aid him; unfortunately for the Titan, all three turned against him in the course of events that followed and he lost the Infinity Stone housed in the Orb.",
+    "DEATH ON VORMIR": "On Vormir, Thanos, in tears, killed his daughter and was then gifted with the Soul Stone\u2014confirming his love for Gamora, even as he ended her life.",
+    "FINGER SNAP": "Thanos, with the strength of the Infinity Gauntlet, snapped his fingers and fulfilled his personal mission of wiping away half of all life in the universe, effectively winning the war he\u2019d set off.",
+    "SALVATION FOR THE UNIVERSE": "In a cabin on a peaceful, serene morning on a beautiful world, Thanos smiled, believing he had brought salvation to the universe."
+  },
+  "powers+abilities": {
+    "ENHANCED STRENGTH": "Physically, Thanos stands head and shoulders above the average human or humanoid, with powerful muscles and strength that is able to battle, outmaneuver, and defeat the likes of the Hulk.",
+    "MASTER TACTICIAN": "A master tactician, Thanos was able to manipulate events, such as Loki\u2019s attack on New York and Ronan\u2019s retrieval of the Orb, to set the stage for his pursuit of all six Infinity Stones.",
+    "INFINITY GAUNTLET": "Not known to use much in the way of personal weapons, the one extremely notable artifact he keeps with him is the Infinity Gauntlet, the most powerful item in the Universe, which enables him to harness the power of each Infinity Stone he collects."
+  },
+  "allies": [
+    "Cull Obsidian",
+    "Corvus Glaive",
+    "Ebony Maw",
+    "Proxima Midnight",
+    "Loki"
+  ],
+  "enemies": [
+    "Iron Man",
+    "Captain America",
+    "Thor",
+    "Hulk",
+    "Black Widow",
+    "Vision",
+    "Scarlet Witch",
+    "War Machine",
+    "Falcon",
+    "Spider-Man",
+    "Star-Lord",
+    "Drax",
+    "Rocket",
+    "Groot",
+    "Mantis",
+    "Winter Soldier",
+    "Black Panther",
+    "Okoye",
+    "Nebula",
+    "Gamora",
+    "Loki",
+    "Heimdall",
+    "Shuri",
+    "Guardians of the Galaxy",
+    "Avengers",
+    "The Collector",
+    "Doctor Strange",
+    "Wong"
+  ],
+  "groups": [
+    "Gamora",
+    "Nebula"
+  ],
+  "bio": {
+    "HEIGHT": "6'7\"",
+    "WEIGHT": "985 lbs.",
+    "GENDER": "Male",
+    "EYES": "Red",
+    "HAIR": "Bald"
+  },
+  "matrix": {
+    "DURABILITY": "6",
+    "ENERGY": "6",
+    "FIGHTING SKILLS": "4",
+    "INTELLIGENCE": "6",
+    "SPEED": "7",
+    "STRENGTH": "7"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "",
+  "codeName": "Proxima Midnight",
+  "url": "https://www.marvel.com/characters/proxima-midnight",
+  "movies": {},
+  "story-moment": {
+    "OBTAINING THE SPACE STONE": "Proxima Midnight joined her fellow Children of Thanos and Thanos himself when they boarded the Asgardian refugee ship in order to obtain the Space Stone.",
+    "HUNT FOR THE MIND STONE": "In Scotland, alongside Corvus Glaive, Proxima Midnight attacked Vision and Scarlet Witch, in attempt to take the Mind Stone from Vision.",
+    "CLASH WITH THE AVENGERS": "Proxima Midnight and Cull Obsidian met with Captain America, Black Widow, and Black Panther before all-out war broke out between the forces led by each group.",
+    "FIGHT TO THE DEATH": "During the Wakandan battle, Proxima Midnight had a furious fight with Black Widow and Okoye that ended with Proxima\u2019s death thanks to Scarlet Witch."
+  },
+  "powers+abilities": {
+    "SKILLED FIGHTER": "A highly-skilled fighter, Proxima Midnight is capable of taking on beings of great power, along with multiple combatants at once.",
+    "SPEAR": "Proxima Midnight\u2019s primary weapon is a spear she deftly uses to both attack and defend with, including hurtling it at her enemies. Proxima can summon the spear back to her when needed.",
+    "SWORDSWOMAN": "Proxima Midnight is trained to fight with multiple bladed weapons, using both a sword and a concealed knife in combat."
+  },
+  "allies": [
+    "Thanos",
+    "Corvus Glaive",
+    "Cull Obsidian",
+    "Ebony Maw"
+  ],
+  "enemies": [
+    "Loki",
+    "Heimdall",
+    "Vision",
+    "Captain America",
+    "Black Widow",
+    "Hulk",
+    "Thor",
+    "Falcon",
+    "Scarlet Witch",
+    "Black Panther",
+    "Okoye",
+    "Shuri",
+    "Rocket",
+    "Groot",
+    "Guardians of the Galaxy",
+    "Avengers"
+  ],
+  "groups": [],
+  "bio": {
+    "GENDER": "Female",
+    "EYES": "White",
+    "HAIR": "Blue"
+  },
+  "matrix": {}
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Bruce Banner",
+  "codeName": "Hulk",
+  "url": "https://www.marvel.com/characters/hulk-bruce-banner",
+  "movies": {},
+  "story-moment": {
+    "BATTLING WITH THE AVENGERS": "During the Avengers' first battle as a team, the Hulk was a crucial element, helping fight off an invading Chitauri army and showing Loki why he was a \u201cpuny god.\u201d",
+    "RELATIONSHIP WITH NATASHA ROMANOFF": "Bruce Banner and his teammate Natasha Romanoff, the Black Widow, considered a relationship, but as the Hulk, he decided to leave as the battle against Ultron waned.",
+    "FRIENDS FROM WORK": "On Sakaar, the Hulk became champion in the Grandmaster\u2019s Contest of Champions, only to face Thor in the arena.",
+    "LOSING TO THANOS": "Following a loss to Thanos, the Hulk refused to manifest, even as Banner attempted to bring him forth when Thanos\u2019 followers arrived in New York."
+  },
+  "powers+abilities": {
+    "SUPERHUMAN STRENGTH": "The Hulk\u2019s strength is immense, allowing him to stop foes even bigger than he is with a single blow, to throw massively heavy objects, and to tear apart metal as though it were paper.",
+    "LONG DISTANCE JUMPING": "The Hulk\u2019s leg muscles are strong enough to allow him to leap great distances in a short period of time.",
+    "HULK SMASH": "Slamming his hands together, the Hulk can create a massive concussive wave.",
+    "DURABILITY AND REGENERATION": "The Hulk\u2019s skin is able to withstand a tremendous amount of injury and he is able to heal far quicker than a normal human when harmed.",
+    "GENIUS INTELLIGENCE": "Bruce Banner is among Earth\u2019s most brilliant men, leading to remarkable (if not always positive) creations like Ultron alongside Tony Stark."
+  },
+  "allies": [
+    "Black Widow",
+    "Thor",
+    "Iron Man",
+    "Captain America",
+    "Hawkeye",
+    "Falcon",
+    "Spider-Man",
+    "War Machine",
+    "Vision",
+    "Scarlet Witch",
+    "Loki",
+    "Valkyrie",
+    "Heimdall",
+    "Rocket",
+    "Groot",
+    "Skurge",
+    "Guardians of the Galaxy"
+  ],
+  "enemies": [
+    "Ultron",
+    "Grandmaster",
+    "Hela",
+    "Thanos",
+    "Corvus Glaive",
+    "Proxima Midnight",
+    "Cull Obsidian",
+    "Ebony Maw",
+    "Loki",
+    "Ulysses Klaue"
+  ],
+  "groups": [
+    "Avengers"
+  ],
+  "bio": {
+    "HEIGHT": "Bruce Banner: 5'9'', Hulk: 7'6''",
+    "WEIGHT": "Bruce Banner: 128 lbs., Hulk: 1150 lbs.",
+    "GENDER": "Male",
+    "EYES": "Bruce Banner: brown, Hulk: green",
+    "HAIR": "Bruce Banner: brown, Hulk: green"
+  },
+  "matrix": {
+    "DURABILITY": "7",
+    "ENERGY": "5",
+    "FIGHTING SKILLS": "4",
+    "INTELLIGENCE": "6",
+    "SPEED": "3",
+    "STRENGTH": "7"
+  }
+}

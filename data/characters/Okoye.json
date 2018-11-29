@@ -1,0 +1,45 @@
+{
+  "name": "",
+  "codeName": "Okoye",
+  "url": "https://www.marvel.com/characters/okoye",
+  "movies": {},
+  "story-moment": {
+    "ULYSSES KLAUE": "In South Korea, Okoye uses her skills with her spear during the pursuit of Ulysses Klaue.",
+    "WAKANDA FOREVER": "Okoye forces W\u2019Kabi to surrender, making it clear she would chose Wakanda over him if forced to.",
+    "WAR IN WAKANDA": "Okoye and T\u2019Challa inform Bucky Barnes the fight is coming to Wakanda.",
+    "DESTROYING PROXIMA MIDNIGHT": "Okoye teams with Black Widow to fight Proxima Midnight when Thanos\u2019 army invades Wakanda."
+  },
+  "powers+abilities": {
+    "THE FIGHTER": "An amazingly well-trained and skilled fighter, Okoye is capable of besting notably formidable foes, including numerous combatants at once.",
+    "VIBRANIUM SPEAR": "Okoye\u2019s primary weapon is a collapsible vibranium spear she can wield both in close quarters fighting and as a throwing weapon.",
+    "DEADLY PRECISION": "Okoye is able to hit distant targets with deadly precision, throwing her spear and hitting intended targets with fantastic accuracy."
+  },
+  "allies": [
+    "Black Panther",
+    "Nakia",
+    "Shuri",
+    "Scarlet Witch",
+    "Black Widow",
+    "Captain America",
+    "Winter Soldier",
+    "Thor",
+    "Rocket",
+    "Vision",
+    "Groot",
+    "Hulk",
+    "Falcon"
+  ],
+  "enemies": [
+    "Thanos",
+    "Erik Killmonger",
+    "Ulysses Klaue",
+    "Corvus Glaive",
+    "Cull Obsidian",
+    "Proxima Midnight"
+  ],
+  "groups": [],
+  "bio": {
+    "GENDER": "Female"
+  },
+  "matrix": {}
+}

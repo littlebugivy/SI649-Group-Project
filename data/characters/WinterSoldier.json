@@ -1,0 +1,61 @@
+{
+  "name": "Bucky Barnes",
+  "codeName": "Winter Soldier",
+  "url": "https://www.marvel.com/characters/winter-soldier-bucky-barnes",
+  "movies": {},
+  "story-moment": {
+    "SUPPOSED DEATH": "While on a mission with his childhood friend, Steve Rogers/Captain America, Bucky Barnes falls to his supposed death from a HYDRA train.",
+    "ASSASSIN": "As the brainwashed Winter Soldier, Barnes\u2019 many assassination missions include the murder of Howard and Maria Stark.",
+    "REUNITED": "Steve Rogers battles the Winter Soldier, in the process learning he is his old friend, Bucky.",
+    "BATTLE IN BERLIN": "Barnes sides with Captain America and his allies during a super hero battle at the Berlin airport.",
+    "FIGHTING ALONGSIDE FRIENDS": "During the battle against Thanos\u2019 army in Wakanda, Barnes fights alongside Black Panther and his forces and members of the Avengers and Guardians of the Galaxy."
+  },
+  "powers+abilities": {
+    "MARKSMAN": "Bucky Barnes is a notable marksman with skills cultivated while fighting for the US Army during World War II and expanded upon during his time as the Winter Soldier.",
+    "CYBERNETIC ARM": "Barnes has a super strong cybernetic left arm, replacing the one he lost during World War II. After his first cybernetic arm was destroyed by Iron Man, a new one was created for him in Wakanda.",
+    "HAND-TO-HAND COMBAT": "His combat skills amplified by HYDRA, Barnes is an incredibly quick and fearsome opponent in hand-to-hand combat.",
+    "PRECISION WITH BLADES": "Barnes has been known to use bladed weapons with deadly speed and precision."
+  },
+  "allies": [
+    "Captain America",
+    "Ulysses Klaue",
+    "Falcon",
+    "Black Widow",
+    "Hawkeye",
+    "Scarlet Witch",
+    "War Machine",
+    "Spider-Man",
+    "Vision",
+    "Hulk",
+    "Thor",
+    "Shuri",
+    "Black Panther",
+    "Okoye",
+    "Groot",
+    "Rocket",
+    "Guardians of the Galaxy"
+  ],
+  "enemies": [
+    "Thanos",
+    "Ebony Maw",
+    "Proxima Midnight",
+    "Cull Obsidian",
+    "Corvus Glaive"
+  ],
+  "groups": [],
+  "bio": {
+    "HEIGHT": "5'9\"",
+    "WEIGHT": "260 lbs.",
+    "GENDER": "Male",
+    "EYES": "Brown",
+    "HAIR": "Brown"
+  },
+  "matrix": {
+    "DURABILITY": "4",
+    "ENERGY": "1",
+    "FIGHTING SKILLS": "6",
+    "INTELLIGENCE": "2",
+    "SPEED": "2",
+    "STRENGTH": "4"
+  }
+}

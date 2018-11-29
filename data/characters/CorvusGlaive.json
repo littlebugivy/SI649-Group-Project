@@ -1,0 +1,48 @@
+{
+  "name": "",
+  "codeName": "Corvus Glaive",
+  "url": "https://www.marvel.com/characters/corvus-glaive",
+  "movies": {},
+  "story-moment": {
+    "ACQUIRING THE TESSERACT": "Along with his fellow Children of Thanos and Thanos himself, Corvus Glaive participated in the attack on the Asgardian ship to secure the Tesseract.",
+    "HUNT FOR THE MIND STONE": "Corvus Glaive badly injured Vision when he and Proxima Midnight attempted to take the Mind Stone from him, halting Vision's phasing power in the process.",
+    "BATTLE FOR WAKANDA": "Corvus Glaive\u2019s life would come to an end in Wakanda, in a vicious battle with both Vision and Captain America."
+  },
+  "powers+abilities": {
+    "HAND-TO-HAND COMBAT": "A brutal combatant, Corvus Glaive is able to take on notable enemies like Vision and Captain America in hand-to-hand fights.",
+    "GLAIVE": "Corvus Glaive\u2019s weapon of choice is, appropriately enough, a glaive. Tremendously powerful, the weapon is capable of piercing Vision\u2019s vibranium body and deflecting blasts from the Mind Stone."
+  },
+  "allies": [
+    "Proxima Midnight",
+    "Ebony Maw",
+    "Cull Obsidian",
+    "Thanos"
+  ],
+  "enemies": [
+    "Scarlet Witch",
+    "Vision",
+    "Captain America",
+    "Shuri",
+    "Loki",
+    "Heimdall",
+    "Avengers",
+    "Thor",
+    "Rocket",
+    "Groot",
+    "Falcon",
+    "Black Panther",
+    "Hulk",
+    "War Machine",
+    "Winter Soldier",
+    "Okoye",
+    "Black Widow",
+    "Guardians of the Galaxy"
+  ],
+  "groups": [],
+  "bio": {
+    "GENDER": "Male",
+    "EYES": "Black",
+    "HAIR": "Bald"
+  },
+  "matrix": {}
+}

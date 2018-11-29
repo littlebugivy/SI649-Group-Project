@@ -1,0 +1,63 @@
+{
+  "name": "Wanda Maximoff",
+  "codeName": "Scarlet Witch",
+  "url": "https://www.marvel.com/characters/scarlet-witch-wanda-maximoff",
+  "movies": {},
+  "story-moment": {
+    "AVENGERS' ATTACK": "During the Avengers\u2019 attack on Baron von Strucker\u2019s Hydra base, the Scarlet Witch used her abilities on Tony Stark.",
+    "DEATH OF PIETRO": "After her brother Pietro was killed battling Ultron, Wanda took her revenge, tearing Ultron\u2019s robotic heart from his body.",
+    "BATTLE WITH CROSSBONES": "In Lagos, the Scarlet Witch was horrified when she inadvertently caused the deaths of innocents while battling Crossbones.",
+    "TEAM CAPTAIN AMERICA": "Scarlet Witch was a hugely effective component for Captain America\u2019s rogue team as they battled Iron Man and those who stood with him, notably not holding back while others did against their friends.",
+    "DESTROYING THE MIND STONE": "During the battle in Wakanda to stop Thanos and his forces, Wanda was forced to destroy Vision\u2019s Mind Stone to keep it from Thanos, using her powers to simultaneously hold the Titan back."
+  },
+  "powers+abilities": {
+    "MENTAL MANIPULATION": "The Scarlet Witch\u2019s many abilities include a form of telepathy that includes mental manipulation \u2013 she has been able to put her foes into nightmare-type visions of their past or potential future.",
+    "TELEKINESIS": "The Scarlet Witch is a powerful telekinetic, able to lift and throw objects as large as a car or even other humans with her mind.",
+    "LEVITATION": "The Scarlet Witch\u2019s telekinesis can be used to allow her to levitate herself.",
+    "ENERGY BLASTS": "The red energy present when Maximoff uses her abilities can itself be harnessed into energy blasts."
+  },
+  "allies": [
+    "Vision",
+    "Black Widow",
+    "Captain America",
+    "Shuri",
+    "Okoye",
+    "Black Panther",
+    "Hulk",
+    "Hawkeye",
+    "Iron Man",
+    "Falcon",
+    "Winter Soldier",
+    "Thor",
+    "Rocket",
+    "Groot",
+    "Guardians of the Galaxy",
+    "Spider-Man",
+    "Ultron"
+  ],
+  "enemies": [
+    "Ultron",
+    "Thanos",
+    "Proxima Midnight",
+    "Corvus Glaive",
+    "Cull Obsidian"
+  ],
+  "groups": [
+    "Avengers"
+  ],
+  "bio": {
+    "HEIGHT": "5'7\"",
+    "WEIGHT": "132 lbs.",
+    "GENDER": "Female",
+    "EYES": "Blue",
+    "HAIR": "Auburn"
+  },
+  "matrix": {
+    "DURABILITY": "2",
+    "ENERGY": "6",
+    "FIGHTING SKILLS": "3",
+    "INTELLIGENCE": "3",
+    "SPEED": "2",
+    "STRENGTH": "2"
+  }
+}

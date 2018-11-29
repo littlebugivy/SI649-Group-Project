@@ -1,0 +1,46 @@
+{
+  "name": "",
+  "codeName": "Yondu",
+  "url": "https://www.marvel.com/characters/yondu",
+  "movies": {},
+  "story-moment": {
+    "RACE FOR THE ORB": "Yondu\u2019s discovery that Peter Quill, who he had raised, had beaten him to a valuable orb which pitted the two against each other.",
+    "YONDU VS. SOLDIERS": "Shot down during the battle against Ronan\u2019s forces, Yondu showed just how dangerous he was when he used his arrow to take out a group of Sakaaran soldiers who tried to subdue him.",
+    "REMINDER OF HIS PAST": "An unplanned reunion with Stakar Ogord uncomfortably reminded Yondu of his past and how he came to be ostracized.",
+    "MUTINY": "After a mutiny against him, Yondu, joined by Rocket and Groot, struck back at the Ravagers who had betrayed him.",
+    "HERO": "Yondu used his final moments to save Peter Quill\u2019s life, acknowledging that he cared for Peter as though Peter were his own son."
+  },
+  "powers+abilities": {
+    "CYBERNETIC FIN": "Yondu\u2019s arrow is controlled by a cybernetic fin connected to his head. Though Nebula destroyed his initial fin, he replaced it with a larger prototype version.",
+    "SKILLED PILOT": "Yondu is a skilled pilot, which came in handy when he found himself at odds with various interstellar forces."
+  },
+  "allies": [
+    "Star-Lord",
+    "Gamora",
+    "Rocket",
+    "Groot",
+    "Drax",
+    "Mantis",
+    "Nebula",
+    "Guardians of the Galaxy"
+  ],
+  "enemies": [
+    "Ego"
+  ],
+  "groups": [],
+  "bio": {
+    "HEIGHT": "6'2\"",
+    "WEIGHT": "210 lbs.",
+    "GENDER": "Male",
+    "EYES": "Blue",
+    "HAIR": "Red (crest)"
+  },
+  "matrix": {
+    "DURABILITY": "2",
+    "ENERGY": "1",
+    "FIGHTING SKILLS": "6",
+    "INTELLIGENCE": "3",
+    "SPEED": "2",
+    "STRENGTH": "4"
+  }
+}

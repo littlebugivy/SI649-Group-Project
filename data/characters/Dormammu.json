@@ -1,0 +1,32 @@
+{
+  "name": "",
+  "codeName": "Dormammu",
+  "url": "https://www.marvel.com/characters/dormammu",
+  "movies": {},
+  "story-moment": {
+    "THE MULTIVERSE": "Doctor Strange first glimpsed Dormammu during his training, when he began to learn more about the multiverse at large.",
+    "TIME LOOP": "Face to face with Doctor Strange, Dormammu became infuriated when he was trapped in an inescapable time loop, even as he killed his enemy over and over."
+  },
+  "powers+abilities": {
+    "THE DARK DIMENSION": "Dormammu has absolute control over the Dark Dimension, wielding reality around him as he sees fit, including forming lethal weapons at a thought.",
+    "CONTROL OF ELEMENTS": "Dormammu has power over those who serve him, such as Kaecilius and his Zealots, destroying their physical form and pulling their essence to him when he wishes."
+  },
+  "allies": [],
+  "enemies": [],
+  "groups": [],
+  "bio": {
+    "HEIGHT": "Variable (usually 6'1'')",
+    "WEIGHT": "Variable",
+    "GENDER": "Male",
+    "EYES": "Yellow, green in human form",
+    "HAIR": "Bald, black in human form"
+  },
+  "matrix": {
+    "DURABILITY": "7",
+    "ENERGY": "7",
+    "FIGHTING SKILLS": "4",
+    "INTELLIGENCE": "6",
+    "SPEED": "7",
+    "STRENGTH": "7"
+  }
+}

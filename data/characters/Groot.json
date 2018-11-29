@@ -1,0 +1,67 @@
+{
+  "name": "",
+  "codeName": "Groot",
+  "url": "https://www.marvel.com/characters/groot",
+  "movies": {},
+  "story-moment": {
+    "ESCAPING KYLN": "In the prison called the Kyln, Groot and his partner Rocket worked with Star-Lord, Gamora, and Drax for the first time in order to escape together.",
+    "HEROIC SACRIFICE": "Groot heroically sacrificed himself to save his fellow Guardians during the battle with Ronan and his forces.",
+    "BABY GROOT IS BORN": "Regrowing his body from a single twig, Groot happily listened to music while the Guardians battled an Abilisk.",
+    "GROOT SAVES THE GUARDIANS": "The baby incarnation of Groot, treated terribly by the Ravagers as their \u201cmascot,\u201d struck back after helping Yondu and Rocket break out of imprisonment.",
+    "LENDING A BRANCH": "Now a disaffected adolescent, Groot was compelled to help save the life of Thor, using his own arm to create the handle for the mighty axe known as Stormbreaker."
+  },
+  "powers+abilities": {
+    "STRENGTH": "Notably strong, Groot is capable of taking on multiple foes at the same time.",
+    "GROWING GROOT VINES": "Groot can grow portions of his body as needed, creating vine-like extensions or extending his height or reach.",
+    "WICKED TOUGH WOOD": "Groot\u2019s wood form can withstand attacks from weapons ranging from firearms to swords.",
+    "LIGHT SPORES": "Groot can create light via spores generated from his body.",
+    "REGENERATION": "While not retaining the memories of his former self, Groot\u2019s entire form can regenerate after his death using a small portion of his original body as its basis."
+  },
+  "allies": [
+    "Rocket",
+    "Star-Lord",
+    "Gamora",
+    "Drax",
+    "Mantis",
+    "Nebula",
+    "Yondu",
+    "Thor",
+    "Captain America",
+    "Black Panther",
+    "Scarlet Witch",
+    "Falcon",
+    "War Machine",
+    "Okoye",
+    "Black Widow",
+    "Winter Soldier",
+    "Hulk",
+    "Vision",
+    "Shuri",
+    "Avengers"
+  ],
+  "enemies": [
+    "Thanos",
+    "Ego",
+    "Cull Obsidian",
+    "Proxima Midnight",
+    "Corvus Glaive"
+  ],
+  "groups": [
+    "Guardians of the Galaxy"
+  ],
+  "bio": {
+    "HEIGHT": "23' (variable)",
+    "WEIGHT": "4.1 tons (variable)",
+    "GENDER": "Male",
+    "EYES": "Yellow",
+    "HAIR": "None"
+  },
+  "matrix": {
+    "DURABILITY": "4",
+    "ENERGY": "3",
+    "FIGHTING SKILLS": "4",
+    "INTELLIGENCE": "3",
+    "SPEED": "3",
+    "STRENGTH": "7"
+  }
+}

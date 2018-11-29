@@ -1,0 +1,26 @@
+{
+  "name": "Herman Schultz",
+  "codeName": "Shocker",
+  "url": "https://www.marvel.com/characters/shocker-herman-schultz",
+  "movies": {},
+  "story-moment": {},
+  "powers+abilities": {},
+  "allies": [],
+  "enemies": [],
+  "groups": [],
+  "bio": {
+    "HEIGHT": "5'9\"",
+    "WEIGHT": "175 lbs.",
+    "GENDER": "Male",
+    "EYES": "Brown",
+    "HAIR": "Brown"
+  },
+  "matrix": {
+    "DURABILITY": "5",
+    "ENERGY": "5",
+    "FIGHTING SKILLS": "2",
+    "INTELLIGENCE": "3",
+    "SPEED": "2",
+    "STRENGTH": "2"
+  }
+}

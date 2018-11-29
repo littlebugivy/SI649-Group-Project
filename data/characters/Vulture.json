@@ -1,0 +1,41 @@
+{
+  "name": "Adrian Toomes",
+  "codeName": "Vulture",
+  "url": "https://www.marvel.com/characters/vulture-adrian-toomes",
+  "movies": {},
+  "story-moment": {
+    "DAMAGE CONTROL": "Hired to remove debris in the wake of the Battle of New York, Adrian Toomes and his crew discover they\u2019ve been replaced by the Department of Damage Control.",
+    "ENCOUNTER WITH SPIDER-MAN": "Toomes\u2019 brief first encounter with Spider-Man includes Toomes flying the young hero far up into the sky.",
+    "FACE OFF": "Toomes and Spider-Man face off on the Staten Island Ferry, resulting in the boat being split in two.",
+    "THREATENING PETER": "Toomes warns Peter Parker that he knows he is Spider-Man, threatening the lives of those Peter loves in the process.",
+    "EQUIPMENT MALFUNCTION": "Spider-Man and Toomes battle on the beach at Coney Island, while Toomes\u2019 equipment begins to malfunction due to damage."
+  },
+  "powers+abilities": {
+    "SKILLED THIEF": "Adrien Toomes is a skilled thief, planning and executing daring robberies with the assistance of his crew.",
+    "FLIGHT": "The Vulture suit allows Toomes to fly via large mechanized wings.",
+    "BIRD-LIKE TALONS": "Toomes\u2019 suit includes talons on the boots, allowing him to grasp loot and opponents alike.",
+    "VULTURE SUIT": "Vulture\u2019s helmet and mask protects Toomes\u2019 identity and provides him with oxygen while flying at high altitudes."
+  },
+  "allies": [
+    "Shocker"
+  ],
+  "enemies": [
+    "Spider-Man"
+  ],
+  "groups": [],
+  "bio": {
+    "HEIGHT": "5'11\"",
+    "WEIGHT": "175 lbs.",
+    "GENDER": "Male",
+    "EYES": "Hazel",
+    "HAIR": "Bald (formerly brown)"
+  },
+  "matrix": {
+    "DURABILITY": "5",
+    "ENERGY": "1",
+    "FIGHTING SKILLS": "2",
+    "INTELLIGENCE": "5",
+    "SPEED": "3",
+    "STRENGTH": "3"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "",
+  "codeName": "Ulysses Klaue",
+  "url": "https://www.marvel.com/characters/ulysses-klaue",
+  "movies": {},
+  "story-moment": {
+    "TEAMING UP WITH KILLMONGER": "Klaue teamed with Erik Killmonger, helping him steal a vibranium artifact from a London museum as part of Killmonger\u2019s plans.",
+    "ENCOUNTER IN SOUTH KOREA": "In South Korea, Klaue would face T\u2019Challa, the Black Panther, who nearly killed him as revenge for his earlier crimes against Wakanda.",
+    "THE SECRET OF WAKANDA": "While in custody, Klaue revealed the truth about Wakanda to CIA operative Everett K. Ross.",
+    "KILLMONGER'S BETRAYAL": "After being broken out by Killmonger, Klaue found himself betrayed and murdered by his former ally."
+  },
+  "powers+abilities": {
+    "MASTERMIND THIEF": "A skilled thief, Klaue is able to flawlessly execute illicit assignments that few others could accomplish.",
+    "HIGH TECH PROSTHETICS": "After it was torn off by Ultron, Klaue replaced his left arm with a high tech prosthetic device that could appear lifelike and then transform into a tool or weapon when needed.",
+    "GLASS SHATTERING VIBRATIONS": "Klaue\u2019s prosthetic arm can cause vibrations capable of shattering glass.",
+    "ENERGY PULSES": "The prosthetic arm\u2019s most dangerous use is as a weapon capable of shooting high-powered energy pulses."
+  },
+  "allies": [
+    "Erik Killmonger",
+    "Ultron"
+  ],
+  "enemies": [
+    "Avengers",
+    "Black Panther",
+    "Nakia",
+    "Okoye",
+    "Ultron",
+    "Scarlet Witch",
+    "Thor",
+    "Hulk",
+    "Iron Man",
+    "Captain America",
+    "Hawkeye",
+    "Black Widow",
+    "Erik Killmonger",
+    "War Machine"
+  ],
+  "groups": [],
+  "bio": {},
+  "matrix": {}
+}

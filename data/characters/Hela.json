@@ -1,0 +1,49 @@
+{
+  "name": "",
+  "codeName": "Hela",
+  "url": "https://www.marvel.com/characters/hela",
+  "movies": {},
+  "story-moment": {
+    "ERASED FROM HISTORY": "Imprisoned in Hel, Hela tried to break free nearly wiping out all the Valkyries, forcing Odin to intervene, his life force keeping her at bay, and erasing her from Asgardian history.",
+    "RELEASED FROM HEL": "In the wake of Odin\u2019s death, Hela was released from his imprisonment and introduces herself to Thor and Loki as their older sister and the true heir to the Asgardian throne.",
+    "HAMMER DESTROYER": "With her strength tied to Asgard, Hela destroys Thor\u2019s Mjolnir, kicks Thor and Loki out of Asgard, lays waste the Warriors Three and entire Einherjar army, and resurrects her dead warriors and her wolf Fenris with the Eternal Flame.",
+    "FINAL SHOWDOWN": "In the final showdown with her brother, Hela cuts out Thor\u2019s right eye and forces him to watch as her undead army attacks the remaining Asgardians on the Bifrost Bridge."
+  },
+  "powers+abilities": {
+    "IMMORTALITY": "Unlike other Asgardians, Hela was immortal \u2013 not aging while imprisoned for 5000 years. In addition to her accelerated healing factor, Hela drew increased strength and power from Asgard itself as the first born of Odin.",
+    "KNOWLEDGE OF MYSTICISM": "Hela\u2019s knowledge of Asgardian mysticism and occult relics made it easy for her to distinguish what artifacts were real and worthy within Odin\u2019s vault.",
+    "ENERGY MANIPULATION": "Hela can materialize Necroswords, daggers, spears and axes of various sizes from her body. She could also manipulate the environment of Asgard.",
+    "RESURRECTION": "As the Goddess of Death, using the Eternal Flame, Hela resurrects her army of undead warriors and her loyal wolf Fenris."
+  },
+  "allies": [
+    "Thor",
+    "Loki",
+    "Odin",
+    "Hulk",
+    "Valkyrie",
+    "Heimdall",
+    "Warriors Three",
+    "Skurge"
+  ],
+  "enemies": [
+    "Odin",
+    "Thor",
+    "Loki"
+  ],
+  "groups": [],
+  "bio": {
+    "HEIGHT": "7'",
+    "WEIGHT": "500 lbs.",
+    "GENDER": "Female",
+    "EYES": "Green",
+    "HAIR": "Gray"
+  },
+  "matrix": {
+    "DURABILITY": "7",
+    "ENERGY": "6",
+    "FIGHTING SKILLS": "3",
+    "INTELLIGENCE": "3",
+    "SPEED": "7",
+    "STRENGTH": "7"
+  }
+}

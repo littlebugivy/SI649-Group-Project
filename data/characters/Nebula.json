@@ -1,0 +1,48 @@
+{
+  "name": "",
+  "codeName": "Nebula",
+  "url": "https://www.marvel.com/characters/nebula",
+  "movies": {},
+  "story-moment": {
+    "THE ORB": "Nebula blew up Gamora\u2019s ship and left her to die out in space while retrieving the Orb, which housed an Infinity Stone, that her Master sought.",
+    "RONAN THE ACCUSER": "Upon absorbing the power of the Power Stone and becoming the most powerful being in the universe, Nebula pledged loyalty to Ronan the Accuser following his threat to end Thanos.",
+    "FALLING INTO THE ASTER": "Hanging on for dear life on the Aster, Gamora asked Nebula to stand against Ronan; Nebula objected and allowed herself to fall.",
+    "A SPOT ON THE TEAM": "Following a shaky alliance, Gamora offered her \u201csister\u201d a spot on the team, but Nebula refused, citing that she needed to carry out her personal mission of ending Thanos.",
+    "CAPTURED BY THANOS": "Nearly killing the Mad Titan, Nebula was captured, tortured, and forced to reveal the fact that Gamora knows the location of the Soul Stone."
+  },
+  "powers+abilities": {
+    "DEADLY ASSASSIN": "Nebula is one of the deadliest assassins in the galaxy, along with her \u201csister\u201d Gamora, due to their extensive training under Thanos and Ronan the Accuser.",
+    "BIO-MECHANICAL ENHANCEMENTS": "Nebula's bio-mechanical enhancements at the hands of Thanos allowed Nebula to withstand intense injury and regeneratively heal quickly.",
+    "EXPERT PILOT": "Nebula is an expert pilot, maneuvering a M-ship and Neocrocraft with ease.",
+    "ELECTROSHOCK BATONS": "Nebula\u2019s weapons of choice are her electroshock batons, which can be combined to create a staff."
+  },
+  "allies": [
+    "Gamora",
+    "Star-Lord",
+    "Rocket",
+    "Drax",
+    "Groot",
+    "Mantis",
+    "Yondu",
+    "Doctor Strange",
+    "Spider-Man",
+    "Iron Man"
+  ],
+  "enemies": [
+    "Thanos",
+    "Ego"
+  ],
+  "groups": [
+    "Gamora",
+    "Thanos"
+  ],
+  "bio": {},
+  "matrix": {
+    "DURABILITY": "3",
+    "ENERGY": "6",
+    "FIGHTING SKILLS": "4",
+    "INTELLIGENCE": "4",
+    "SPEED": "2",
+    "STRENGTH": "5"
+  }
+}

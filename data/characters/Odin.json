@@ -1,0 +1,44 @@
+{
+  "name": "Odin Borson",
+  "codeName": "Odin",
+  "url": "https://www.marvel.com/characters/odin",
+  "movies": {},
+  "story-moment": {
+    "LEADING ASGARDIAN WARRIORS": "With his daughter Hela, his Executioner, at his side, the All-Father led Asgardian warriors through the other realms killing those who stood in their way and conquering those who remained.",
+    "FATHER OF GODS": "Odin fought Laufey, King of the Frost Giant, and lost an eye, but won the battle as he secured the Casket of Ancient Winters as well as Laufey's son Loki, whom he and Frigga raised as their own with their son Thor.",
+    "THOR'S BANISHMENT": "For his transgressions against his king and leading Asgard into war against the Frost Giants, Odin stripped Thor of his power, armor, and title, casting him out from Asgard and banishing him to Midgard.",
+    "RETIREMENT": "Loki used his sorcery to separate Odin from his powers, removed his memories, and placed him in the Shady Acres Care Home on Earth while he assumed the All-Father's identity on Asgard.",
+    "LAST MOMENTS": "In his last moments of this stage of his journey, Odin managed to save not only his sons, but also his people by reminding them of who they really are."
+  },
+  "powers+abilities": {
+    "PROVEN WARRIOR": "As an Asgardian and King, Odin is a proven warrior with immense physical abilities fit to rule Asgard and lead his army into several wars and battles.",
+    "ODINFORCE": "The Odinforce allows Odin to manipulate magical energy, such as stripping Thor of his godlike powers, enchanting mythical artifacts, reading minds across dimensions, and transporting individuals without the Bifrost.",
+    "HAND-TO-HAND COMBAT": "Odin is a master hand-to-hand combatant who carries the magical spear Gungnir, which could channel the Odinforce."
+  },
+  "allies": [
+    "Thor",
+    "Heimdall",
+    "Warriors Three"
+  ],
+  "enemies": [
+    "Loki",
+    "Thor",
+    "Hela"
+  ],
+  "groups": [],
+  "bio": {
+    "HEIGHT": "6'9\"",
+    "WEIGHT": "650 lbs.",
+    "GENDER": "Male",
+    "EYES": "Blue",
+    "HAIR": "White (formerly blond)"
+  },
+  "matrix": {
+    "DURABILITY": "7",
+    "ENERGY": "7",
+    "FIGHTING SKILLS": "4",
+    "INTELLIGENCE": "7",
+    "SPEED": "7",
+    "STRENGTH": "6"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": "",
+  "codeName": "Vision",
+  "url": "https://www.marvel.com/characters/vision",
+  "movies": {},
+  "story-moment": {
+    "BIRTH": "Vision surprised the Avengers when he effortlessly held Thor\u2019s hammer shortly after his \u201cbirth.\u201d",
+    "DESTRUCTION OF ULTRON": "Vision destroyed the final Ultron robot, after the two discussed their differing viewpoints on humanity.",
+    "CIVIL WAR": "During the battle that broke out between Iron Man and Captain America\u2019s factions over the Sokovia Accords, Vision inadvertently injured his own teammate, War Machine",
+    "TRACKED BY THANOS": "In Scotland, two of Thanos\u2019 followers tracked Vision down, attempting to remove his Mind Stone for their master.",
+    "DESTRUCTION OF THE MIND STONE": "Vision convinced the Scarlet Witch to destroy the Mind Stone, despite what it meant for his own existence, when Thanos arrived in Wakanda."
+  },
+  "powers+abilities": {
+    "INTANGIBILITY": "Decreasing his density, Vision can become intangible and is able to pass through walls, objects, and even other beings.",
+    "ENERGY BLASTS": "The Mind Stone on Vision\u2019s head can be used to create a powerful energy blast.",
+    "SYNTHEZOID": "Vision can change his appearance, causing his clothing to look different or to make his synthetic skin appear more human.",
+    "FLIGHT": "While intangible, Vision is able to levitate in the air"
+  },
+  "allies": [
+    "Scarlet Witch",
+    "Iron Man",
+    "Black Widow",
+    "War Machine",
+    "Spider-Man",
+    "Captain America",
+    "Falcon",
+    "Hawkeye",
+    "Hulk",
+    "Thor",
+    "Black Panther",
+    "Okoye",
+    "Winter Soldier",
+    "Shuri",
+    "Rocket",
+    "Groot"
+  ],
+  "enemies": [
+    "Ultron",
+    "Thanos",
+    "Corvus Glaive",
+    "Proxima Midnight",
+    "Cull Obsidian"
+  ],
+  "groups": [
+    "Avengers"
+  ],
+  "bio": {
+    "HEIGHT": "6'3\"",
+    "WEIGHT": "300 lbs. (variable between 0 lbs. & 90 tons)",
+    "GENDER": "Male",
+    "EYES": "Gold",
+    "HAIR": "None"
+  },
+  "matrix": {
+    "DURABILITY": "6",
+    "ENERGY": "6",
+    "FIGHTING SKILLS": "3",
+    "INTELLIGENCE": "4",
+    "SPEED": "3",
+    "STRENGTH": "5"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "James Rhodes",
+  "codeName": "War Machine",
+  "url": "https://www.marvel.com/characters/war-machine-james-rhodes",
+  "movies": {},
+  "story-moment": {
+    "DONS IRON MAN ARMOR": "James Rhodes dons the Iron Man Mark II armor in order to calm the threat posed by an inebriated, unstable Tony Stark.",
+    "DEBUT AT THE STARK EXPO": "War Machine makes his debut at the Stark Expo, after Justin Hammer adds the weapons Rhodes requested.",
+    "INTRODUCING THE IRON PATRIOT": "President Ellis introduces Rhodes in his new red, white, and blue painted persona as the Iron Patriot.",
+    "PARALYZATION": "War Machine is accidently shot down by Vision during the super hero battle in Germany, leading to Rhodes\u2019 paralysis.",
+    "FIGHTING THANOS": "With Thanos\u2019 forces attempting to nab the Mind Stone, War Machine joins in the fight in Wakanda to keep the stone from them."
+  },
+  "powers+abilities": {
+    "SKILLED FIGHTER": "James Rhodes is a highly-trained and skilled fighter and combat veteran, capable of taking on formidable foes with or without his armor.",
+    "FLIGHT": "Like the Iron Man armor, the War Machine suit gives its wearer superhuman strength and the ability to fly.",
+    "UNIBEAM AND REPULSORS": "The War Machine armor includes elements also found in the Iron Man armor, including the unibeam and repulsors.",
+    "MOUNTED GUNS": "The many weapons in War Machine\u2019s arsenal include a swivel-mounted gun that sits over Rhodes\u2019 shoulder when needed.",
+    "STUN STAFF": "War Machine has used a stun staff capable of releasing a powerful electric shock."
+  },
+  "allies": [
+    "Iron Man",
+    "Captain America",
+    "Thor",
+    "Hulk",
+    "Black Widow",
+    "Hawkeye",
+    "Scarlet Witch",
+    "Vision",
+    "Falcon",
+    "Spider-Man",
+    "Black Panther",
+    "Okoye",
+    "Shuri",
+    "Guardians of the Galaxy",
+    "Groot",
+    "Rocket"
+  ],
+  "enemies": [
+    "Thanos",
+    "Ultron",
+    "Proxima Midnight",
+    "Cull Obsidian",
+    "Corvus Glaive",
+    "Ulysses Klaue"
+  ],
+  "groups": [
+    "Avengers"
+  ],
+  "bio": {
+    "HEIGHT": "6'1'', In armor: 6'6''",
+    "WEIGHT": "240 lbs., In armor: 470 lbs.",
+    "GENDER": "Male",
+    "EYES": "Brown",
+    "HAIR": "Brown with streaks of gray"
+  },
+  "matrix": {
+    "DURABILITY": "6",
+    "ENERGY": "6",
+    "FIGHTING SKILLS": "4",
+    "INTELLIGENCE": "3",
+    "SPEED": "5",
+    "STRENGTH": "6"
+  }
+}

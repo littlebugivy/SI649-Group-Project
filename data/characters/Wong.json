@@ -1,0 +1,48 @@
+{
+  "name": "",
+  "codeName": "Wong",
+  "url": "https://www.marvel.com/characters/wong",
+  "movies": {},
+  "story-moment": {
+    "THE BOOK KEEPER": "After The Ancient One welcomed Stephen Strange as a student at the Kamar-Taj, the stern and unflinching master aided Strange as an instructor in his studies.",
+    "FORBIDDEN BOOKS": "When Strange overstepped and tested a spell from the forbidden books, Wong and Master Mordo, cautious of his quick advancements, reprimanded him for breaking natural law.",
+    "DEFENDING HONG KONG": "With the Wand of Watoomb, Wong defended the Hong Kong Sanctum.",
+    "THE INFINITY STONES": "Wong revealed the history of the Infinity Stones\u2014how the Big Bang created six stones containing the universe\u2019s elemental energies: time, power, reality, soul, space and mind.",
+    "FIGHTING CULL OBSIDIAN": "Standing alongside Doctor Strange, Iron Man, Bruce Banner, and eventually Spider-Man, Wong protected downtown Manhattan from Earth\u2019s intruders, Cull Obsidian and Ebony Maw."
+  },
+  "powers+abilities": {
+    "MASTER OF SORCERY": "Wong is one of the most knowledgeable masters in Kamar-Taj possessing a powerful mastery of sorcery.",
+    "ELDRITCH MAGIC": "Like all Masters of the Mystic Arts, he is able to shape and manipulate Eldritch Magic, invoking weapons and other objects via spells, cast illusions, and astral projection.",
+    "SLING RING": "With the Sling Ring, Wong is able to open up portals and travel across multiple dimensions of the Multiverse.",
+    "WAND OF WATOOMB": "Wong\u2019s weapon of choice is the Wand of Watoomb, an artifact that allows him to block mystical attacks and unleash energy blasts.",
+    "MASTER OF MARTIAL ARTS": "Wong is a master martial artist, able to protect the Sanctums and other dimensions from the likes of the Zealots and Thanos\u2019 followers."
+  },
+  "allies": [
+    "Doctor Strange",
+    "Iron Man",
+    "Hulk",
+    "Spider-Man"
+  ],
+  "enemies": [
+    "Dormammu",
+    "Cull Obsidian",
+    "Ebony Maw",
+    "Thanos"
+  ],
+  "groups": [],
+  "bio": {
+    "HEIGHT": "5'8\"",
+    "WEIGHT": "140 lbs.",
+    "GENDER": "Male",
+    "EYES": "Brown",
+    "HAIR": "Black (shaved)"
+  },
+  "matrix": {
+    "DURABILITY": "2",
+    "ENERGY": "1",
+    "FIGHTING SKILLS": "5",
+    "INTELLIGENCE": "2",
+    "SPEED": "2",
+    "STRENGTH": "2"
+  }
+}

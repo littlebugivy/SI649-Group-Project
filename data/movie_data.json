@@ -1,0 +1,251 @@
+{
+  "Avengers: Infinity War": {
+    "Date": "2018",
+    "Link": "https://www.marvel.com/movies/avengers-infinity-war",
+    "Characters": [
+      "Hulk",
+      "Winter Soldier",
+      "Corvus Glaive",
+      "Doctor Strange",
+      "Drax",
+      "Ebony Maw",
+      "Gamora",
+      "Groot",
+      "Heimdall",
+      "War Machine",
+      "Loki",
+      "Mantis",
+      "Black Widow",
+      "Nebula",
+      "Okoye",
+      "Spider-Man",
+      "Star-Lord",
+      "Proxima Midnight",
+      "Rocket",
+      "Falcon",
+      "Shuri",
+      "Captain America",
+      "Black Panther",
+      "Thanos",
+      "The Collector",
+      "Thor",
+      "Iron Man",
+      "Vision",
+      "Scarlet Witch",
+      "Wong"
+    ]
+  },
+  "Black Panther": {
+    "Date": "2018",
+    "Link": "https://www.marvel.com/movies/black-panther",
+    "Characters": [
+      "Black Panther",
+      "Erik Killmonger",
+      "Nakia",
+      "Okoye",
+      "Shuri",
+      "Ulysses Klaue",
+      "Winter Soldier"
+    ]
+  },
+  "Thor: Ragnarok": {
+    "Date": "2017",
+    "Link": "https://www.marvel.com/movies/thor-ragnarok",
+    "Characters": [
+      "Thor",
+      "Hulk",
+      "Valkyrie",
+      "Hela",
+      "Loki",
+      "Skurge",
+      "Grandmaster",
+      "Heimdall",
+      "Odin",
+      "Doctor Strange"
+    ]
+  },
+  "Spider-Man: Homecoming": {
+    "Date": "2017",
+    "Link": "https://www.marvel.com/movies/spider-man-homecoming",
+    "Characters": [
+      "Spider-Man",
+      "Iron Man",
+      "Vulture",
+      "Shocker",
+      "Captain America"
+    ]
+  },
+  "Guardians of the Galaxy Vol. 2": {
+    "Date": "2017",
+    "Link": "https://www.marvel.com/movies/guardians-of-the-galaxy-vol-2",
+    "Characters": [
+      "Star-Lord",
+      "Gamora",
+      "Rocket",
+      "Groot",
+      "Drax",
+      "Yondu",
+      "Mantis",
+      "Nebula",
+      "Ego"
+    ]
+  },
+  "Doctor Strange": {
+    "Date": "2016",
+    "Link": "https://www.marvel.com/movies/doctor-strange",
+    "Characters": [
+      "Doctor Strange",
+      "Wong",
+      "Dormammu",
+      "Thor"
+    ]
+  },
+  "Captain America: Civil War": {
+    "Date": "2016",
+    "Link": "https://www.marvel.com/movies/captain-america-civil-war",
+    "Characters": [
+      "Captain America: The First Avenger",
+      "The Avengers",
+      "Captain America: The Winter Soldier",
+      "Avengers: Age of Ultron",
+      "Ant-Man",
+      "Spider-Man: Homecoming",
+      "Black Panther",
+      "Avengers: Infinity War"
+    ]
+  },
+  "Ant-Man": {
+    "Date": "2015",
+    "Link": "https://www.marvel.com/movies/ant-man",
+    "Characters": [
+      "Digital",
+      "Blu-Ray"
+    ]
+  },
+  "Avengers: Age of Ultron": {
+    "Date": "2015",
+    "Link": "https://www.marvel.com/movies/avengers-age-of-ultron",
+    "Characters": [
+      "Iron Man",
+      "Thor",
+      "Hulk",
+      "Captain America",
+      "Black Widow",
+      "Ultron",
+      "Hawkeye",
+      "War Machine",
+      "Falcon",
+      "Scarlet Witch",
+      "Doctor Erik Selvig",
+      "Heimdall",
+      "Ulysses Klaue",
+      "Thanos"
+    ]
+  },
+  "Guardians of the Galaxy": {
+    "Date": "2014",
+    "Link": "https://www.marvel.com/movies/guardians-of-the-galaxy",
+    "Characters": [
+      "Star-Lord",
+      "Gamora",
+      "Rocket",
+      "Groot",
+      "Drax",
+      "Yondu",
+      "Nebula",
+      "The Collector"
+    ]
+  },
+  "Captain America: The Winter Soldier": {
+    "Date": "2014",
+    "Link": "https://www.marvel.com/movies/captain-america-the-winter-soldier",
+    "Characters": [
+      "Captain America",
+      "Winter Soldier",
+      "Black Widow",
+      "Falcon",
+      "Scarlet Witch"
+    ]
+  },
+  "Thor: The Dark World": {
+    "Date": "2013",
+    "Link": "https://www.marvel.com/movies/thor-the-dark-world",
+    "Characters": [
+      "Thor",
+      "Heimdall",
+      "Loki",
+      "Odin",
+      "The Collector",
+      "Doctor Erik Selvig"
+    ]
+  },
+  "Iron Man 3": {
+    "Date": "2013",
+    "Link": "https://www.marvel.com/movies/iron-man-3",
+    "Characters": [
+      "Iron Man",
+      "War Machine",
+      "Hulk"
+    ]
+  },
+  "The Avengers": {
+    "Date": "2012",
+    "Link": "https://www.marvel.com/movies/the-avengers",
+    "Characters": [
+      "Iron Man",
+      "Captain America",
+      "Hulk",
+      "Hawkeye",
+      "Thor",
+      "Black Widow",
+      "Loki",
+      "Doctor Erik Selvig",
+      "Thanos"
+    ]
+  },
+  "Captain America: The First Avenger": {
+    "Date": "2011",
+    "Link": "https://www.marvel.com/movies/captain-america-the-first-avenger",
+    "Characters": [
+      "Captain America",
+      "Winter Soldier"
+    ]
+  },
+  "Thor": {
+    "Date": "2011",
+    "Link": "https://www.marvel.com/movies/thor",
+    "Characters": [
+      "Thor",
+      "Odin",
+      "Heimdall",
+      "Loki",
+      "Doctor Erik Selvig",
+      "Hawkeye"
+    ]
+  },
+  "Iron Man 2": {
+    "Date": "2010",
+    "Link": "https://www.marvel.com/movies/iron-man-2",
+    "Characters": [
+      "Iron Man",
+      "War Machine",
+      "Black Widow"
+    ]
+  },
+  "The Incredible Hulk": {
+    "Date": "2008",
+    "Link": "https://www.marvel.com/movies/the-incredible-hulk",
+    "Characters": [
+      "Hulk",
+      "Iron Man"
+    ]
+  },
+  "Iron Man": {
+    "Date": "2008",
+    "Link": "https://www.marvel.com/movies/iron-man",
+    "Characters": [
+      "Iron Man",
+      "War Machine"
+    ]
+  }
+}

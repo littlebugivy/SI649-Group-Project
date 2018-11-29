@@ -1,0 +1,55 @@
+{
+  "name": "",
+  "codeName": "Drax",
+  "url": "https://www.marvel.com/characters/drax",
+  "movies": {},
+  "story-moment": {
+    "IMPRISONED": "Fueled by rage after Ronan the Accuser killed Drax\u2019s wife Hovat and child Kamaria, Drax devotes his life to hunting him and his forces down landing himself in the high-security prison Klyn where he meets Star-Lord, Gamora, Rocket and Groot.",
+    "FIGHTING RONAN": "Drax summons Ronan, revealing the Guardians' whereabouts so he can finally meet his foe and avenge his family, only to discover the Kree was indifferent and unable to recall his victims.",
+    "POWER OF THE ORB": "Seeing an honorable leader in Quill, and knowing it could mean death, Gamora, Rocket, and Drax joined Star-Lord in absorbing the power of the Orb and directing the energy at Ronan.",
+    "EATEN ALIVE": "Believing the Abilisk must be cut on the inside as its hide is too thick, Drax grabbed his twin knives and jumped inside the creature's mouth and began hacking away at its organs.",
+    "ATTACKING THANOS": "Seething with rage and attempting to avenge his family, Drax ignored Quill\u2019s directive and impulsively charged to attack Thanos on Knowhere, but was subdued by Quill and Mantis."
+  },
+  "powers+abilities": {
+    "SUPER STRENGTH": "Drax possesses super strength, allowing him to lift bulk weight, break through stone and metal with ease, rip machines in half with his bare hands, and overpower multiple assailants.",
+    "HEALING FACTOR": "Drax is able to withstand any threat due to his strong healing factor, impact-resistant skin, and fast regeneration ability.",
+    "FAST REFLEXES": "With impeccably fast reflexes, Drax is agile, able to jump high and move at great speed.",
+    "HAND-TO-HAND COMBAT": "A powerful hand-to-hand combatant, Drax is able to take on other warriors, like Korath the Pursuer, with little effort.",
+    "DUAL KNIVES": "Drax's preferred weapon are dual knives, but he has been known to wield the Hadron Enforcer."
+  },
+  "allies": [
+    "Star-Lord",
+    "Gamora",
+    "Mantis",
+    "Rocket",
+    "Groot",
+    "Yondu",
+    "Nebula",
+    "Thor",
+    "Spider-Man",
+    "Iron Man",
+    "Doctor Strange"
+  ],
+  "enemies": [
+    "Thanos",
+    "Ego"
+  ],
+  "groups": [
+    "Guardians of the Galaxy"
+  ],
+  "bio": {
+    "HEIGHT": "Drax: 6'4'', Arthur Douglas: 5'9'', In most powerful body: 7'4''",
+    "WEIGHT": "Drax: 680 lbs., Arthur Douglas: 161lbs., In most powerful body: 1050 lbs.",
+    "GENDER": "Male",
+    "EYES": "Drax: red, Arthur Douglas: blue",
+    "HAIR": "Drax: bald, Arthur Douglas: brown"
+  },
+  "matrix": {
+    "DURABILITY": "7",
+    "ENERGY": "6",
+    "FIGHTING SKILLS": "4",
+    "INTELLIGENCE": "2",
+    "SPEED": "2",
+    "STRENGTH": "5"
+  }
+}
