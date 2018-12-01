@@ -10,11 +10,11 @@ var test_data = {
             "group": 0
         },
         {
-            "id": "Black Panther",
+            "id": "Guardians of the Galaxy",
             "group": 0
         },
         {
-            "id": "Guardians of the Galaxy",
+            "id": "Iron Man",
             "group": 1
         },
         {
@@ -25,8 +25,9 @@ var test_data = {
         }
     ],
     "links": [
-        { "source": "Avengers: Infinity War", "target": "Iron Man" },
-        { "source": "Guardians of the Galaxy", "target": "Groot" }
+        { "source": "Avengers: Infinity War", "target": "Iron Man", "value": 0 },
+        { "source": "Guardians of the Galaxy", "target": "Groot", "value": 0 },
+        { "source": "Iron Man", "target": "Groot", "value": 1 }
     ]
 }
 
@@ -35,14 +36,16 @@ function loadData() {
     //code for Q1 goes here
     d3.json("data/network.json", function (d) {
         data = d;
-        // nodes = data.nodes;
-        // links = data.links;
+        nodes = data.nodes;
+        numOfMovie = data.nodes.filter(function (node) { return node.group == 0 }).length;
+        links = data.links;
 
-        nodes = test_data.nodes;
-        links = test_data.links;
+        // nodes = test_data.nodes;
+        // links = test_data.links;
 
-        console.log
-        console.log(links)
+        console.log(nodes)
+        console.log(numOfMovie)
+
         // data.forEach(function (item) {
         //     item.n = parseInt(item.n);
         // });
@@ -62,8 +65,8 @@ function drawNodes() {
 
     var svg = d3.select('.container')
         .append('svg')
-        .attr('width', 500)
-        .attr('height', 500)
+        .attr('width', width)
+        .attr('height', height)
 
     // simulation setup with all forces
     var linkForce = d3
@@ -73,10 +76,10 @@ function drawNodes() {
 
     const simulation = d3.forceSimulation()
         .force("link", linkForce)
-        // .force("charge", d3.forceCollide().radius(5))
-        // .force("r", d3.forceRadial(function (d) { return d.type === "a" ? 100 : 200; }))
-        .force('charge', d3.forceManyBody().strength(-10))
-        .force('center', d3.forceCenter(width / 2 - 20, height / 2 - 20))
+        .force("charge", d3.forceCollide().radius(20))
+        .force("r", d3.forceRadial(function (d) { return d.group === "0" ? 100 : 200; }))
+        // .force('charge', d3.forceManyBody().strength(-10))
+        .force('center', d3.forceCenter(width / 2, height / 2))
 
     function getNodeColor(node) {
         if (node.group == 0) {
@@ -100,6 +103,16 @@ function drawNodes() {
         .enter().append('circle')
         .attr('r', 10)
         .attr('fill', getNodeColor)
+
+    // // evenly spaces nodes along arc
+    // var circleCoord = function (node, index, num_nodes) {
+    //     var circumference = circle.node().getTotalLength();
+    //     var pointAtLength = function (l) { return circle.node().getPointAtLength(l) };
+    //     var sectionLength = (circumference) / num_nodes;
+    //     var position = sectionLength * index + sectionLength / 2;
+    //     return pointAtLength(circumference - position)
+    // }
+
 
     simulation.nodes(nodes).on('tick', () => {
         nodeElements

@@ -5,7 +5,7 @@
       "group": 0
     },
     {
-      "id": "Black Panther",
+      "id": "Black Panther (Movie)",
       "group": 0
     },
     {
@@ -481,37 +481,37 @@
       "value": 0
     },
     {
-      "source": "Black Panther",
+      "source": "Black Panther (Movie)",
       "target": "Black Panther",
       "value": 0
     },
     {
-      "source": "Black Panther",
+      "source": "Black Panther (Movie)",
       "target": "Erik Killmonger",
       "value": 0
     },
     {
-      "source": "Black Panther",
+      "source": "Black Panther (Movie)",
       "target": "Nakia",
       "value": 0
     },
     {
-      "source": "Black Panther",
+      "source": "Black Panther (Movie)",
       "target": "Okoye",
       "value": 0
     },
     {
-      "source": "Black Panther",
+      "source": "Black Panther (Movie)",
       "target": "Shuri",
       "value": 0
     },
     {
-      "source": "Black Panther",
+      "source": "Black Panther (Movie)",
       "target": "Ulysses Klaue",
       "value": 0
     },
     {
-      "source": "Black Panther",
+      "source": "Black Panther (Movie)",
       "target": "Winter Soldier",
       "value": 0
     },
@@ -697,7 +697,7 @@
     },
     {
       "source": "Captain America: Civil War",
-      "target": " Vision",
+      "target": "Vision",
       "value": 0
     },
     {
@@ -1874,11 +1874,7 @@
       "target": "Heimdall",
       "value": 1
     },
-    {
-      "source": "Loki",
-      "target": "Warriors Three",
-      "value": 1
-    },
+
     {
       "source": "Loki",
       "target": "Skurge",
@@ -1894,11 +1890,7 @@
       "target": "Thanos",
       "value": 2
     },
-    {
-      "source": "Loki",
-      "target": "Warriors Three",
-      "value": 2
-    },
+
     {
       "source": "Loki",
       "target": "Cull Obsidian",
@@ -2252,11 +2244,7 @@
       "target": "Heimdall",
       "value": 1
     },
-    {
-      "source": "Hela",
-      "target": "Warriors Three",
-      "value": 1
-    },
+
     {
       "source": "Hela",
       "target": "Skurge",
@@ -3802,11 +3790,7 @@
       "target": "Odin",
       "value": 1
     },
-    {
-      "source": "Heimdall",
-      "target": "Warriors Three",
-      "value": 1
-    },
+
     {
       "source": "Heimdall",
       "target": "Skurge",
@@ -3973,11 +3957,7 @@
       "target": "Heimdall",
       "value": 1
     },
-    {
-      "source": "Odin",
-      "target": "Warriors Three",
-      "value": 1
-    },
+
     {
       "source": "Odin",
       "target": "Loki",
@@ -4058,11 +4038,7 @@
       "target": "Ego",
       "value": 2
     },
-    {
-      "source": "Thor",
-      "target": "Warriors Three",
-      "value": 1
-    },
+
     {
       "source": "Thor",
       "target": "Valkyrie",
