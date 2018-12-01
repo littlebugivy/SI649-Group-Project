@@ -6,16 +6,57 @@ $(document).ready(function () {
 
 function loadData() {
     //code for Q1 goes here
-    d3.csv("data/data.csv", function (d) {
+    d3.json("data/network.json", function (d) {
         data = d;
-        data.forEach(function (item) {
-            item.n = parseInt(item.n);
-        });
+        nodes = data.nodes;
+        links = data.links;
+        // data.forEach(function (item) {
+        //     item.n = parseInt(item.n);
+        // });
+
+        drawNodes();
 
         //visualizeColorProperty();
         //visualizeColorWheel();
         //visualizeColorHarmony();
     });
+
+}
+
+function drawNodes() {
+    const width = window.innerWidth
+    const height = window.innerHeight
+
+
+    var svg = d3.select('.container')
+        .append('svg')
+        .attr('width', width)
+        .attr('height', height)
+
+    const simulation = d3.forceSimulation()
+        .force('charge', d3.forceManyBody().strength(-10))
+        .force('center', d3.forceCenter(width / 2 - 20, height / 2 - 20))
+
+    function getNodeColor(node) {
+        if (node.group == 0) {
+            return 'black'
+        } else {
+            return 'red'
+        }
+    }
+
+    const nodeElements = svg.append('g')
+        .selectAll('circle')
+        .data(nodes)
+        .enter().append('circle')
+        .attr('r', 10)
+        .attr('fill', getNodeColor)
+
+    simulation.nodes(nodes).on('tick', () => {
+        nodeElements
+            .attr('cx', function (node) { return node.x })
+            .attr('cy', function (node) { return node.y })
+    })
 
 }
 
