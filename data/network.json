@@ -21,7 +21,7 @@
       "group": 0
     },
     {
-      "id": "Doctor Strange",
+      "id": "Doctor Strange (Movie)",
       "group": 0
     },
     {
@@ -73,7 +73,7 @@
       "group": 0
     },
     {
-      "id": "Iron Man",
+      "id": "Iron Man (Movie)",
       "group": 0
     },
     {
@@ -636,53 +636,58 @@
       "value": 0
     },
     {
-      "source": "Doctor Strange",
+      "source": "Doctor Strange (Movie)",
       "target": "Doctor Strange",
       "value": 0
     },
     {
-      "source": "Doctor Strange",
+      "source": "Doctor Strange (Movie)",
       "target": "Wong",
       "value": 0
     },
     {
-      "source": "Doctor Strange",
+      "source": "Doctor Strange (Movie)",
       "target": "Dormammu",
       "value": 0
     },
     {
-      "source": "Doctor Strange",
+      "source": "Doctor Strange (Movie)",
       "target": "Thor",
       "value": 0
     },
     {
       "source": "Captain America: Civil War",
-      "target": "Captain America: The First Avenger",
+      "target": "Captain America",
       "value": 0
     },
     {
       "source": "Captain America: Civil War",
-      "target": "The Avengers",
+      "target": "Iron Man",
       "value": 0
     },
     {
       "source": "Captain America: Civil War",
-      "target": "Captain America: The Winter Soldier",
+      "target": "Black Widow",
       "value": 0
     },
     {
       "source": "Captain America: Civil War",
-      "target": "Avengers: Age of Ultron",
+      "target": "Winter Soldier",
       "value": 0
     },
     {
       "source": "Captain America: Civil War",
-      "target": "Ant-Man",
+      "target": "Falcon",
       "value": 0
     },
     {
       "source": "Captain America: Civil War",
-      "target": "Spider-Man: Homecoming",
+      "target": "War Machine",
+      "value": 0
+    },
+    {
+      "source": "Captain America: Civil War",
+      "target": "Hawkeye",
       "value": 0
     },
     {
@@ -692,17 +697,22 @@
     },
     {
       "source": "Captain America: Civil War",
-      "target": "Avengers: Infinity War",
+      "target": " Vision",
       "value": 0
     },
     {
-      "source": "Ant-Man",
-      "target": "Digital",
+      "source": "Captain America: Civil War",
+      "target": "Scarlet Witch",
       "value": 0
     },
     {
-      "source": "Ant-Man",
-      "target": "Blu-Ray",
+      "source": "Captain America: Civil War",
+      "target": "Ant-Man",
+      "value": 0
+    },
+    {
+      "source": "Captain America: Civil War",
+      "target": "Spider-Man",
       "value": 0
     },
     {
@@ -996,12 +1006,12 @@
       "value": 0
     },
     {
-      "source": "Iron Man",
+      "source": "Iron Man (Movie)",
       "target": "Iron Man",
       "value": 0
     },
     {
-      "source": "Iron Man",
+      "source": "Iron Man (Movie)",
       "target": "War Machine",
       "value": 0
     },
@@ -1098,11 +1108,6 @@
     {
       "source": "Rocket",
       "target": "Winter Soldier",
-      "value": 1
-    },
-    {
-      "source": "Rocket",
-      "target": "Avengers",
       "value": 1
     },
     {
@@ -1223,11 +1228,6 @@
     {
       "source": "Groot",
       "target": "Shuri",
-      "value": 1
-    },
-    {
-      "source": "Groot",
-      "target": "Avengers",
       "value": 1
     },
     {
@@ -1320,16 +1320,7 @@
       "target": "Groot",
       "value": 1
     },
-    {
-      "source": "Shuri",
-      "target": "Avengers",
-      "value": 1
-    },
-    {
-      "source": "Shuri",
-      "target": "Guardians of the Galaxy",
-      "value": 1
-    },
+
     {
       "source": "Shuri",
       "target": "Thanos",
@@ -1420,11 +1411,7 @@
       "target": "Shuri",
       "value": 1
     },
-    {
-      "source": "War Machine",
-      "target": "Guardians of the Galaxy",
-      "value": 1
-    },
+
     {
       "source": "War Machine",
       "target": "Groot",
@@ -1553,16 +1540,6 @@
     {
       "source": "Proxima Midnight",
       "target": "Groot",
-      "value": 2
-    },
-    {
-      "source": "Proxima Midnight",
-      "target": "Guardians of the Galaxy",
-      "value": 2
-    },
-    {
-      "source": "Proxima Midnight",
-      "target": "Avengers",
       "value": 2
     },
     {
@@ -1740,11 +1717,7 @@
       "target": "Nebula",
       "value": 1
     },
-    {
-      "source": "Iron Man",
-      "target": "Guardians of the Galaxy",
-      "value": 1
-    },
+
     {
       "source": "Iron Man",
       "target": "Ultron",
@@ -1855,11 +1828,7 @@
       "target": "Rocket",
       "value": 1
     },
-    {
-      "source": "Winter Soldier",
-      "target": "Guardians of the Galaxy",
-      "value": 1
-    },
+
     {
       "source": "Winter Soldier",
       "target": "Thanos",
@@ -1975,11 +1944,7 @@
       "target": "Thor",
       "value": 2
     },
-    {
-      "source": "Loki",
-      "target": "Avengers",
-      "value": 2
-    },
+
     {
       "source": "Loki",
       "target": "Hulk",
@@ -2100,11 +2065,7 @@
       "target": "Spider-Man",
       "value": 1
     },
-    {
-      "source": "Mantis",
-      "target": "Avengers",
-      "value": 1
-    },
+
     {
       "source": "Mantis",
       "target": "Ego",
@@ -2150,11 +2111,7 @@
       "target": "Nebula",
       "value": 1
     },
-    {
-      "source": "Yondu",
-      "target": "Guardians of the Galaxy",
-      "value": 1
-    },
+
     {
       "source": "Yondu",
       "target": "Ego",
@@ -2355,11 +2312,7 @@
       "target": "Captain America",
       "value": 1
     },
-    {
-      "source": "Spider-Man",
-      "target": "Avengers",
-      "value": 1
-    },
+
     {
       "source": "Spider-Man",
       "target": "Doctor Strange",
@@ -2370,11 +2323,7 @@
       "target": "Star-Lord",
       "value": 1
     },
-    {
-      "source": "Spider-Man",
-      "target": "Guardians of the Galaxy",
-      "value": 1
-    },
+
     {
       "source": "Spider-Man",
       "target": "Wong",
@@ -2660,11 +2609,7 @@
       "target": "Skurge",
       "value": 1
     },
-    {
-      "source": "Hulk",
-      "target": "Guardians of the Galaxy",
-      "value": 1
-    },
+
     {
       "source": "Hulk",
       "target": "Ultron",
@@ -2855,16 +2800,7 @@
       "target": "Shuri",
       "value": 2
     },
-    {
-      "source": "Thanos",
-      "target": "Guardians of the Galaxy",
-      "value": 2
-    },
-    {
-      "source": "Thanos",
-      "target": "Avengers",
-      "value": 2
-    },
+
     {
       "source": "Thanos",
       "target": "The Collector",
@@ -2955,11 +2891,7 @@
       "target": "Groot",
       "value": 1
     },
-    {
-      "source": "Falcon",
-      "target": "Guardians of the Galaxy",
-      "value": 1
-    },
+
     {
       "source": "Falcon",
       "target": "Thanos",
@@ -3058,11 +2990,6 @@
     {
       "source": "Black Widow",
       "target": "Rocket",
-      "value": 1
-    },
-    {
-      "source": "Black Widow",
-      "target": "Guardians of the Galaxy",
       "value": 1
     },
     {
@@ -3275,11 +3202,7 @@
       "target": "Hawkeye",
       "value": 1
     },
-    {
-      "source": "Black Panther",
-      "target": "Guardians of the Galaxy",
-      "value": 1
-    },
+
     {
       "source": "Black Panther",
       "target": "Thanos",
@@ -3430,16 +3353,7 @@
       "target": "Okoye",
       "value": 2
     },
-    {
-      "source": "Cull Obsidian",
-      "target": "Guardians of the Galaxy",
-      "value": 2
-    },
-    {
-      "source": "Cull Obsidian",
-      "target": "Avengers",
-      "value": 2
-    },
+
     {
       "source": "Ulysses Klaue",
       "target": "Erik Killmonger",
@@ -3450,11 +3364,7 @@
       "target": "Ultron",
       "value": 1
     },
-    {
-      "source": "Ulysses Klaue",
-      "target": "Avengers",
-      "value": 2
-    },
+
     {
       "source": "Ulysses Klaue",
       "target": "Black Panther",
@@ -3725,11 +3635,7 @@
       "target": "Heimdall",
       "value": 2
     },
-    {
-      "source": "Corvus Glaive",
-      "target": "Avengers",
-      "value": 2
-    },
+
     {
       "source": "Corvus Glaive",
       "target": "Thor",
@@ -3780,11 +3686,7 @@
       "target": "Black Widow",
       "value": 2
     },
-    {
-      "source": "Corvus Glaive",
-      "target": "Guardians of the Galaxy",
-      "value": 2
-    },
+
     {
       "source": "Doctor Erik Selvig",
       "target": "Thor",
@@ -4025,11 +3927,7 @@
       "target": "Groot",
       "value": 1
     },
-    {
-      "source": "Scarlet Witch",
-      "target": "Guardians of the Galaxy",
-      "value": 1
-    },
+
     {
       "source": "Scarlet Witch",
       "target": "Spider-Man",
@@ -4263,11 +4161,6 @@
     {
       "source": "Thor",
       "target": "Mantis",
-      "value": 1
-    },
-    {
-      "source": "Thor",
-      "target": "Guardians of the Galaxy",
       "value": 1
     },
     {
@@ -4515,11 +4408,7 @@
       "target": "Howard Stark",
       "value": 1
     },
-    {
-      "source": "Captain America",
-      "target": "Guardians of the Galaxy",
-      "value": 1
-    },
+
     {
       "source": "Captain America",
       "target": "Groot",

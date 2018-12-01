@@ -3,13 +3,46 @@ $(document).ready(function () {
     loadData();
 });
 
+var test_data = {
+    "nodes": [
+        {
+            "id": "Avengers: Infinity War",
+            "group": 0
+        },
+        {
+            "id": "Black Panther",
+            "group": 0
+        },
+        {
+            "id": "Guardians of the Galaxy",
+            "group": 1
+        },
+        {
+            "id": "Groot",
+            "group": 1,
+            "relative": 0,
+            "squad": 0
+        }
+    ],
+    "links": [
+        { "source": "Avengers: Infinity War", "target": "Iron Man" },
+        { "source": "Guardians of the Galaxy", "target": "Groot" }
+    ]
+}
+
 
 function loadData() {
     //code for Q1 goes here
     d3.json("data/network.json", function (d) {
         data = d;
-        nodes = data.nodes;
-        links = data.links;
+        // nodes = data.nodes;
+        // links = data.links;
+
+        nodes = test_data.nodes;
+        links = test_data.links;
+
+        console.log
+        console.log(links)
         // data.forEach(function (item) {
         //     item.n = parseInt(item.n);
         // });
@@ -27,25 +60,41 @@ function drawNodes() {
     const width = window.innerWidth
     const height = window.innerHeight
 
-
     var svg = d3.select('.container')
         .append('svg')
-        .attr('width', width)
-        .attr('height', height)
+        .attr('width', 500)
+        .attr('height', 500)
+
+    // simulation setup with all forces
+    var linkForce = d3
+        .forceLink()
+        .id(function (d, i) { return d.id })
+        .strength(function (link) { return 0.1 })
 
     const simulation = d3.forceSimulation()
+        .force("link", linkForce)
+        // .force("charge", d3.forceCollide().radius(5))
+        // .force("r", d3.forceRadial(function (d) { return d.type === "a" ? 100 : 200; }))
         .force('charge', d3.forceManyBody().strength(-10))
         .force('center', d3.forceCenter(width / 2 - 20, height / 2 - 20))
 
     function getNodeColor(node) {
         if (node.group == 0) {
-            return 'black'
-        } else {
             return 'red'
+        } else {
+            return 'black'
         }
     }
 
-    const nodeElements = svg.append('g')
+    var linkElements = svg.append("g")
+        .attr("class", "links")
+        .selectAll("line")
+        .data(links)
+        .enter().append("line")
+        .attr("stroke-width", 1)
+        .attr("stroke", "rgba(50, 50, 50, 0.2)")
+
+    var nodeElements = svg.append('g')
         .selectAll('circle')
         .data(nodes)
         .enter().append('circle')
@@ -56,8 +105,14 @@ function drawNodes() {
         nodeElements
             .attr('cx', function (node) { return node.x })
             .attr('cy', function (node) { return node.y })
+        linkElements
+            .attr('x1', function (link) { return link.source.x })
+            .attr('y1', function (link) { return link.source.y })
+            .attr('x2', function (link) { return link.target.x })
+            .attr('y2', function (link) { return link.target.y })
     })
 
+    simulation.force("link").links(links)
 }
 
 // function visualizeColorProperty() {
