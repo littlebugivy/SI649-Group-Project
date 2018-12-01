@@ -3,6 +3,9 @@ $(document).ready(function () {
     loadData();
 });
 
+var numOfMovie;
+var radius = 200;
+
 var test_data = {
     "nodes": [
         {
@@ -43,8 +46,8 @@ function loadData() {
         // nodes = test_data.nodes;
         // links = test_data.links;
 
-        console.log(nodes)
-        console.log(numOfMovie)
+        // console.log(nodes)
+        //console.log(numOfMovie)
 
         // data.forEach(function (item) {
         //     item.n = parseInt(item.n);
@@ -79,7 +82,7 @@ function drawNodes() {
         .force("charge", d3.forceCollide().radius(20))
         .force("r", d3.forceRadial(function (d) { return d.group === "0" ? 100 : 200; }))
         // .force('charge', d3.forceManyBody().strength(-10))
-        .force('center', d3.forceCenter(width / 2, height / 2))
+        .force('center', d3.forceCenter(width / 2 - radius, height / 2 - radius / 2))
 
     function getNodeColor(node) {
         if (node.group == 0) {
@@ -102,22 +105,59 @@ function drawNodes() {
         .data(nodes)
         .enter().append('circle')
         .attr('r', 10)
+        .attr('id', function (d) { return d.id })
         .attr('fill', getNodeColor)
 
-    // // evenly spaces nodes along arc
-    // var circleCoord = function (node, index, num_nodes) {
-    //     var circumference = circle.node().getTotalLength();
-    //     var pointAtLength = function (l) { return circle.node().getPointAtLength(l) };
-    //     var sectionLength = (circumference) / num_nodes;
-    //     var position = sectionLength * index + sectionLength / 2;
-    //     return pointAtLength(circumference - position)
-    // }
+    // var generateMovieNodes = function (numNodes, radius) {
+    //var counter = 0;
 
+
+    function setUpMovies(node, counter) {
+        //nodes.forEach(function (node) {
+        //if (node.group == 0) { // this node is a movie
+        var angle = (counter / (numOfMovie / 2)) * Math.PI;
+        var x = (radius * Math.cos(angle)) + width / 2 - radius;
+        var y = (radius * Math.sin(angle)) + height / 2 - radius / 2;
+        node.x = x;
+        node.y = y;
+        console.log(node.id, node.x, node.y)
+        return node;
+    }
+    // forEach()
+    // for (i = 0; i < numNodes; i++) {
+    //     angle = (i / (numNodes / 2)) * Math.PI; // Calculate the angle at which the element will be placed.
+    //     // For a semicircle, we would use (i / numNodes) * Math.PI.
+    //     x = (radius * Math.cos(angle)) + (width / 2); // Calculate the x position of the element.
+    //     y = (radius * Math.sin(angle)) + (width / 2); // Calculate the y position of the element.
+    //     nodes.push({ 'id': i, 'x': x, 'y': y });
+    // }
+    // return nodes;
+    //}
 
     simulation.nodes(nodes).on('tick', () => {
+        var counter = 0;
         nodeElements
-            .attr('cx', function (node) { return node.x })
-            .attr('cy', function (node) { return node.y })
+            .attr('cx', function (node) {
+                if (node.group == 0) {
+                    var node = setUpMovies(node, counter);
+                    counter++;
+                    return node.x;
+                } else {
+                    return node.x;
+                }
+            })
+
+        counter = 0;
+        nodeElements
+            .attr('cy', function (node) {
+                if (node.group == 0) {
+                    var node = setUpMovies(node, counter);
+                    counter++;
+                    return node.y;
+                } else {
+                    return node.y;
+                }
+            })
         linkElements
             .attr('x1', function (link) { return link.source.x })
             .attr('y1', function (link) { return link.source.y })
@@ -126,6 +166,7 @@ function drawNodes() {
     })
 
     simulation.force("link").links(links)
+
 }
 
 // function visualizeColorProperty() {

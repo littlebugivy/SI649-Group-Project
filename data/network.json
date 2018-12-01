@@ -29,7 +29,7 @@
       "group": 0
     },
     {
-      "id": "Ant-Man",
+      "id": "Ant-Man (Movie)",
       "group": 0
     },
     {
@@ -113,6 +113,11 @@
       "id": "Shocker",
       "group": 1,
       "squad": 0
+    },
+    {
+      "id": "Ant-Man",
+      "group": 1,
+      "squad": 1
     },
     {
       "id": "Proxima Midnight",
@@ -707,6 +712,11 @@
     },
     {
       "source": "Captain America: Civil War",
+      "target": "Ant-Man",
+      "value": 0
+    },
+    {
+      "source": "Ant-Man (Movie)",
       "target": "Ant-Man",
       "value": 0
     },
@@ -1320,7 +1330,6 @@
       "target": "Groot",
       "value": 1
     },
-
     {
       "source": "Shuri",
       "target": "Thanos",
@@ -1411,7 +1420,6 @@
       "target": "Shuri",
       "value": 1
     },
-
     {
       "source": "War Machine",
       "target": "Groot",
@@ -1717,7 +1725,6 @@
       "target": "Nebula",
       "value": 1
     },
-
     {
       "source": "Iron Man",
       "target": "Ultron",
@@ -1828,7 +1835,6 @@
       "target": "Rocket",
       "value": 1
     },
-
     {
       "source": "Winter Soldier",
       "target": "Thanos",
@@ -1874,7 +1880,6 @@
       "target": "Heimdall",
       "value": 1
     },
-
     {
       "source": "Loki",
       "target": "Skurge",
@@ -1890,7 +1895,6 @@
       "target": "Thanos",
       "value": 2
     },
-
     {
       "source": "Loki",
       "target": "Cull Obsidian",
@@ -1936,7 +1940,6 @@
       "target": "Thor",
       "value": 2
     },
-
     {
       "source": "Loki",
       "target": "Hulk",
@@ -2057,7 +2060,6 @@
       "target": "Spider-Man",
       "value": 1
     },
-
     {
       "source": "Mantis",
       "target": "Ego",
@@ -2103,7 +2105,6 @@
       "target": "Nebula",
       "value": 1
     },
-
     {
       "source": "Yondu",
       "target": "Ego",
@@ -2244,7 +2245,6 @@
       "target": "Heimdall",
       "value": 1
     },
-
     {
       "source": "Hela",
       "target": "Skurge",
@@ -2300,7 +2300,6 @@
       "target": "Captain America",
       "value": 1
     },
-
     {
       "source": "Spider-Man",
       "target": "Doctor Strange",
@@ -2311,7 +2310,6 @@
       "target": "Star-Lord",
       "value": 1
     },
-
     {
       "source": "Spider-Man",
       "target": "Wong",
@@ -2597,7 +2595,6 @@
       "target": "Skurge",
       "value": 1
     },
-
     {
       "source": "Hulk",
       "target": "Ultron",
@@ -2788,7 +2785,6 @@
       "target": "Shuri",
       "value": 2
     },
-
     {
       "source": "Thanos",
       "target": "The Collector",
@@ -2879,7 +2875,6 @@
       "target": "Groot",
       "value": 1
     },
-
     {
       "source": "Falcon",
       "target": "Thanos",
@@ -3190,7 +3185,6 @@
       "target": "Hawkeye",
       "value": 1
     },
-
     {
       "source": "Black Panther",
       "target": "Thanos",
@@ -3341,7 +3335,6 @@
       "target": "Okoye",
       "value": 2
     },
-
     {
       "source": "Ulysses Klaue",
       "target": "Erik Killmonger",
@@ -3352,7 +3345,6 @@
       "target": "Ultron",
       "value": 1
     },
-
     {
       "source": "Ulysses Klaue",
       "target": "Black Panther",
@@ -3623,7 +3615,6 @@
       "target": "Heimdall",
       "value": 2
     },
-
     {
       "source": "Corvus Glaive",
       "target": "Thor",
@@ -3674,7 +3665,6 @@
       "target": "Black Widow",
       "value": 2
     },
-
     {
       "source": "Doctor Erik Selvig",
       "target": "Thor",
@@ -3790,7 +3780,6 @@
       "target": "Odin",
       "value": 1
     },
-
     {
       "source": "Heimdall",
       "target": "Skurge",
@@ -3911,7 +3900,6 @@
       "target": "Groot",
       "value": 1
     },
-
     {
       "source": "Scarlet Witch",
       "target": "Spider-Man",
@@ -3957,7 +3945,6 @@
       "target": "Heimdall",
       "value": 1
     },
-
     {
       "source": "Odin",
       "target": "Loki",
@@ -4038,7 +4025,6 @@
       "target": "Ego",
       "value": 2
     },
-
     {
       "source": "Thor",
       "target": "Valkyrie",
@@ -4384,7 +4370,6 @@
       "target": "Howard Stark",
       "value": 1
     },
-
     {
       "source": "Captain America",
       "target": "Groot",
