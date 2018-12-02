@@ -1,0 +1,4463 @@
+{
+  "nodes": [
+    {
+      "id": "Avengers: Infinity War",
+      "group": 0
+    },
+    {
+      "id": "Black Panther (Movie)",
+      "group": 0
+    },
+    {
+      "id": "Thor: Ragnarok",
+      "group": 0
+    },
+    {
+      "id": "Spider-Man: Homecoming",
+      "group": 0
+    },
+    {
+      "id": "Guardians of the Galaxy Vol. 2",
+      "group": 0
+    },
+    {
+      "id": "Doctor Strange (Movie)",
+      "group": 0
+    },
+    {
+      "id": "Captain America: Civil War",
+      "group": 0
+    },
+    {
+      "id": "Ant-Man (Movie)",
+      "group": 0
+    },
+    {
+      "id": "Avengers: Age of Ultron",
+      "group": 0
+    },
+    {
+      "id": "Guardians of the Galaxy",
+      "group": 0
+    },
+    {
+      "id": "Captain America: The Winter Soldier",
+      "group": 0
+    },
+    {
+      "id": "Thor: The Dark World",
+      "group": 0
+    },
+    {
+      "id": "Iron Man 3",
+      "group": 0
+    },
+    {
+      "id": "The Avengers",
+      "group": 0
+    },
+    {
+      "id": "Captain America: The First Avenger",
+      "group": 0
+    },
+    {
+      "id": "Thor (Movie)",
+      "group": 0
+    },
+    {
+      "id": "Iron Man 2",
+      "group": 0
+    },
+    {
+      "id": "The Incredible Hulk",
+      "group": 0
+    },
+    {
+      "id": "Iron Man (Movie)",
+      "group": 0
+    },
+    {
+      "id": "Rocket",
+      "group": 1,
+      "squad": 2,
+      "photo": "character_profile_pic/rocket.jpg"
+    },
+    {
+      "id": "Groot",
+      "group": 1,
+      "squad": 2,
+      "photo": "character_profile_pic/groot.jpg"
+    },
+    {
+      "id": "Shuri",
+      "group": 1,
+      "squad": 0,
+      "relative": 0,
+      "photo": "character_profile_pic/shuri.jpg"
+    },
+    {
+      "id": "Black Panther",
+      "group": 1,
+      "relative": 0,
+      "squad": 1,
+      "photo": "character_profile_pic/black_panther.jpg"
+    },
+    {
+      "id": "Erik Killmonger",
+      "group": 1,
+      "relative": 0,
+      "squad": 0,
+      "photo": "character_profile_pic/erik_killmonger.jpg"
+    },
+    {
+      "id": "War Machine",
+      "group": 1,
+      "squad": 1,
+      "photo": "character_profile_pic/war_machine.jpg"
+    },
+    {
+      "id": "Shocker",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/shocker.jpg"
+    },
+    {
+      "id": "Ant-Man",
+      "group": 1,
+      "squad": 1,
+      "photo": "character_profile_pic/ant_man.jpg"
+    },
+    {
+      "id": "Proxima Midnight",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/proxima_midnight.jpg"
+    },
+    {
+      "id": "Ultron",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/ultron.jpg"
+    },
+    {
+      "id": "Wong",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/wong.jpg"
+    },
+    {
+      "id": "Iron Man",
+      "group": 1,
+      "squad": 1,
+      "photo": "character_profile_pic/iron_man.jpg"
+    },
+    {
+      "id": "Winter Soldier",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/winter_soldier.jpg"
+    },
+    {
+      "id": "Loki",
+      "group": 1,
+      "squad": 0,
+      "relative": 1,
+      "photo": "character_profile_pic/loki.jpg"
+    },
+    {
+      "id": "Thor",
+      "group": 1,
+      "relative": 1,
+      "squad": 1,
+      "photo": "character_profile_pic/thor.jpg"
+    },
+    {
+      "id": "Odin",
+      "group": 1,
+      "relative": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/odin.jpg"
+    },
+    {
+      "id": "Hela",
+      "group": 1,
+      "relative": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/hela.jpg"
+    },
+    {
+      "id": "Valkyrie",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/valkyrie.jpg"
+    },
+    {
+      "id": "Mantis",
+      "group": 1,
+      "squad": 2,
+      "photo": "character_profile_pic/mantis.jpg"
+    },
+    {
+      "id": "Yondu",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/yondu.jpg"
+    },
+    {
+      "id": "Vision",
+      "group": 1,
+      "squad": 1,
+      "photo": "character_profile_pic/vision.jpg"
+    },
+    {
+      "id": "Nakia",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/nakia.jpg"
+    },
+    {
+      "id": "Spider-Man",
+      "group": 1,
+      "squad": 1,
+      "photo": "character_profile_pic/spider_man.jpg"
+    },
+    {
+      "id": "Nebula",
+      "group": 1,
+      "squad": 0,
+      "relative": 2,
+      "photo": "character_profile_pic/nebula.jpg"
+    },
+    {
+      "id": "Gamora",
+      "group": 1,
+      "relative": 2,
+      "squad": 2,
+      "photo": "character_profile_pic/gamora.jpg"
+    },
+    {
+      "id": "Thanos",
+      "group": 1,
+      "relative": 2,
+      "squad": 0,
+      "photo": "character_profile_pic/thanos.jpg"
+    },
+    {
+      "id": "Vulture",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/vulture.jpg"
+    },
+    {
+      "id": "Hawkeye",
+      "group": 1,
+      "squad": 1,
+      "photo": "character_profile_pic/hawkeye.jpg"
+    },
+    {
+      "id": "Hulk",
+      "group": 1,
+      "squad": 1,
+      "photo": "character_profile_pic/hulk.jpg"
+    },
+    {
+      "id": "Falcon",
+      "group": 1,
+      "squad": 1,
+      "photo": "character_profile_pic/falcon.jpg"
+    },
+    {
+      "id": "Black Widow",
+      "group": 1,
+      "squad": 1,
+      "photo": "character_profile_pic/black_widow.jpg"
+    },
+    {
+      "id": "Okoye",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/okoye.jpg"
+    },
+    {
+      "id": "Cull Obsidian",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/cull_obsidian.jpg"
+    },
+    {
+      "id": "Ulysses Klaue",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/ulysses_klaue.jpg"
+    },
+    {
+      "id": "Doctor Strange",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/doctor_strange.jpg"
+    },
+    {
+      "id": "Grandmaster",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/grandmaster.jpg"
+    },
+    {
+      "id": "The Collector",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/the_collector.jpg"
+    },
+    {
+      "id": "Dormammu",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/dormammu.jpg"
+    },
+    {
+      "id": "Ebony Maw",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/ebony_maw.jpg"
+    },
+    {
+      "id": "Corvus Glaive",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/corvus_glaive.jpg"
+    },
+    {
+      "id": "Doctor Erik Selvig",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/doctor_erik_selvig.jpg"
+    },
+    {
+      "id": "Drax",
+      "group": 1,
+      "squad": 2,
+      "photo": "character_profile_pic/drax.jpg"
+    },
+    {
+      "id": "Heimdall",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/heimdall.jpg"
+    },
+    {
+      "id": "Scarlet Witch",
+      "group": 1,
+      "squad": 1,
+      "photo": "character_profile_pic/scarlet_witch.jpg"
+    },
+    {
+      "id": "Star-Lord",
+      "group": 1,
+      "squad": 2,
+      "relative": 3,
+      "photo": "character_profile_pic/star_lord.jpg"
+    },
+    {
+      "id": "Ego",
+      "group": 1,
+      "relative": 3,
+      "squad": 0,
+      "photo": "character_profile_pic/ego.jpg"
+    },
+    {
+      "id": "Skurge",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/skurge.jpg"
+    },
+    {
+      "id": "Howard Stark",
+      "group": 1,
+      "squad": 0,
+      "photo": "character_profile_pic/howard_stark.jpg"
+    },
+    {
+      "id": "Captain America",
+      "group": 1,
+      "squad": 1,
+      "photo": "character_profile_pic/captain_america.jpg"
+    }
+  ],
+  "links": [
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Hulk",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Winter Soldier",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Corvus Glaive",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Doctor Strange",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Drax",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Ebony Maw",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Gamora",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Groot",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Heimdall",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "War Machine",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Loki",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Mantis",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Black Widow",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Nebula",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Okoye",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Spider-Man",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Star-Lord",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Proxima Midnight",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Rocket",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Falcon",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Shuri",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Captain America",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Black Panther",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Thanos",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "The Collector",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Thor",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Iron Man",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Vision",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Scarlet Witch",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Infinity War",
+      "target": "Wong",
+      "value": 0
+    },
+    {
+      "source": "Black Panther (Movie)",
+      "target": "Black Panther",
+      "value": 0
+    },
+    {
+      "source": "Black Panther (Movie)",
+      "target": "Erik Killmonger",
+      "value": 0
+    },
+    {
+      "source": "Black Panther (Movie)",
+      "target": "Nakia",
+      "value": 0
+    },
+    {
+      "source": "Black Panther (Movie)",
+      "target": "Okoye",
+      "value": 0
+    },
+    {
+      "source": "Black Panther (Movie)",
+      "target": "Shuri",
+      "value": 0
+    },
+    {
+      "source": "Black Panther (Movie)",
+      "target": "Ulysses Klaue",
+      "value": 0
+    },
+    {
+      "source": "Black Panther (Movie)",
+      "target": "Winter Soldier",
+      "value": 0
+    },
+    {
+      "source": "Thor: Ragnarok",
+      "target": "Thor",
+      "value": 0
+    },
+    {
+      "source": "Thor: Ragnarok",
+      "target": "Hulk",
+      "value": 0
+    },
+    {
+      "source": "Thor: Ragnarok",
+      "target": "Valkyrie",
+      "value": 0
+    },
+    {
+      "source": "Thor: Ragnarok",
+      "target": "Hela",
+      "value": 0
+    },
+    {
+      "source": "Thor: Ragnarok",
+      "target": "Loki",
+      "value": 0
+    },
+    {
+      "source": "Thor: Ragnarok",
+      "target": "Skurge",
+      "value": 0
+    },
+    {
+      "source": "Thor: Ragnarok",
+      "target": "Grandmaster",
+      "value": 0
+    },
+    {
+      "source": "Thor: Ragnarok",
+      "target": "Heimdall",
+      "value": 0
+    },
+    {
+      "source": "Thor: Ragnarok",
+      "target": "Odin",
+      "value": 0
+    },
+    {
+      "source": "Thor: Ragnarok",
+      "target": "Doctor Strange",
+      "value": 0
+    },
+    {
+      "source": "Spider-Man: Homecoming",
+      "target": "Spider-Man",
+      "value": 0
+    },
+    {
+      "source": "Spider-Man: Homecoming",
+      "target": "Iron Man",
+      "value": 0
+    },
+    {
+      "source": "Spider-Man: Homecoming",
+      "target": "Vulture",
+      "value": 0
+    },
+    {
+      "source": "Spider-Man: Homecoming",
+      "target": "Shocker",
+      "value": 0
+    },
+    {
+      "source": "Spider-Man: Homecoming",
+      "target": "Captain America",
+      "value": 0
+    },
+    {
+      "source": "Guardians of the Galaxy Vol. 2",
+      "target": "Star-Lord",
+      "value": 0
+    },
+    {
+      "source": "Guardians of the Galaxy Vol. 2",
+      "target": "Gamora",
+      "value": 0
+    },
+    {
+      "source": "Guardians of the Galaxy Vol. 2",
+      "target": "Rocket",
+      "value": 0
+    },
+    {
+      "source": "Guardians of the Galaxy Vol. 2",
+      "target": "Groot",
+      "value": 0
+    },
+    {
+      "source": "Guardians of the Galaxy Vol. 2",
+      "target": "Drax",
+      "value": 0
+    },
+    {
+      "source": "Guardians of the Galaxy Vol. 2",
+      "target": "Yondu",
+      "value": 0
+    },
+    {
+      "source": "Guardians of the Galaxy Vol. 2",
+      "target": "Mantis",
+      "value": 0
+    },
+    {
+      "source": "Guardians of the Galaxy Vol. 2",
+      "target": "Nebula",
+      "value": 0
+    },
+    {
+      "source": "Guardians of the Galaxy Vol. 2",
+      "target": "Ego",
+      "value": 0
+    },
+    {
+      "source": "Doctor Strange (Movie)",
+      "target": "Doctor Strange",
+      "value": 0
+    },
+    {
+      "source": "Doctor Strange (Movie)",
+      "target": "Wong",
+      "value": 0
+    },
+    {
+      "source": "Doctor Strange (Movie)",
+      "target": "Dormammu",
+      "value": 0
+    },
+    {
+      "source": "Doctor Strange (Movie)",
+      "target": "Thor",
+      "value": 0
+    },
+    {
+      "source": "Captain America: Civil War",
+      "target": "Captain America",
+      "value": 0
+    },
+    {
+      "source": "Captain America: Civil War",
+      "target": "Iron Man",
+      "value": 0
+    },
+    {
+      "source": "Captain America: Civil War",
+      "target": "Black Widow",
+      "value": 0
+    },
+    {
+      "source": "Captain America: Civil War",
+      "target": "Winter Soldier",
+      "value": 0
+    },
+    {
+      "source": "Captain America: Civil War",
+      "target": "Falcon",
+      "value": 0
+    },
+    {
+      "source": "Captain America: Civil War",
+      "target": "War Machine",
+      "value": 0
+    },
+    {
+      "source": "Captain America: Civil War",
+      "target": "Hawkeye",
+      "value": 0
+    },
+    {
+      "source": "Captain America: Civil War",
+      "target": "Black Panther",
+      "value": 0
+    },
+    {
+      "source": "Captain America: Civil War",
+      "target": "Vision",
+      "value": 0
+    },
+    {
+      "source": "Captain America: Civil War",
+      "target": "Scarlet Witch",
+      "value": 0
+    },
+    {
+      "source": "Captain America: Civil War",
+      "target": "Ant-Man",
+      "value": 0
+    },
+    {
+      "source": "Ant-Man (Movie)",
+      "target": "Ant-Man",
+      "value": 0
+    },
+    {
+      "source": "Captain America: Civil War",
+      "target": "Spider-Man",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Age of Ultron",
+      "target": "Iron Man",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Age of Ultron",
+      "target": "Thor",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Age of Ultron",
+      "target": "Hulk",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Age of Ultron",
+      "target": "Captain America",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Age of Ultron",
+      "target": "Black Widow",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Age of Ultron",
+      "target": "Ultron",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Age of Ultron",
+      "target": "Hawkeye",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Age of Ultron",
+      "target": "War Machine",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Age of Ultron",
+      "target": "Falcon",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Age of Ultron",
+      "target": "Scarlet Witch",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Age of Ultron",
+      "target": "Doctor Erik Selvig",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Age of Ultron",
+      "target": "Heimdall",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Age of Ultron",
+      "target": "Ulysses Klaue",
+      "value": 0
+    },
+    {
+      "source": "Avengers: Age of Ultron",
+      "target": "Thanos",
+      "value": 0
+    },
+    {
+      "source": "Guardians of the Galaxy",
+      "target": "Star-Lord",
+      "value": 0
+    },
+    {
+      "source": "Guardians of the Galaxy",
+      "target": "Gamora",
+      "value": 0
+    },
+    {
+      "source": "Guardians of the Galaxy",
+      "target": "Rocket",
+      "value": 0
+    },
+    {
+      "source": "Guardians of the Galaxy",
+      "target": "Groot",
+      "value": 0
+    },
+    {
+      "source": "Guardians of the Galaxy",
+      "target": "Drax",
+      "value": 0
+    },
+    {
+      "source": "Guardians of the Galaxy",
+      "target": "Yondu",
+      "value": 0
+    },
+    {
+      "source": "Guardians of the Galaxy",
+      "target": "Nebula",
+      "value": 0
+    },
+    {
+      "source": "Guardians of the Galaxy",
+      "target": "The Collector",
+      "value": 0
+    },
+    {
+      "source": "Captain America: The Winter Soldier",
+      "target": "Captain America",
+      "value": 0
+    },
+    {
+      "source": "Captain America: The Winter Soldier",
+      "target": "Winter Soldier",
+      "value": 0
+    },
+    {
+      "source": "Captain America: The Winter Soldier",
+      "target": "Black Widow",
+      "value": 0
+    },
+    {
+      "source": "Captain America: The Winter Soldier",
+      "target": "Falcon",
+      "value": 0
+    },
+    {
+      "source": "Captain America: The Winter Soldier",
+      "target": "Scarlet Witch",
+      "value": 0
+    },
+    {
+      "source": "Thor: The Dark World",
+      "target": "Thor",
+      "value": 0
+    },
+    {
+      "source": "Thor: The Dark World",
+      "target": "Heimdall",
+      "value": 0
+    },
+    {
+      "source": "Thor: The Dark World",
+      "target": "Loki",
+      "value": 0
+    },
+    {
+      "source": "Thor: The Dark World",
+      "target": "Odin",
+      "value": 0
+    },
+    {
+      "source": "Thor: The Dark World",
+      "target": "The Collector",
+      "value": 0
+    },
+    {
+      "source": "Thor: The Dark World",
+      "target": "Doctor Erik Selvig",
+      "value": 0
+    },
+    {
+      "source": "Iron Man 3",
+      "target": "Iron Man",
+      "value": 0
+    },
+    {
+      "source": "Iron Man 3",
+      "target": "War Machine",
+      "value": 0
+    },
+    {
+      "source": "Iron Man 3",
+      "target": "Hulk",
+      "value": 0
+    },
+    {
+      "source": "The Avengers",
+      "target": "Iron Man",
+      "value": 0
+    },
+    {
+      "source": "The Avengers",
+      "target": "Captain America",
+      "value": 0
+    },
+    {
+      "source": "The Avengers",
+      "target": "Hulk",
+      "value": 0
+    },
+    {
+      "source": "The Avengers",
+      "target": "Hawkeye",
+      "value": 0
+    },
+    {
+      "source": "The Avengers",
+      "target": "Thor",
+      "value": 0
+    },
+    {
+      "source": "The Avengers",
+      "target": "Black Widow",
+      "value": 0
+    },
+    {
+      "source": "The Avengers",
+      "target": "Loki",
+      "value": 0
+    },
+    {
+      "source": "The Avengers",
+      "target": "Doctor Erik Selvig",
+      "value": 0
+    },
+    {
+      "source": "The Avengers",
+      "target": "Thanos",
+      "value": 0
+    },
+    {
+      "source": "Captain America: The First Avenger",
+      "target": "Captain America",
+      "value": 0
+    },
+    {
+      "source": "Captain America: The First Avenger",
+      "target": "Winter Soldier",
+      "value": 0
+    },
+    {
+      "source": "Thor (Movie)",
+      "target": "Thor",
+      "value": 0
+    },
+    {
+      "source": "Thor (Movie)",
+      "target": "Odin",
+      "value": 0
+    },
+    {
+      "source": "Thor (Movie)",
+      "target": "Heimdall",
+      "value": 0
+    },
+    {
+      "source": "Thor (Movie)",
+      "target": "Loki",
+      "value": 0
+    },
+    {
+      "source": "Thor (Movie)",
+      "target": "Doctor Erik Selvig",
+      "value": 0
+    },
+    {
+      "source": "Thor (Movie)",
+      "target": "Hawkeye",
+      "value": 0
+    },
+    {
+      "source": "Iron Man 2",
+      "target": "Iron Man",
+      "value": 0
+    },
+    {
+      "source": "Iron Man 2",
+      "target": "War Machine",
+      "value": 0
+    },
+    {
+      "source": "Iron Man 2",
+      "target": "Black Widow",
+      "value": 0
+    },
+    {
+      "source": "The Incredible Hulk",
+      "target": "Hulk",
+      "value": 0
+    },
+    {
+      "source": "The Incredible Hulk",
+      "target": "Iron Man",
+      "value": 0
+    },
+    {
+      "source": "Iron Man (Movie)",
+      "target": "Iron Man",
+      "value": 0
+    },
+    {
+      "source": "Iron Man (Movie)",
+      "target": "War Machine",
+      "value": 0
+    },
+    {
+      "source": "Rocket",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Star-Lord",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Gamora",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Drax",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Mantis",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Nebula",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Yondu",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Captain America",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Vision",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Black Panther",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Okoye",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Shuri",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Black Widow",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Scarlet Witch",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Falcon",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "War Machine",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Winter Soldier",
+      "value": 1
+    },
+    {
+      "source": "Rocket",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Rocket",
+      "target": "Ego",
+      "value": 2
+    },
+    {
+      "source": "Rocket",
+      "target": "Proxima Midnight",
+      "value": 2
+    },
+    {
+      "source": "Rocket",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Rocket",
+      "target": "Corvus Glaive",
+      "value": 2
+    },
+    {
+      "source": "Groot",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Star-Lord",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Gamora",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Drax",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Mantis",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Nebula",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Yondu",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Captain America",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Black Panther",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Scarlet Witch",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Falcon",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "War Machine",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Okoye",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Black Widow",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Winter Soldier",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Vision",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Shuri",
+      "value": 1
+    },
+    {
+      "source": "Groot",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Groot",
+      "target": "Ego",
+      "value": 2
+    },
+    {
+      "source": "Groot",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Groot",
+      "target": "Proxima Midnight",
+      "value": 2
+    },
+    {
+      "source": "Groot",
+      "target": "Corvus Glaive",
+      "value": 2
+    },
+    {
+      "source": "Shuri",
+      "target": "Black Panther",
+      "value": 1
+    },
+    {
+      "source": "Shuri",
+      "target": "Okoye",
+      "value": 1
+    },
+    {
+      "source": "Shuri",
+      "target": "Nakia",
+      "value": 1
+    },
+    {
+      "source": "Shuri",
+      "target": "Winter Soldier",
+      "value": 1
+    },
+    {
+      "source": "Shuri",
+      "target": "Captain America",
+      "value": 1
+    },
+    {
+      "source": "Shuri",
+      "target": "Vision",
+      "value": 1
+    },
+    {
+      "source": "Shuri",
+      "target": "Scarlet Witch",
+      "value": 1
+    },
+    {
+      "source": "Shuri",
+      "target": "Falcon",
+      "value": 1
+    },
+    {
+      "source": "Shuri",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Shuri",
+      "target": "Black Widow",
+      "value": 1
+    },
+    {
+      "source": "Shuri",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Shuri",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Shuri",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Shuri",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Shuri",
+      "target": "Erik Killmonger",
+      "value": 2
+    },
+    {
+      "source": "Shuri",
+      "target": "Corvus Glaive",
+      "value": 2
+    },
+    {
+      "source": "Shuri",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Shuri",
+      "target": "Proxima Midnight",
+      "value": 2
+    },
+    {
+      "source": "War Machine",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "War Machine",
+      "target": "Captain America",
+      "value": 1
+    },
+    {
+      "source": "War Machine",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "War Machine",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "War Machine",
+      "target": "Black Widow",
+      "value": 1
+    },
+    {
+      "source": "War Machine",
+      "target": "Hawkeye",
+      "value": 1
+    },
+    {
+      "source": "War Machine",
+      "target": "Scarlet Witch",
+      "value": 1
+    },
+    {
+      "source": "War Machine",
+      "target": "Vision",
+      "value": 1
+    },
+    {
+      "source": "War Machine",
+      "target": "Falcon",
+      "value": 1
+    },
+    {
+      "source": "War Machine",
+      "target": "Spider-Man",
+      "value": 1
+    },
+    {
+      "source": "War Machine",
+      "target": "Black Panther",
+      "value": 1
+    },
+    {
+      "source": "War Machine",
+      "target": "Okoye",
+      "value": 1
+    },
+    {
+      "source": "War Machine",
+      "target": "Shuri",
+      "value": 1
+    },
+    {
+      "source": "War Machine",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "War Machine",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "War Machine",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "War Machine",
+      "target": "Ultron",
+      "value": 2
+    },
+    {
+      "source": "War Machine",
+      "target": "Proxima Midnight",
+      "value": 2
+    },
+    {
+      "source": "War Machine",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "War Machine",
+      "target": "Corvus Glaive",
+      "value": 2
+    },
+    {
+      "source": "War Machine",
+      "target": "Ulysses Klaue",
+      "value": 2
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Thanos",
+      "value": 1
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Corvus Glaive",
+      "value": 1
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Cull Obsidian",
+      "value": 1
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Ebony Maw",
+      "value": 1
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Loki",
+      "value": 2
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Heimdall",
+      "value": 2
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Vision",
+      "value": 2
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Captain America",
+      "value": 2
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Black Widow",
+      "value": 2
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Hulk",
+      "value": 2
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Thor",
+      "value": 2
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Falcon",
+      "value": 2
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Scarlet Witch",
+      "value": 2
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Black Panther",
+      "value": 2
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Okoye",
+      "value": 2
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Shuri",
+      "value": 2
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Rocket",
+      "value": 2
+    },
+    {
+      "source": "Proxima Midnight",
+      "target": "Groot",
+      "value": 2
+    },
+    {
+      "source": "Ultron",
+      "target": "Ulysses Klaue",
+      "value": 1
+    },
+    {
+      "source": "Ultron",
+      "target": "Scarlet Witch",
+      "value": 1
+    },
+    {
+      "source": "Ultron",
+      "target": "Iron Man",
+      "value": 2
+    },
+    {
+      "source": "Ultron",
+      "target": "Hulk",
+      "value": 2
+    },
+    {
+      "source": "Ultron",
+      "target": "Captain America",
+      "value": 2
+    },
+    {
+      "source": "Ultron",
+      "target": "Hawkeye",
+      "value": 2
+    },
+    {
+      "source": "Ultron",
+      "target": "Vision",
+      "value": 2
+    },
+    {
+      "source": "Ultron",
+      "target": "War Machine",
+      "value": 2
+    },
+    {
+      "source": "Ultron",
+      "target": "Thor",
+      "value": 2
+    },
+    {
+      "source": "Ultron",
+      "target": "Black Widow",
+      "value": 2
+    },
+    {
+      "source": "Ultron",
+      "target": "Scarlet Witch",
+      "value": 2
+    },
+    {
+      "source": "Wong",
+      "target": "Doctor Strange",
+      "value": 1
+    },
+    {
+      "source": "Wong",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "Wong",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Wong",
+      "target": "Spider-Man",
+      "value": 1
+    },
+    {
+      "source": "Wong",
+      "target": "Dormammu",
+      "value": 2
+    },
+    {
+      "source": "Wong",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Wong",
+      "target": "Ebony Maw",
+      "value": 2
+    },
+    {
+      "source": "Wong",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Iron Man",
+      "target": "Captain America",
+      "value": 1
+    },
+    {
+      "source": "Iron Man",
+      "target": "War Machine",
+      "value": 1
+    },
+    {
+      "source": "Iron Man",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Iron Man",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Iron Man",
+      "target": "Black Widow",
+      "value": 1
+    },
+    {
+      "source": "Iron Man",
+      "target": "Vision",
+      "value": 1
+    },
+    {
+      "source": "Iron Man",
+      "target": "Spider-Man",
+      "value": 1
+    },
+    {
+      "source": "Iron Man",
+      "target": "Doctor Strange",
+      "value": 1
+    },
+    {
+      "source": "Iron Man",
+      "target": "Falcon",
+      "value": 1
+    },
+    {
+      "source": "Iron Man",
+      "target": "Wong",
+      "value": 1
+    },
+    {
+      "source": "Iron Man",
+      "target": "Hawkeye",
+      "value": 1
+    },
+    {
+      "source": "Iron Man",
+      "target": "Scarlet Witch",
+      "value": 1
+    },
+    {
+      "source": "Iron Man",
+      "target": "Star-Lord",
+      "value": 1
+    },
+    {
+      "source": "Iron Man",
+      "target": "Mantis",
+      "value": 1
+    },
+    {
+      "source": "Iron Man",
+      "target": "Drax",
+      "value": 1
+    },
+    {
+      "source": "Iron Man",
+      "target": "Nebula",
+      "value": 1
+    },
+    {
+      "source": "Iron Man",
+      "target": "Ultron",
+      "value": 2
+    },
+    {
+      "source": "Iron Man",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Iron Man",
+      "target": "Ebony Maw",
+      "value": 2
+    },
+    {
+      "source": "Iron Man",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Iron Man",
+      "target": "Loki",
+      "value": 2
+    },
+    {
+      "source": "Iron Man",
+      "target": "Ulysses Klaue",
+      "value": 2
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Captain America",
+      "value": 1
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Ulysses Klaue",
+      "value": 1
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Falcon",
+      "value": 1
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Black Widow",
+      "value": 1
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Hawkeye",
+      "value": 1
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Scarlet Witch",
+      "value": 1
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "War Machine",
+      "value": 1
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Spider-Man",
+      "value": 1
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Vision",
+      "value": 1
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Shuri",
+      "value": 1
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Black Panther",
+      "value": 1
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Okoye",
+      "value": 1
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Ebony Maw",
+      "value": 2
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Proxima Midnight",
+      "value": 2
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Winter Soldier",
+      "target": "Corvus Glaive",
+      "value": 2
+    },
+    {
+      "source": "Loki",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Loki",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Loki",
+      "target": "Valkyrie",
+      "value": 1
+    },
+    {
+      "source": "Loki",
+      "target": "Heimdall",
+      "value": 1
+    },
+    {
+      "source": "Loki",
+      "target": "Skurge",
+      "value": 1
+    },
+    {
+      "source": "Loki",
+      "target": "Grandmaster",
+      "value": 1
+    },
+    {
+      "source": "Loki",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Loki",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Loki",
+      "target": "Proxima Midnight",
+      "value": 2
+    },
+    {
+      "source": "Loki",
+      "target": "Ebony Maw",
+      "value": 2
+    },
+    {
+      "source": "Loki",
+      "target": "Corvus Glaive",
+      "value": 2
+    },
+    {
+      "source": "Loki",
+      "target": "Doctor Erik Selvig",
+      "value": 2
+    },
+    {
+      "source": "Loki",
+      "target": "Hela",
+      "value": 2
+    },
+    {
+      "source": "Loki",
+      "target": "Grandmaster",
+      "value": 2
+    },
+    {
+      "source": "Loki",
+      "target": "Heimdall",
+      "value": 2
+    },
+    {
+      "source": "Loki",
+      "target": "Thor",
+      "value": 2
+    },
+    {
+      "source": "Loki",
+      "target": "Hulk",
+      "value": 2
+    },
+    {
+      "source": "Loki",
+      "target": "Iron Man",
+      "value": 2
+    },
+    {
+      "source": "Loki",
+      "target": "Captain America",
+      "value": 2
+    },
+    {
+      "source": "Loki",
+      "target": "Black Widow",
+      "value": 2
+    },
+    {
+      "source": "Loki",
+      "target": "Hawkeye",
+      "value": 2
+    },
+    {
+      "source": "Loki",
+      "target": "Doctor Strange",
+      "value": 2
+    },
+    {
+      "source": "Valkyrie",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Valkyrie",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Valkyrie",
+      "target": "Loki",
+      "value": 1
+    },
+    {
+      "source": "Valkyrie",
+      "target": "Skurge",
+      "value": 1
+    },
+    {
+      "source": "Valkyrie",
+      "target": "Grandmaster",
+      "value": 1
+    },
+    {
+      "source": "Valkyrie",
+      "target": "Hela",
+      "value": 2
+    },
+    {
+      "source": "Valkyrie",
+      "target": "Grandmaster",
+      "value": 2
+    },
+    {
+      "source": "Valkyrie",
+      "target": "Skurge",
+      "value": 2
+    },
+    {
+      "source": "Mantis",
+      "target": "Drax",
+      "value": 1
+    },
+    {
+      "source": "Mantis",
+      "target": "Star-Lord",
+      "value": 1
+    },
+    {
+      "source": "Mantis",
+      "target": "Gamora",
+      "value": 1
+    },
+    {
+      "source": "Mantis",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Mantis",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Mantis",
+      "target": "Yondu",
+      "value": 1
+    },
+    {
+      "source": "Mantis",
+      "target": "Nebula",
+      "value": 1
+    },
+    {
+      "source": "Mantis",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "Mantis",
+      "target": "Doctor Strange",
+      "value": 1
+    },
+    {
+      "source": "Mantis",
+      "target": "Spider-Man",
+      "value": 1
+    },
+    {
+      "source": "Mantis",
+      "target": "Ego",
+      "value": 2
+    },
+    {
+      "source": "Mantis",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Yondu",
+      "target": "Star-Lord",
+      "value": 1
+    },
+    {
+      "source": "Yondu",
+      "target": "Gamora",
+      "value": 1
+    },
+    {
+      "source": "Yondu",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Yondu",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Yondu",
+      "target": "Drax",
+      "value": 1
+    },
+    {
+      "source": "Yondu",
+      "target": "Mantis",
+      "value": 1
+    },
+    {
+      "source": "Yondu",
+      "target": "Nebula",
+      "value": 1
+    },
+    {
+      "source": "Yondu",
+      "target": "Ego",
+      "value": 2
+    },
+    {
+      "source": "Vision",
+      "target": "Scarlet Witch",
+      "value": 1
+    },
+    {
+      "source": "Vision",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "Vision",
+      "target": "Black Widow",
+      "value": 1
+    },
+    {
+      "source": "Vision",
+      "target": "War Machine",
+      "value": 1
+    },
+    {
+      "source": "Vision",
+      "target": "Spider-Man",
+      "value": 1
+    },
+    {
+      "source": "Vision",
+      "target": "Captain America",
+      "value": 1
+    },
+    {
+      "source": "Vision",
+      "target": "Falcon",
+      "value": 1
+    },
+    {
+      "source": "Vision",
+      "target": "Hawkeye",
+      "value": 1
+    },
+    {
+      "source": "Vision",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Vision",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Vision",
+      "target": "Black Panther",
+      "value": 1
+    },
+    {
+      "source": "Vision",
+      "target": "Okoye",
+      "value": 1
+    },
+    {
+      "source": "Vision",
+      "target": "Winter Soldier",
+      "value": 1
+    },
+    {
+      "source": "Vision",
+      "target": "Shuri",
+      "value": 1
+    },
+    {
+      "source": "Vision",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Vision",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Vision",
+      "target": "Ultron",
+      "value": 2
+    },
+    {
+      "source": "Vision",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Vision",
+      "target": "Corvus Glaive",
+      "value": 2
+    },
+    {
+      "source": "Vision",
+      "target": "Proxima Midnight",
+      "value": 2
+    },
+    {
+      "source": "Vision",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Hela",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Hela",
+      "target": "Loki",
+      "value": 1
+    },
+    {
+      "source": "Hela",
+      "target": "Odin",
+      "value": 1
+    },
+    {
+      "source": "Hela",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Hela",
+      "target": "Valkyrie",
+      "value": 1
+    },
+    {
+      "source": "Hela",
+      "target": "Heimdall",
+      "value": 1
+    },
+    {
+      "source": "Hela",
+      "target": "Skurge",
+      "value": 1
+    },
+    {
+      "source": "Hela",
+      "target": "Odin",
+      "value": 2
+    },
+    {
+      "source": "Hela",
+      "target": "Thor",
+      "value": 2
+    },
+    {
+      "source": "Hela",
+      "target": "Loki",
+      "value": 2
+    },
+    {
+      "source": "Nakia",
+      "target": "Black Panther",
+      "value": 1
+    },
+    {
+      "source": "Nakia",
+      "target": "Okoye",
+      "value": 1
+    },
+    {
+      "source": "Nakia",
+      "target": "Shuri",
+      "value": 1
+    },
+    {
+      "source": "Nakia",
+      "target": "Erik Killmonger",
+      "value": 2
+    },
+    {
+      "source": "Nakia",
+      "target": "Ulysses Klaue",
+      "value": 2
+    },
+    {
+      "source": "Spider-Man",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "Spider-Man",
+      "target": "Captain America",
+      "value": 1
+    },
+    {
+      "source": "Spider-Man",
+      "target": "Doctor Strange",
+      "value": 1
+    },
+    {
+      "source": "Spider-Man",
+      "target": "Star-Lord",
+      "value": 1
+    },
+    {
+      "source": "Spider-Man",
+      "target": "Wong",
+      "value": 1
+    },
+    {
+      "source": "Spider-Man",
+      "target": "Drax",
+      "value": 1
+    },
+    {
+      "source": "Spider-Man",
+      "target": "Mantis",
+      "value": 1
+    },
+    {
+      "source": "Spider-Man",
+      "target": "Hawkeye",
+      "value": 1
+    },
+    {
+      "source": "Spider-Man",
+      "target": "Black Widow",
+      "value": 1
+    },
+    {
+      "source": "Spider-Man",
+      "target": "War Machine",
+      "value": 1
+    },
+    {
+      "source": "Spider-Man",
+      "target": "Winter Soldier",
+      "value": 1
+    },
+    {
+      "source": "Spider-Man",
+      "target": "Vision",
+      "value": 1
+    },
+    {
+      "source": "Spider-Man",
+      "target": "Nebula",
+      "value": 1
+    },
+    {
+      "source": "Spider-Man",
+      "target": "Vulture",
+      "value": 2
+    },
+    {
+      "source": "Spider-Man",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Spider-Man",
+      "target": "Ebony Maw",
+      "value": 2
+    },
+    {
+      "source": "Spider-Man",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Nebula",
+      "target": "Gamora",
+      "value": 1
+    },
+    {
+      "source": "Nebula",
+      "target": "Star-Lord",
+      "value": 1
+    },
+    {
+      "source": "Nebula",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Nebula",
+      "target": "Drax",
+      "value": 1
+    },
+    {
+      "source": "Nebula",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Nebula",
+      "target": "Mantis",
+      "value": 1
+    },
+    {
+      "source": "Nebula",
+      "target": "Yondu",
+      "value": 1
+    },
+    {
+      "source": "Nebula",
+      "target": "Doctor Strange",
+      "value": 1
+    },
+    {
+      "source": "Nebula",
+      "target": "Spider-Man",
+      "value": 1
+    },
+    {
+      "source": "Nebula",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "Nebula",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Nebula",
+      "target": "Ego",
+      "value": 2
+    },
+    {
+      "source": "Vulture",
+      "target": "Shocker",
+      "value": 1
+    },
+    {
+      "source": "Vulture",
+      "target": "Spider-Man",
+      "value": 2
+    },
+    {
+      "source": "Hawkeye",
+      "target": "Black Widow",
+      "value": 1
+    },
+    {
+      "source": "Hawkeye",
+      "target": "Captain America",
+      "value": 1
+    },
+    {
+      "source": "Hawkeye",
+      "target": "Scarlet Witch",
+      "value": 1
+    },
+    {
+      "source": "Hawkeye",
+      "target": "Falcon",
+      "value": 1
+    },
+    {
+      "source": "Hawkeye",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "Hawkeye",
+      "target": "War Machine",
+      "value": 1
+    },
+    {
+      "source": "Hawkeye",
+      "target": "Vision",
+      "value": 1
+    },
+    {
+      "source": "Hawkeye",
+      "target": "Spider-Man",
+      "value": 1
+    },
+    {
+      "source": "Hawkeye",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Hawkeye",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Hawkeye",
+      "target": "Doctor Erik Selvig",
+      "value": 1
+    },
+    {
+      "source": "Hawkeye",
+      "target": "Loki",
+      "value": 2
+    },
+    {
+      "source": "Hawkeye",
+      "target": "Ultron",
+      "value": 2
+    },
+    {
+      "source": "Hawkeye",
+      "target": "Ulysses Klaue",
+      "value": 2
+    },
+    {
+      "source": "Hulk",
+      "target": "Black Widow",
+      "value": 1
+    },
+    {
+      "source": "Hulk",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Hulk",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "Hulk",
+      "target": "Captain America",
+      "value": 1
+    },
+    {
+      "source": "Hulk",
+      "target": "Hawkeye",
+      "value": 1
+    },
+    {
+      "source": "Hulk",
+      "target": "Falcon",
+      "value": 1
+    },
+    {
+      "source": "Hulk",
+      "target": "Spider-Man",
+      "value": 1
+    },
+    {
+      "source": "Hulk",
+      "target": "War Machine",
+      "value": 1
+    },
+    {
+      "source": "Hulk",
+      "target": "Vision",
+      "value": 1
+    },
+    {
+      "source": "Hulk",
+      "target": "Scarlet Witch",
+      "value": 1
+    },
+    {
+      "source": "Hulk",
+      "target": "Loki",
+      "value": 1
+    },
+    {
+      "source": "Hulk",
+      "target": "Valkyrie",
+      "value": 1
+    },
+    {
+      "source": "Hulk",
+      "target": "Heimdall",
+      "value": 1
+    },
+    {
+      "source": "Hulk",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Hulk",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Hulk",
+      "target": "Skurge",
+      "value": 1
+    },
+    {
+      "source": "Hulk",
+      "target": "Ultron",
+      "value": 2
+    },
+    {
+      "source": "Hulk",
+      "target": "Grandmaster",
+      "value": 2
+    },
+    {
+      "source": "Hulk",
+      "target": "Hela",
+      "value": 2
+    },
+    {
+      "source": "Hulk",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Hulk",
+      "target": "Corvus Glaive",
+      "value": 2
+    },
+    {
+      "source": "Hulk",
+      "target": "Proxima Midnight",
+      "value": 2
+    },
+    {
+      "source": "Hulk",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Hulk",
+      "target": "Ebony Maw",
+      "value": 2
+    },
+    {
+      "source": "Hulk",
+      "target": "Loki",
+      "value": 2
+    },
+    {
+      "source": "Hulk",
+      "target": "Ulysses Klaue",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Cull Obsidian",
+      "value": 1
+    },
+    {
+      "source": "Thanos",
+      "target": "Corvus Glaive",
+      "value": 1
+    },
+    {
+      "source": "Thanos",
+      "target": "Ebony Maw",
+      "value": 1
+    },
+    {
+      "source": "Thanos",
+      "target": "Proxima Midnight",
+      "value": 1
+    },
+    {
+      "source": "Thanos",
+      "target": "Loki",
+      "value": 1
+    },
+    {
+      "source": "Thanos",
+      "target": "Iron Man",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Captain America",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Thor",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Hulk",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Black Widow",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Vision",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Scarlet Witch",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "War Machine",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Falcon",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Spider-Man",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Star-Lord",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Drax",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Rocket",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Groot",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Mantis",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Winter Soldier",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Black Panther",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Okoye",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Nebula",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Gamora",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Loki",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Heimdall",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Shuri",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "The Collector",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Doctor Strange",
+      "value": 2
+    },
+    {
+      "source": "Thanos",
+      "target": "Wong",
+      "value": 2
+    },
+    {
+      "source": "Falcon",
+      "target": "Captain America",
+      "value": 1
+    },
+    {
+      "source": "Falcon",
+      "target": "Black Widow",
+      "value": 1
+    },
+    {
+      "source": "Falcon",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "Falcon",
+      "target": "Scarlet Witch",
+      "value": 1
+    },
+    {
+      "source": "Falcon",
+      "target": "Hawkeye",
+      "value": 1
+    },
+    {
+      "source": "Falcon",
+      "target": "Vision",
+      "value": 1
+    },
+    {
+      "source": "Falcon",
+      "target": "Spider-Man",
+      "value": 1
+    },
+    {
+      "source": "Falcon",
+      "target": "War Machine",
+      "value": 1
+    },
+    {
+      "source": "Falcon",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Falcon",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Falcon",
+      "target": "Black Panther",
+      "value": 1
+    },
+    {
+      "source": "Falcon",
+      "target": "Okoye",
+      "value": 1
+    },
+    {
+      "source": "Falcon",
+      "target": "Shuri",
+      "value": 1
+    },
+    {
+      "source": "Falcon",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Falcon",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Falcon",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Falcon",
+      "target": "Corvus Glaive",
+      "value": 2
+    },
+    {
+      "source": "Falcon",
+      "target": "Proxima Midnight",
+      "value": 2
+    },
+    {
+      "source": "Falcon",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Black Widow",
+      "target": "Captain America",
+      "value": 1
+    },
+    {
+      "source": "Black Widow",
+      "target": "Hawkeye",
+      "value": 1
+    },
+    {
+      "source": "Black Widow",
+      "target": "Falcon",
+      "value": 1
+    },
+    {
+      "source": "Black Widow",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Black Widow",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "Black Widow",
+      "target": "Vision",
+      "value": 1
+    },
+    {
+      "source": "Black Widow",
+      "target": "War Machine",
+      "value": 1
+    },
+    {
+      "source": "Black Widow",
+      "target": "Scarlet Witch",
+      "value": 1
+    },
+    {
+      "source": "Black Widow",
+      "target": "Black Panther",
+      "value": 1
+    },
+    {
+      "source": "Black Widow",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Black Widow",
+      "target": "Okoye",
+      "value": 1
+    },
+    {
+      "source": "Black Widow",
+      "target": "Shuri",
+      "value": 1
+    },
+    {
+      "source": "Black Widow",
+      "target": "Spider-Man",
+      "value": 1
+    },
+    {
+      "source": "Black Widow",
+      "target": "Winter Soldier",
+      "value": 1
+    },
+    {
+      "source": "Black Widow",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Black Widow",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Black Widow",
+      "target": "Ultron",
+      "value": 2
+    },
+    {
+      "source": "Black Widow",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Black Widow",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Black Widow",
+      "target": "Corvus Glaive",
+      "value": 2
+    },
+    {
+      "source": "Black Widow",
+      "target": "Proxima Midnight",
+      "value": 2
+    },
+    {
+      "source": "Black Widow",
+      "target": "Ulysses Klaue",
+      "value": 2
+    },
+    {
+      "source": "Okoye",
+      "target": "Black Panther",
+      "value": 1
+    },
+    {
+      "source": "Okoye",
+      "target": "Nakia",
+      "value": 1
+    },
+    {
+      "source": "Okoye",
+      "target": "Shuri",
+      "value": 1
+    },
+    {
+      "source": "Okoye",
+      "target": "Scarlet Witch",
+      "value": 1
+    },
+    {
+      "source": "Okoye",
+      "target": "Black Widow",
+      "value": 1
+    },
+    {
+      "source": "Okoye",
+      "target": "Captain America",
+      "value": 1
+    },
+    {
+      "source": "Okoye",
+      "target": "Winter Soldier",
+      "value": 1
+    },
+    {
+      "source": "Okoye",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Okoye",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Okoye",
+      "target": "Vision",
+      "value": 1
+    },
+    {
+      "source": "Okoye",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Okoye",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Okoye",
+      "target": "Falcon",
+      "value": 1
+    },
+    {
+      "source": "Okoye",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Okoye",
+      "target": "Erik Killmonger",
+      "value": 2
+    },
+    {
+      "source": "Okoye",
+      "target": "Ulysses Klaue",
+      "value": 2
+    },
+    {
+      "source": "Okoye",
+      "target": "Corvus Glaive",
+      "value": 2
+    },
+    {
+      "source": "Okoye",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Okoye",
+      "target": "Proxima Midnight",
+      "value": 2
+    },
+    {
+      "source": "Black Panther",
+      "target": "Nakia",
+      "value": 1
+    },
+    {
+      "source": "Black Panther",
+      "target": "Okoye",
+      "value": 1
+    },
+    {
+      "source": "Black Panther",
+      "target": "Shuri",
+      "value": 1
+    },
+    {
+      "source": "Black Panther",
+      "target": "Captain America",
+      "value": 1
+    },
+    {
+      "source": "Black Panther",
+      "target": "Winter Soldier",
+      "value": 1
+    },
+    {
+      "source": "Black Panther",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "Black Panther",
+      "target": "Black Widow",
+      "value": 1
+    },
+    {
+      "source": "Black Panther",
+      "target": "Falcon",
+      "value": 1
+    },
+    {
+      "source": "Black Panther",
+      "target": "Vision",
+      "value": 1
+    },
+    {
+      "source": "Black Panther",
+      "target": "Scarlet Witch",
+      "value": 1
+    },
+    {
+      "source": "Black Panther",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Black Panther",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Black Panther",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Black Panther",
+      "target": "Spider-Man",
+      "value": 1
+    },
+    {
+      "source": "Black Panther",
+      "target": "War Machine",
+      "value": 1
+    },
+    {
+      "source": "Black Panther",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Black Panther",
+      "target": "Hawkeye",
+      "value": 1
+    },
+    {
+      "source": "Black Panther",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Black Panther",
+      "target": "Erik Killmonger",
+      "value": 2
+    },
+    {
+      "source": "Black Panther",
+      "target": "Ulysses Klaue",
+      "value": 2
+    },
+    {
+      "source": "Black Panther",
+      "target": "Corvus Glaive",
+      "value": 2
+    },
+    {
+      "source": "Black Panther",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Black Panther",
+      "target": "Proxima Midnight",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Thanos",
+      "value": 1
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Corvus Glaive",
+      "value": 1
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Ebony Maw",
+      "value": 1
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Proxima Midnight",
+      "value": 1
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Captain America",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Iron Man",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Hulk",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Thor",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Black Widow",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Loki",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Wong",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Heimdall",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Vision",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Scarlet Witch",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Black Panther",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "War Machine",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Winter Soldier",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Spider-Man",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Doctor Strange",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Groot",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Rocket",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Falcon",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Shuri",
+      "value": 2
+    },
+    {
+      "source": "Cull Obsidian",
+      "target": "Okoye",
+      "value": 2
+    },
+    {
+      "source": "Ulysses Klaue",
+      "target": "Erik Killmonger",
+      "value": 1
+    },
+    {
+      "source": "Ulysses Klaue",
+      "target": "Ultron",
+      "value": 1
+    },
+    {
+      "source": "Ulysses Klaue",
+      "target": "Black Panther",
+      "value": 2
+    },
+    {
+      "source": "Ulysses Klaue",
+      "target": "Nakia",
+      "value": 2
+    },
+    {
+      "source": "Ulysses Klaue",
+      "target": "Okoye",
+      "value": 2
+    },
+    {
+      "source": "Ulysses Klaue",
+      "target": "Ultron",
+      "value": 2
+    },
+    {
+      "source": "Ulysses Klaue",
+      "target": "Scarlet Witch",
+      "value": 2
+    },
+    {
+      "source": "Ulysses Klaue",
+      "target": "Thor",
+      "value": 2
+    },
+    {
+      "source": "Ulysses Klaue",
+      "target": "Hulk",
+      "value": 2
+    },
+    {
+      "source": "Ulysses Klaue",
+      "target": "Iron Man",
+      "value": 2
+    },
+    {
+      "source": "Ulysses Klaue",
+      "target": "Captain America",
+      "value": 2
+    },
+    {
+      "source": "Ulysses Klaue",
+      "target": "Hawkeye",
+      "value": 2
+    },
+    {
+      "source": "Ulysses Klaue",
+      "target": "Black Widow",
+      "value": 2
+    },
+    {
+      "source": "Ulysses Klaue",
+      "target": "Erik Killmonger",
+      "value": 2
+    },
+    {
+      "source": "Ulysses Klaue",
+      "target": "War Machine",
+      "value": 2
+    },
+    {
+      "source": "Erik Killmonger",
+      "target": "Ulysses Klaue",
+      "value": 1
+    },
+    {
+      "source": "Erik Killmonger",
+      "target": "Black Panther",
+      "value": 2
+    },
+    {
+      "source": "Erik Killmonger",
+      "target": "Shuri",
+      "value": 2
+    },
+    {
+      "source": "Erik Killmonger",
+      "target": "Nakia",
+      "value": 2
+    },
+    {
+      "source": "Erik Killmonger",
+      "target": "Okoye",
+      "value": 2
+    },
+    {
+      "source": "Doctor Strange",
+      "target": "Wong",
+      "value": 1
+    },
+    {
+      "source": "Doctor Strange",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "Doctor Strange",
+      "target": "Spider-Man",
+      "value": 1
+    },
+    {
+      "source": "Doctor Strange",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Doctor Strange",
+      "target": "Star-Lord",
+      "value": 1
+    },
+    {
+      "source": "Doctor Strange",
+      "target": "Drax",
+      "value": 1
+    },
+    {
+      "source": "Doctor Strange",
+      "target": "Mantis",
+      "value": 1
+    },
+    {
+      "source": "Doctor Strange",
+      "target": "Nebula",
+      "value": 1
+    },
+    {
+      "source": "Doctor Strange",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Doctor Strange",
+      "target": "Dormammu",
+      "value": 2
+    },
+    {
+      "source": "Doctor Strange",
+      "target": "Ebony Maw",
+      "value": 2
+    },
+    {
+      "source": "Doctor Strange",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Doctor Strange",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Doctor Strange",
+      "target": "Loki",
+      "value": 2
+    },
+    {
+      "source": "Ebony Maw",
+      "target": "Thanos",
+      "value": 1
+    },
+    {
+      "source": "Ebony Maw",
+      "target": "Corvus Glaive",
+      "value": 1
+    },
+    {
+      "source": "Ebony Maw",
+      "target": "Proxima Midnight",
+      "value": 1
+    },
+    {
+      "source": "Ebony Maw",
+      "target": "Cull Obsidian",
+      "value": 1
+    },
+    {
+      "source": "Ebony Maw",
+      "target": "Loki",
+      "value": 2
+    },
+    {
+      "source": "Ebony Maw",
+      "target": "Heimdall",
+      "value": 2
+    },
+    {
+      "source": "Ebony Maw",
+      "target": "Doctor Strange",
+      "value": 2
+    },
+    {
+      "source": "Ebony Maw",
+      "target": "Wong",
+      "value": 2
+    },
+    {
+      "source": "Ebony Maw",
+      "target": "Iron Man",
+      "value": 2
+    },
+    {
+      "source": "Ebony Maw",
+      "target": "Thor",
+      "value": 2
+    },
+    {
+      "source": "Ebony Maw",
+      "target": "Hulk",
+      "value": 2
+    },
+    {
+      "source": "Ebony Maw",
+      "target": "Spider-Man",
+      "value": 2
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Proxima Midnight",
+      "value": 1
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Ebony Maw",
+      "value": 1
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Cull Obsidian",
+      "value": 1
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Thanos",
+      "value": 1
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Scarlet Witch",
+      "value": 2
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Vision",
+      "value": 2
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Captain America",
+      "value": 2
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Shuri",
+      "value": 2
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Loki",
+      "value": 2
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Heimdall",
+      "value": 2
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Thor",
+      "value": 2
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Rocket",
+      "value": 2
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Groot",
+      "value": 2
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Falcon",
+      "value": 2
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Black Panther",
+      "value": 2
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Hulk",
+      "value": 2
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "War Machine",
+      "value": 2
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Winter Soldier",
+      "value": 2
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Okoye",
+      "value": 2
+    },
+    {
+      "source": "Corvus Glaive",
+      "target": "Black Widow",
+      "value": 2
+    },
+    {
+      "source": "Doctor Erik Selvig",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Doctor Erik Selvig",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Doctor Erik Selvig",
+      "target": "Hawkeye",
+      "value": 1
+    },
+    {
+      "source": "Doctor Erik Selvig",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "Doctor Erik Selvig",
+      "target": "Black Widow",
+      "value": 1
+    },
+    {
+      "source": "Doctor Erik Selvig",
+      "target": "Captain America",
+      "value": 1
+    },
+    {
+      "source": "Doctor Erik Selvig",
+      "target": "Loki",
+      "value": 2
+    },
+    {
+      "source": "Drax",
+      "target": "Star-Lord",
+      "value": 1
+    },
+    {
+      "source": "Drax",
+      "target": "Gamora",
+      "value": 1
+    },
+    {
+      "source": "Drax",
+      "target": "Mantis",
+      "value": 1
+    },
+    {
+      "source": "Drax",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Drax",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Drax",
+      "target": "Yondu",
+      "value": 1
+    },
+    {
+      "source": "Drax",
+      "target": "Nebula",
+      "value": 1
+    },
+    {
+      "source": "Drax",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Drax",
+      "target": "Spider-Man",
+      "value": 1
+    },
+    {
+      "source": "Drax",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "Drax",
+      "target": "Doctor Strange",
+      "value": 1
+    },
+    {
+      "source": "Drax",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Drax",
+      "target": "Ego",
+      "value": 2
+    },
+    {
+      "source": "Heimdall",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Heimdall",
+      "target": "Loki",
+      "value": 1
+    },
+    {
+      "source": "Heimdall",
+      "target": "Odin",
+      "value": 1
+    },
+    {
+      "source": "Heimdall",
+      "target": "Skurge",
+      "value": 1
+    },
+    {
+      "source": "Heimdall",
+      "target": "Valkyrie",
+      "value": 1
+    },
+    {
+      "source": "Heimdall",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Heimdall",
+      "target": "Hela",
+      "value": 2
+    },
+    {
+      "source": "Heimdall",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Heimdall",
+      "target": "Loki",
+      "value": 2
+    },
+    {
+      "source": "Heimdall",
+      "target": "Corvus Glaive",
+      "value": 2
+    },
+    {
+      "source": "Heimdall",
+      "target": "Proxima Midnight",
+      "value": 2
+    },
+    {
+      "source": "Heimdall",
+      "target": "Ebony Maw",
+      "value": 2
+    },
+    {
+      "source": "Heimdall",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Vision",
+      "value": 1
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Black Widow",
+      "value": 1
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Captain America",
+      "value": 1
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Shuri",
+      "value": 1
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Okoye",
+      "value": 1
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Black Panther",
+      "value": 1
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Hawkeye",
+      "value": 1
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Falcon",
+      "value": 1
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Winter Soldier",
+      "value": 1
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Spider-Man",
+      "value": 1
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Ultron",
+      "value": 1
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Ultron",
+      "value": 2
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Proxima Midnight",
+      "value": 2
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Corvus Glaive",
+      "value": 2
+    },
+    {
+      "source": "Scarlet Witch",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Odin",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Odin",
+      "target": "Heimdall",
+      "value": 1
+    },
+    {
+      "source": "Odin",
+      "target": "Loki",
+      "value": 2
+    },
+    {
+      "source": "Odin",
+      "target": "Thor",
+      "value": 2
+    },
+    {
+      "source": "Odin",
+      "target": "Hela",
+      "value": 2
+    },
+    {
+      "source": "Star-Lord",
+      "target": "Gamora",
+      "value": 1
+    },
+    {
+      "source": "Star-Lord",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Star-Lord",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Star-Lord",
+      "target": "Drax",
+      "value": 1
+    },
+    {
+      "source": "Star-Lord",
+      "target": "Mantis",
+      "value": 1
+    },
+    {
+      "source": "Star-Lord",
+      "target": "Nebula",
+      "value": 1
+    },
+    {
+      "source": "Star-Lord",
+      "target": "Yondu",
+      "value": 1
+    },
+    {
+      "source": "Star-Lord",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "Star-Lord",
+      "target": "Spider-Man",
+      "value": 1
+    },
+    {
+      "source": "Star-Lord",
+      "target": "Doctor Strange",
+      "value": 1
+    },
+    {
+      "source": "Star-Lord",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Star-Lord",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Star-Lord",
+      "target": "Ego",
+      "value": 2
+    },
+    {
+      "source": "Thor",
+      "target": "Valkyrie",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Loki",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Heimdall",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Doctor Erik Selvig",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Captain America",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Black Widow",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Scarlet Witch",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Vision",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "War Machine",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Falcon",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Valkyrie",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Star-Lord",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Hawkeye",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Gamora",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Drax",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Mantis",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Winter Soldier",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Okoye",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Shuri",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Black Panther",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Doctor Strange",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Skurge",
+      "value": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Thor",
+      "target": "Corvus Glaive",
+      "value": 2
+    },
+    {
+      "source": "Thor",
+      "target": "Proxima Midnight",
+      "value": 2
+    },
+    {
+      "source": "Thor",
+      "target": "Cull Obsidian",
+      "value": 2
+    },
+    {
+      "source": "Thor",
+      "target": "Ebony Maw",
+      "value": 2
+    },
+    {
+      "source": "Thor",
+      "target": "Grandmaster",
+      "value": 2
+    },
+    {
+      "source": "Thor",
+      "target": "Hela",
+      "value": 2
+    },
+    {
+      "source": "Thor",
+      "target": "Loki",
+      "value": 2
+    },
+    {
+      "source": "Thor",
+      "target": "Ultron",
+      "value": 2
+    },
+    {
+      "source": "Thor",
+      "target": "Ulysses Klaue",
+      "value": 2
+    },
+    {
+      "source": "Gamora",
+      "target": "Star-Lord",
+      "value": 1
+    },
+    {
+      "source": "Gamora",
+      "target": "Nebula",
+      "value": 1
+    },
+    {
+      "source": "Gamora",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Gamora",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Gamora",
+      "target": "Drax",
+      "value": 1
+    },
+    {
+      "source": "Gamora",
+      "target": "Mantis",
+      "value": 1
+    },
+    {
+      "source": "Gamora",
+      "target": "Yondu",
+      "value": 1
+    },
+    {
+      "source": "Gamora",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Gamora",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Gamora",
+      "target": "Ego",
+      "value": 2
+    },
+    {
+      "source": "Ego",
+      "target": "Star-Lord",
+      "value": 1
+    },
+    {
+      "source": "Ego",
+      "target": "Gamora",
+      "value": 1
+    },
+    {
+      "source": "Ego",
+      "target": "Yondu",
+      "value": 1
+    },
+    {
+      "source": "Ego",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Ego",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Ego",
+      "target": "Drax",
+      "value": 1
+    },
+    {
+      "source": "Ego",
+      "target": "Mantis",
+      "value": 1
+    },
+    {
+      "source": "Ego",
+      "target": "Star-Lord",
+      "value": 2
+    },
+    {
+      "source": "Captain America",
+      "target": "Winter Soldier",
+      "value": 1
+    },
+    {
+      "source": "Captain America",
+      "target": "Iron Man",
+      "value": 1
+    },
+    {
+      "source": "Captain America",
+      "target": "Falcon",
+      "value": 1
+    },
+    {
+      "source": "Captain America",
+      "target": "Black Widow",
+      "value": 1
+    },
+    {
+      "source": "Captain America",
+      "target": "Hulk",
+      "value": 1
+    },
+    {
+      "source": "Captain America",
+      "target": "Hawkeye",
+      "value": 1
+    },
+    {
+      "source": "Captain America",
+      "target": "Thor",
+      "value": 1
+    },
+    {
+      "source": "Captain America",
+      "target": "Scarlet Witch",
+      "value": 1
+    },
+    {
+      "source": "Captain America",
+      "target": "Vision",
+      "value": 1
+    },
+    {
+      "source": "Captain America",
+      "target": "War Machine",
+      "value": 1
+    },
+    {
+      "source": "Captain America",
+      "target": "Spider-Man",
+      "value": 1
+    },
+    {
+      "source": "Captain America",
+      "target": "Black Panther",
+      "value": 1
+    },
+    {
+      "source": "Captain America",
+      "target": "Shuri",
+      "value": 1
+    },
+    {
+      "source": "Captain America",
+      "target": "Okoye",
+      "value": 1
+    },
+    {
+      "source": "Captain America",
+      "target": "Howard Stark",
+      "value": 1
+    },
+    {
+      "source": "Captain America",
+      "target": "Groot",
+      "value": 1
+    },
+    {
+      "source": "Captain America",
+      "target": "Rocket",
+      "value": 1
+    },
+    {
+      "source": "Captain America",
+      "target": "Ulysses Klaue",
+      "value": 2
+    },
+    {
+      "source": "Captain America",
+      "target": "Ultron",
+      "value": 2
+    },
+    {
+      "source": "Captain America",
+      "target": "Thanos",
+      "value": 2
+    },
+    {
+      "source": "Captain America",
+      "target": "Corvus Glaive",
+      "value": 2
+    },
+    {
+      "source": "Captain America",
+      "target": "Proxima Midnight",
+      "value": 2
+    },
+    {
+      "source": "Captain America",
+      "target": "Cull Obsidian",
+      "value": 2
+    }
+  ]
+}

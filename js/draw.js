@@ -5,7 +5,8 @@ $(document).ready(function () {
 
 var numOfMovie;
 var radius = 250;
-var node_size = 40;
+var movie_node_size = 40;
+var character_node_size = 25;
 
 var test_data = {
     "nodes": [
@@ -38,7 +39,7 @@ var test_data = {
 
 function loadData() {
     //code for Q1 goes here
-    d3.json("data/network.json", function (d) {
+    d3.json("data/network_with_photo.json", function (d) {
         data = d;
         nodes = data.nodes;
         movies = data.nodes.filter(function (node) { return node.group == 0 });
@@ -103,10 +104,15 @@ function drawNodes() {
     }
 
     function getNodeSize(node) {
+        if (node == undefined) {
+            // clip-path
+            return character_node_size;
+        }
         if (node.group == 0) {
-            return node_size;
+            return movie_node_size;
         } else {
-            return 10;
+            // number after + is border width
+            return character_node_size + 1;
         }
     }
 
@@ -123,6 +129,13 @@ function drawNodes() {
         .selectAll('g')
         .data(nodes)
         .enter().append('g')
+
+    svg.append("defs")
+        .attr("id", "clip-def")
+        .attr('class', 'node')
+        .append('clipPath').attr('id', "clip-circle")
+        .append('circle')
+        .attr('r', getNodeSize)
 
     nodeElements
         .attr('class', 'node')
@@ -141,9 +154,15 @@ function drawNodes() {
         })
         .attr('class', 'wrapme')
         .attr("text-anchor", "center")
-        .attr("dx", function (d) { return -node_size / 2 })
+        .attr("dx", function (d) { return -getNodeSize(d) / 2 })
 
-
+    nodeElements
+        .append('image')
+        .attr('href', function(d) { if (d.group == 1) return d.photo; })
+        .attr('class', 'profile_pic')
+        .attr('x', function(d) { return character_node_size * -1;})
+        .attr('y', function(d) { return character_node_size * -1;})
+        .attr("clip-path", function (d, i) { if (d.group == 1) return "url(#clip-circle)"; })
     function wrap(text) {
         console.log(text)
         text.each(function () {
