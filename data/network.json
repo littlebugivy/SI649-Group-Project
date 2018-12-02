@@ -61,7 +61,7 @@
       "group": 0
     },
     {
-      "id": "Thor",
+      "id": "Thor (Movie)",
       "group": 0
     },
     {
@@ -961,32 +961,32 @@
       "value": 0
     },
     {
-      "source": "Thor",
+      "source": "Thor (Movie)",
       "target": "Thor",
       "value": 0
     },
     {
-      "source": "Thor",
+      "source": "Thor (Movie)",
       "target": "Odin",
       "value": 0
     },
     {
-      "source": "Thor",
+      "source": "Thor (Movie)",
       "target": "Heimdall",
       "value": 0
     },
     {
-      "source": "Thor",
+      "source": "Thor (Movie)",
       "target": "Loki",
       "value": 0
     },
     {
-      "source": "Thor",
+      "source": "Thor (Movie)",
       "target": "Doctor Erik Selvig",
       "value": 0
     },
     {
-      "source": "Thor",
+      "source": "Thor (Movie)",
       "target": "Hawkeye",
       "value": 0
     },
