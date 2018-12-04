@@ -4,9 +4,9 @@ $(document).ready(function () {
 });
 
 var numOfMovie;
-var radius = 250;
-var movie_node_size = 40;
-var character_node_size = 25;
+var radius = 280;
+var movie_node_size = 45;
+var character_node_size = 30;
 
 var test_data = {
     "nodes": [
@@ -52,15 +52,7 @@ function loadData() {
         // console.log(nodes)
         //console.log(numOfMovie)
 
-        // data.forEach(function (item) {
-        //     item.n = parseInt(item.n);
-        // });
-
         drawNodes();
-
-        //visualizeColorProperty();
-        //visualizeColorWheel();
-        //visualizeColorHarmony();
     });
 
 }
@@ -85,7 +77,7 @@ function drawNodes() {
         .force("charge", d3.forceCollide().radius(15).strength(0.5))
         //.force("r", d3.forceRadial(function (d) { return d.group === "0" ? 100 : 200; }))
         // .force('charge', d3.forceManyBody().strength(-10).distanceMax(radius-10).distanceMin(10))
-        .force('center', d3.forceCenter(width / 2 - radius, height / 2 - radius / 4))
+        .force('center', d3.forceCenter(width / 2 - radius, height / 2))
 
 
     function getNodeColor(node) {
@@ -116,6 +108,11 @@ function drawNodes() {
         }
     }
 
+    function processId(id) {
+        return id.replace(/[:\s\(\)]+/g, '_');
+    }
+
+
     var linkElements = svg.append("g")
         .attr("class", "links")
         .selectAll("line")
@@ -123,12 +120,19 @@ function drawNodes() {
         .enter().append("line")
         .attr("stroke-width", 1)
         .attr("stroke", "rgba(50, 50, 50, 0.2)")
+        .attr('id', function (linkObj) {
+            var psource = processId(linkObj.source);
+            var ptarget = processId(linkObj.target);
+            return psource + '_' + ptarget;
+        })
+        .attr('class', 'link')
 
 
     var nodeElements = svg.append('g')
         .selectAll('g')
         .data(nodes)
         .enter().append('g')
+
 
     svg.append("defs")
         .attr("id", "clip-def")
@@ -137,75 +141,118 @@ function drawNodes() {
         .append('circle')
         .attr('r', getNodeSize)
 
-    nodeElements
-        .attr('class', 'node')
-        .append('circle')
-        .attr('r', getNodeSize)
-        .attr('id', function (d) { return d.id })
-        .attr('fill', getNodeColor)
-        .attr('stroke', getNodeBorder)
 
     nodeElements
-        .append('text')
+        .attr('class', function (n) {
+            return n.group == 0 ? 'movie_node' : 'char_node'
+        })
+        .append('circle')
+        .attr('r', getNodeSize)
+        .attr('id', function (d) {
+            return processId(d.id);
+        })
+        .attr('fill', getNodeColor)
+        .attr('stroke', getNodeBorder)
+        .on("mouseover", handleMovieMouseOver)
+        .on("mouseout", handleMovieMouseOut)
+
+    // add text, wrapped
+    nodeElements.append('foreignObject')
+        .attr("x", -movie_node_size * 0.6)
+        .attr("y", -movie_node_size * 0.6)
+        .attr('width', movie_node_size * 1.2)
+        .attr('height', movie_node_size * 1.2)
+        .attr('font-size', '10px')
+        .attr('font-weight', 'bold')
+        .attr('color', 'black')
+        .attr('class', 'movie_label')
+        .attr('id', function (node) {
+            if (node.group == 0) {
+                return node.id + '_label';
+            }
+        })
+        .append('xhtml:p')
         .text(function (node) {
             if (node.group == 0) {
                 return node.id;
             }
         })
-        .attr('class', 'wrapme')
-        .attr("text-anchor", "center")
-        .attr("dx", function (d) { return -getNodeSize(d) / 2 })
+        .attr('style', 'text-align:center')
+
+
+    function handleMovieMouseOver() {
+        var selectedId = this.id;
+
+        var connectedLinks = links.filter(function (link) {
+            return processId(link.source.id) == selectedId;
+        })
+        // console.log(connectedLinks)
+        var charInMovieList = [];
+        var linkList = [];
+
+        connectedLinks.forEach(function (link) {
+            charInMovieList.push(link.target.id);
+
+            var psource = processId(link.source.id);
+            var ptarget = processId(link.target.id);
+            var linkId = psource + '_' + ptarget;
+            linkList.push(linkId)
+        })
+
+        // console.log(charInMovieList)
+        // console.log(linkList)
+
+        d3.selectAll('.movie_node')
+            .style('opacity', function (movie) {
+                return processId(movie.id) == selectedId ? 1 : 0.3;
+            })
+            .style('cursor', 'pointer')
+
+        console.log(selectedId)
+
+        d3.selectAll('.char_node')
+            .style('opacity', function (chara) {
+                return charInMovieList.includes(chara.id) ? 1 : 0;
+            })
+            .style('cursor', 'pointer')
+
+        d3.selectAll('.link')
+            .style('opacity', function (link) {
+                var psource = processId(link.source.id);
+                var ptarget = processId(link.target.id);
+                var linkId = psource + '_' + ptarget;
+                return (linkList.includes(linkId)) ? 1 : 0;
+
+            })
+    }
+
+    function handleMovieMouseOut() {
+        d3.selectAll('.movie_node')
+            .style('opacity', 1)
+        d3.selectAll('.char_node')
+            .style('opacity', 1)
+        d3.selectAll('.link')
+            .style('opacity', 1)
+    }
+
 
     nodeElements
         .append('image')
-        .attr('href', function(d) { if (d.group == 1) return d.photo; })
+        .attr('href', function (d) { if (d.group == 1) return d.photo; })
         .attr('class', 'profile_pic')
-        .attr('x', function(d) { return character_node_size * -1;})
-        .attr('y', function(d) { return character_node_size * -1;})
+        .attr('x', function (d) { return character_node_size * -1; })
+        .attr('y', function (d) { return character_node_size * -1; })
         .attr("clip-path", function (d, i) { if (d.group == 1) return "url(#clip-circle)"; })
-    function wrap(text) {
-        console.log(text)
-        text.each(function () {
-            var text = d3.select(this);
-            var words = text.text().split(/\s+/).reverse();
-            var lineHeight = 20;
-            var width = parseFloat(text.attr('width'));
-            var y = parseFloat(text.attr('y'));
-            var x = text.attr('x');
-            var anchor = text.attr('text-anchor');
 
-            var tspan = text.text(null).append('tspan').attr('x', x).attr('y', y).attr('text-anchor', anchor);
-            var lineNumber = 0;
-            var line = [];
-            var word = words.pop();
-
-            while (word) {
-                line.push(word);
-                tspan.text(line.join(' '));
-                if (tspan.node().getComputedTextLength() > width) {
-                    lineNumber += 1;
-                    line.pop();
-                    tspan.text(line.join(' '));
-                    line = [word];
-                    tspan = text.append('tspan').attr('x', x).attr('y', y + lineNumber * lineHeight).attr('anchor', anchor).text(word);
-                }
-                word = words.pop();
-            }
-        });
-    }
 
     function setUpMovies(node, counter) {
-        //nodes.forEach(function (node) {
-        //if (node.group == 0) { // this node is a movie
         var angle = (counter / (numOfMovie / 2)) * Math.PI;
         var x = (radius * Math.cos(angle)) + width / 2 - radius;
-        var y = (radius * Math.sin(angle)) + height / 2 - radius / 4;
+        var y = (radius * Math.sin(angle)) + height / 2;
         node.x = x;
         node.y = y;
-        //console.log(node.id, node.x, node.y)
         return node;
     }
-
 
     simulation.nodes(nodes).on('tick', () => {
         var counter = 0;
@@ -225,5 +272,5 @@ function drawNodes() {
     })
 
     simulation.force("link").links(links);
-    d3.selectAll('.wrapme').call(wrap);
+    //d3.selectAll('.wrapme').call(wrap);
 }
