@@ -166,11 +166,6 @@ function drawNodes() {
         .attr('font-weight', 'bold')
         .attr('color', 'black')
         .attr('class', 'movie_label')
-        .attr('id', function (node) {
-            if (node.group == 0) {
-                return node.id + '_label';
-            }
-        })
         .append('xhtml:p')
         .text(function (node) {
             if (node.group == 0) {
@@ -178,6 +173,14 @@ function drawNodes() {
             }
         })
         .attr('style', 'text-align:center')
+        .attr('id', function (node) {
+            if (node.group == 0) {
+                return processId(node.id);
+            }
+        })
+        .on("mouseover", handleMovieMouseOver)
+        .on("mouseout", handleMovieMouseOut)
+
 
 
     function handleMovieMouseOver() {
@@ -203,45 +206,33 @@ function drawNodes() {
         // console.log(linkList)
 
         d3.selectAll('.movie_node')
-            .transition()
             .style('opacity', function (movie) {
                 return processId(movie.id) == selectedId ? 1 : 0.3;
             })
             .style('cursor', 'pointer')
-            .duration(400)
 
         d3.selectAll('.char_node')
-            .transition()
             .style('opacity', function (chara) {
                 return charInMovieList.includes(chara.id) ? 1 : 0;
             })
             .style('cursor', 'pointer')
-            .duration(400)
 
         d3.selectAll('.link')
-            .transition()
             .style('opacity', function (link) {
                 var psource = processId(link.source.id);
                 var ptarget = processId(link.target.id);
                 var linkId = psource + '_' + ptarget;
                 return (linkList.includes(linkId)) ? 1 : 0;
             })
-            .duration(400)
     }
 
     function handleMovieMouseOut() {
         d3.selectAll('.movie_node')
-            .transition()
             .style('opacity', 1)
-            .duration(400)
         d3.selectAll('.char_node')
-            .transition()
             .style('opacity', 1)
-            .duration(400)
         d3.selectAll('.link')
-            .transition()
             .style('opacity', 1)
-            .duration(400)
     }
 
 
