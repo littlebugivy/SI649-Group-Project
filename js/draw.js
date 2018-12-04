@@ -4,9 +4,9 @@ $(document).ready(function () {
 });
 
 var numOfMovie;
-var radius = 280;
-var movie_node_size = 45;
-var character_node_size = 30;
+var radius = 300;
+var movie_node_size = 48;
+var character_node_size = 25;
 
 var test_data = {
     "nodes": [
@@ -74,7 +74,7 @@ function drawNodes() {
 
     const simulation = d3.forceSimulation()
         .force("link", linkForce)
-        .force("charge", d3.forceCollide().radius(15).strength(0.5))
+        .force("charge", d3.forceCollide().radius(25).strength(0.8))
         //.force("r", d3.forceRadial(function (d) { return d.group === "0" ? 100 : 200; }))
         // .force('charge', d3.forceManyBody().strength(-10).distanceMax(radius-10).distanceMin(10))
         .force('center', d3.forceCenter(width / 2 - radius, height / 2))
@@ -139,25 +139,57 @@ function drawNodes() {
         .attr('class', 'node')
         .append('clipPath').attr('id', "clip-circle")
         .append('circle')
-        .attr('r', getNodeSize)
+        .attr('r', character_node_size)
 
 
+    // create movie nodes
     nodeElements
-        .attr('class', function (n) {
-            return n.group == 0 ? 'movie_node' : 'char_node'
-        })
+        .filter(function (d) { return d.group == 0 })
+        .attr('class', 'movie_node')
         .append('circle')
-        .attr('r', getNodeSize)
+        .attr('r', movie_node_size)
         .attr('id', function (d) {
             return processId(d.id);
         })
-        .attr('fill', getNodeColor)
-        .attr('stroke', getNodeBorder)
+        .attr('fill', 'white')
+        .attr('stroke', 'black')
         .on("mouseover", handleMovieMouseOver)
-        .on("mouseout", handleMovieMouseOut)
+        .on("mouseout", reset)
 
-    // add text, wrapped
-    nodeElements.append('foreignObject')
+    // create char nodes
+    nodeElements
+        .filter(function (d) { return d.group == 1 })
+        .attr('id', function (d) {
+            return processId(d.id) + '_group';
+        })
+        .attr('class', 'char_node')
+        .append('circle')
+        .attr('r', character_node_size)
+        .attr('id', function (d) {
+            return processId(d.id) + '_circle';
+        })
+        .attr('fill', 'white')
+        .on("mouseover", handleCharMouseOver)
+        .on("mouseout", reset)
+
+    // .attr('class', function (n) {
+    //     return n.group == 0 ? 'movie_node' : 'char_node'
+    // })
+    // .append('circle')
+    // .attr('r', getNodeSize)
+    // .attr('id', function (d) {
+    //     if (d.group == 0)
+    //         return processId(d.id);
+    // })
+    // .attr('fill', getNodeColor)
+    // .attr('stroke', getNodeBorder)
+    // .on("mouseover", handleMovieMouseOver)
+    // .on("mouseout", reset)
+
+    // add movie label, wrapped
+    nodeElements
+        .filter(function (d) { return d.group == 0 })
+        .append('foreignObject')
         .attr("x", -movie_node_size * 0.6)
         .attr("y", -movie_node_size * 0.6)
         .attr('width', movie_node_size * 1.2)
@@ -179,9 +211,7 @@ function drawNodes() {
             }
         })
         .on("mouseover", handleMovieMouseOver)
-        .on("mouseout", handleMovieMouseOut)
-
-
+        .on("mouseout", reset)
 
     function handleMovieMouseOver() {
         var selectedId = this.id;
@@ -189,7 +219,7 @@ function drawNodes() {
         var connectedLinks = links.filter(function (link) {
             return processId(link.source.id) == selectedId;
         })
-        // console.log(connectedLinks)
+
         var charInMovieList = [];
         var linkList = [];
 
@@ -201,19 +231,21 @@ function drawNodes() {
             var linkId = psource + '_' + ptarget;
             linkList.push(linkId)
         })
-
         // console.log(charInMovieList)
         // console.log(linkList)
 
+        // d3.select('#' + selectedId)
+        //     .attr('height', 100)
+
         d3.selectAll('.movie_node')
             .style('opacity', function (movie) {
-                return processId(movie.id) == selectedId ? 1 : 0.3;
+                return processId(movie.id) == selectedId ? 1 : 0.1;
             })
             .style('cursor', 'pointer')
 
         d3.selectAll('.char_node')
             .style('opacity', function (chara) {
-                return charInMovieList.includes(chara.id) ? 1 : 0;
+                return charInMovieList.includes(chara.id) ? 1 : 0.1;
             })
             .style('cursor', 'pointer')
 
@@ -226,23 +258,119 @@ function drawNodes() {
             })
     }
 
-    function handleMovieMouseOut() {
+    function reset() {
         d3.selectAll('.movie_node')
             .style('opacity', 1)
         d3.selectAll('.char_node')
             .style('opacity', 1)
         d3.selectAll('.link')
             .style('opacity', 1)
+        d3.selectAll('.char_label')
+            .style('opacity', 0)
     }
 
 
     nodeElements
+        .filter(function (d) { return d.group == 1 })
         .append('image')
-        .attr('href', function (d) { if (d.group == 1) return d.photo; })
+        .attr('href', function (d) { return d.photo; })
         .attr('class', 'profile_pic')
+        .attr('id', function (d) { return processId(d.id); })
         .attr('x', function (d) { return character_node_size * -1; })
         .attr('y', function (d) { return character_node_size * -1; })
-        .attr("clip-path", function (d, i) { if (d.group == 1) return "url(#clip-circle)"; })
+        .attr("clip-path", function (d, i) { return "url(#clip-circle)"; })
+        .on("mouseover", handleCharMouseOver)
+        .on("mouseout", reset)
+
+
+    // add character label, wrapped
+    nodeElements
+        .filter(function (d) { return d.group == 1 })
+        .append('foreignObject')
+        .attr("x", - character_node_size)
+        .attr("y", character_node_size)
+        .attr('width', character_node_size * 2)
+        .attr('height', character_node_size)
+        .attr('font-size', '10px')
+        .attr('font-weight', 'bold')
+        .attr('color', 'red')
+        .append('xhtml:p')
+        .text(function (node) {
+            return node.id;
+        })
+        .attr('style', 'text-align:center')
+        .attr('id', function (d) {
+            return processId(d.id) + '_label'
+        })
+        .attr('class', 'char_label')
+        .style('opacity', 0)
+        .on("mouseover", handleCharMouseOver)
+        .on("mouseout", reset)
+
+
+    function handleCharMouseOver() {
+        //console.log(this)
+        var selectedId = this.id;
+
+        var connectedLinks = links.filter(function (link) {
+            if (processId(link.source.id) == selectedId || processId(link.target.id) == selectedId)
+                return link;
+        })
+
+        var nodeList = [];
+        var linkList = [];
+
+        connectedLinks.forEach(function (link) {
+            var source = processId(link.source.id);
+            var target = processId(link.target.id);
+
+            if (source == selectedId) {
+                nodeList.push(target)
+            }
+
+            if (target == selectedId) {
+                nodeList.push(source)
+            }
+
+            var linkId = source + '_' + target;
+            linkList.push(linkId)
+        })
+
+        nodeList.push(selectedId);
+
+        //console.log(nodeList)
+
+        // // console.log(charInMovieList)
+        // // console.log(linkList)
+
+        d3.selectAll('.movie_node')
+            .style('opacity', function (node) {
+                return nodeList.includes(processId(node.id)) ? 1 : 0.1;
+            })
+            .style('cursor', 'pointer')
+
+
+        d3.selectAll('.char_node')
+            .style('opacity', function (chara) {
+                return nodeList.includes(processId(chara.id)) ? 1 : 0.1;
+            })
+            .style('cursor', 'pointer')
+
+        var selected_label = '#' + selectedId + '_label'
+
+        d3.select(selected_label)
+            .style('opacity', 1)
+
+
+        d3.selectAll('.link')
+            .style('opacity', function (link) {
+                var psource = processId(link.source.id);
+                var ptarget = processId(link.target.id);
+                var linkId = psource + '_' + ptarget;
+                return (linkList.includes(linkId)) ? 1 : 0;
+            })
+    }
+
 
 
     function setUpMovies(node, counter) {

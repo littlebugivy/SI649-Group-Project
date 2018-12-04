@@ -2,3 +2,7 @@
     width: 50px;
     border-radius: 50%;
 }
+
+.char_node{
+    border:none;
+}
