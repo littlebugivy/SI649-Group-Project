@@ -203,36 +203,45 @@ function drawNodes() {
         // console.log(linkList)
 
         d3.selectAll('.movie_node')
+            .transition()
             .style('opacity', function (movie) {
                 return processId(movie.id) == selectedId ? 1 : 0.3;
             })
             .style('cursor', 'pointer')
-
-        console.log(selectedId)
+            .duration(400)
 
         d3.selectAll('.char_node')
+            .transition()
             .style('opacity', function (chara) {
                 return charInMovieList.includes(chara.id) ? 1 : 0;
             })
             .style('cursor', 'pointer')
+            .duration(400)
 
         d3.selectAll('.link')
+            .transition()
             .style('opacity', function (link) {
                 var psource = processId(link.source.id);
                 var ptarget = processId(link.target.id);
                 var linkId = psource + '_' + ptarget;
                 return (linkList.includes(linkId)) ? 1 : 0;
-
             })
+            .duration(400)
     }
 
     function handleMovieMouseOut() {
         d3.selectAll('.movie_node')
+            .transition()
             .style('opacity', 1)
+            .duration(400)
         d3.selectAll('.char_node')
+            .transition()
             .style('opacity', 1)
+            .duration(400)
         d3.selectAll('.link')
+            .transition()
             .style('opacity', 1)
+            .duration(400)
     }
 
 
