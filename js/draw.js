@@ -309,6 +309,7 @@ function drawNodes() {
         .attr('y', function (d) { return char_node_size * -1; })
         .attr("clip-path", function (d, i) { return "url(#clip-circle)"; })
         .on("mouseover", handleCharMouseOver)
+        .on("mouseout", handleCharMouseOut)
         .on("click", handleCharMouseClick)
     //.on("focusout", reset)
 
@@ -351,7 +352,7 @@ function drawNodes() {
         if (hover_char && hover_char != active_char)
             resetChar(hover_char);
 
-        // hahahah
+        // hahahah??
 
         var selectedId = this.id;
         hover_char = selectedId;
@@ -365,11 +366,31 @@ function drawNodes() {
         d3.select(selected_node)
             .attr('r', char_node_size_enlarged)
             .attr('fill', COLOR_RED)
+
+        selectedNode = nodes.filter(function(d){return processId(d.id) == selectedId;})[0]
+        if (selectedNode == undefined){
+            return
+        }
+        selectedNode.fx = selectedNode.x;
+        selectedNode.fy = selectedNode.y;
     }
 
     function handleCharMouseOut() {
         if (!hover_char)
             return
+        var selectedId = hover_char;
+
+        selectedNode = nodes.filter(function(d){return processId(d.id) == selectedId;})[0]
+        if (selectedNode ==undefined){
+            return
+        }
+
+        if (hover_char == active_char){
+            console.log("here")
+            return
+        }
+        selectedNode.fx = null;
+        selectedNode.fy = null;
 
         var last_label = '#' + hover_char + '_label'
         d3.select(last_label)
@@ -457,14 +478,20 @@ function drawNodes() {
                 return (linkList.includes(linkId)) ? 1 : 0;
             })
 
+
         simulation.force("link", d3
             .forceLink()
             .links(connectedLinks)
-            .strength(function (link) { return 0.05 }));
+            .strength(function (link) { return processId(link.target.id) == selectedId? 0 : 0.05 }));
         simulation.force("charge", d3.forceCollide().radius(30))
         simulation.alpha(1).restart();
-
-
+        selectedNode = nodes.filter(function(d){return processId(d.id) == selectedId;})[0]
+        if (selectedNode == undefined){
+            return
+        }
+        selectedNode.fx = width/2 - radius;
+        selectedNode.fy = height/2;
+        
 
 
     }
