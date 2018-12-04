@@ -204,7 +204,7 @@ function drawNodes() {
         var selectedId = this.id;
 
         var connectedLinks = links.filter(function (link) {
-            
+
             return processId(link.source.id) == selectedId;
         })
 
@@ -245,9 +245,9 @@ function drawNodes() {
                 return (linkList.includes(linkId)) ? 1 : 0;
             })
         simulation.force("link", d3
-        .forceLink()
-        .links(connectedLinks)
-        .strength(function (link) { return 0.05 }));
+            .forceLink()
+            .links(connectedLinks)
+            .strength(function (link) { return 0.05 }));
         simulation.force("charge", d3.forceCollide().radius(30))
         simulation.alpha(1).restart();
     }
@@ -265,8 +265,8 @@ function drawNodes() {
 
         simulation.force("link").links(links)
         simulation
-        .force("charge", d3.forceCollide().radius(15).strength(0.5))
-        .force('center', d3.forceCenter(width / 2 - radius, height / 2));
+            .force("charge", d3.forceCollide().radius(25).strength(0.8))
+            .force('center', d3.forceCenter(width / 2 - radius, height / 2));
         simulation.alpha(1).restart();
 
     }
@@ -371,6 +371,13 @@ function drawNodes() {
                 var linkId = psource + '_' + ptarget;
                 return (linkList.includes(linkId)) ? 1 : 0;
             })
+
+        simulation.force("link", d3
+            .forceLink()
+            .links(connectedLinks)
+            .strength(function (link) { return 0.05 }));
+        simulation.force("charge", d3.forceCollide().radius(30))
+        simulation.alpha(1).restart();
     }
 
 
