@@ -70,7 +70,7 @@ function drawNodes() {
     var linkForce = d3
         .forceLink()
         .id(function (d, i) { return d.id })
-        .strength(function (link) { return 0.1 })
+        .strength(function (link) { return 0.05 })
 
     const simulation = d3.forceSimulation()
         .force("link", linkForce)
@@ -187,6 +187,7 @@ function drawNodes() {
         var selectedId = this.id;
 
         var connectedLinks = links.filter(function (link) {
+            
             return processId(link.source.id) == selectedId;
         })
         // console.log(connectedLinks)
@@ -224,6 +225,12 @@ function drawNodes() {
                 var linkId = psource + '_' + ptarget;
                 return (linkList.includes(linkId)) ? 1 : 0;
             })
+        simulation.force("link", d3
+        .forceLink()
+        .links(connectedLinks)
+        .strength(function (link) { return 0.05 }));
+        simulation.force("charge", d3.forceCollide().radius(30))
+        simulation.alpha(1).restart();
     }
 
     function handleMovieMouseOut() {
@@ -233,6 +240,11 @@ function drawNodes() {
             .style('opacity', 1)
         d3.selectAll('.link')
             .style('opacity', 1)
+        simulation.force("link").links(links)
+        simulation
+        .force("charge", d3.forceCollide().radius(15).strength(0.5))
+        .force('center', d3.forceCenter(width / 2 - radius, height / 2));
+        simulation.alpha(1).restart();
     }
 
 
