@@ -70,7 +70,7 @@ function drawNodes() {
     var linkForce = d3
         .forceLink()
         .id(function (d, i) { return d.id })
-        .strength(function (link) { return 0.1 })
+        .strength(function (link) { return 0.05 })
 
     const simulation = d3.forceSimulation()
         .force("link", linkForce)
@@ -172,19 +172,6 @@ function drawNodes() {
         .on("mouseover", handleCharMouseOver)
         .on("mouseout", reset)
 
-    // .attr('class', function (n) {
-    //     return n.group == 0 ? 'movie_node' : 'char_node'
-    // })
-    // .append('circle')
-    // .attr('r', getNodeSize)
-    // .attr('id', function (d) {
-    //     if (d.group == 0)
-    //         return processId(d.id);
-    // })
-    // .attr('fill', getNodeColor)
-    // .attr('stroke', getNodeBorder)
-    // .on("mouseover", handleMovieMouseOver)
-    // .on("mouseout", reset)
 
     // add movie label, wrapped
     nodeElements
@@ -217,6 +204,7 @@ function drawNodes() {
         var selectedId = this.id;
 
         var connectedLinks = links.filter(function (link) {
+            
             return processId(link.source.id) == selectedId;
         })
 
@@ -256,6 +244,12 @@ function drawNodes() {
                 var linkId = psource + '_' + ptarget;
                 return (linkList.includes(linkId)) ? 1 : 0;
             })
+        simulation.force("link", d3
+        .forceLink()
+        .links(connectedLinks)
+        .strength(function (link) { return 0.05 }));
+        simulation.force("charge", d3.forceCollide().radius(30))
+        simulation.alpha(1).restart();
     }
 
     function reset() {
@@ -265,8 +259,16 @@ function drawNodes() {
             .style('opacity', 1)
         d3.selectAll('.link')
             .style('opacity', 1)
+
         d3.selectAll('.char_label')
             .style('opacity', 0)
+
+        simulation.force("link").links(links)
+        simulation
+        .force("charge", d3.forceCollide().radius(15).strength(0.5))
+        .force('center', d3.forceCenter(width / 2 - radius, height / 2));
+        simulation.alpha(1).restart();
+
     }
 
 
