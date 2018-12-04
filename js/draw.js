@@ -7,6 +7,7 @@ var numOfMovie;
 var radius = 300;
 var movie_node_size = 48;
 var character_node_size = 25;
+var char_node_size_enlarged = 28;
 
 var test_data = {
     "nodes": [
@@ -168,6 +169,7 @@ function drawNodes() {
         .attr('id', function (d) {
             return processId(d.id) + '_circle';
         })
+        .attr('class', 'char_circle')
         .attr('fill', 'white')
         .on("mouseover", handleCharMouseOver)
         .on("mouseout", reset)
@@ -202,7 +204,6 @@ function drawNodes() {
 
     function handleMovieMouseOver() {
         var selectedId = this.id;
-
         var connectedLinks = links.filter(function (link) {
 
             return processId(link.source.id) == selectedId;
@@ -262,6 +263,8 @@ function drawNodes() {
 
         d3.selectAll('.char_label')
             .style('opacity', 0)
+        d3.selectAll('.char_circle')
+            .attr('r', character_node_size)
 
         simulation.force("link").links(links)
         simulation
@@ -361,7 +364,16 @@ function drawNodes() {
         d3.select(selected_label)
             .style('opacity', 1)
 
-        var selected_node = '#' + selectedId + '_group'
+        var selected_node = '#' + selectedId + '_circle'
+        console.log(d3.select(selected_node))
+        d3.select(selected_node)
+            .attr('r', char_node_size_enlarged)
+            .attr('fill', 'red')
+        // .attr('transform', function () {
+        //     //transform = d3.transform(d3.select(this).attr("transform"));
+        //     console.log(d3.select(this).attr("transform") + ",scale(1.5, 1.5)")
+        //     return "translate(", width / 2 - radius, "," + height / 2, "),scale(1.5)";
+        // })
 
         d3.selectAll('.link')
             .style('opacity', function (link) {
@@ -379,13 +391,7 @@ function drawNodes() {
         simulation.alpha(1).restart();
 
 
-        // console.log(d3.select(selected_node))
-        // d3.select(selected_node)
-        //     .attr('transform', function () {
-        //         //transform = d3.transform(d3.select(this).attr("transform"));
-        //         console.log(d3.select(this).attr("transform") + ",scale(1.5, 1.5)")
-        //         return "translate(", width / 2 - radius, "," + height / 2, "),scale(1.5)";
-        //     })
+
 
     }
 
