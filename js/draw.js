@@ -306,8 +306,6 @@ function drawNodes() {
         })
         .attr('class', 'char_label')
         .style('opacity', 0)
-        .on("mouseover", handleCharMouseOver)
-        .on("mouseout", reset)
 
 
     function handleCharMouseOver() {
@@ -358,11 +356,12 @@ function drawNodes() {
             })
             .style('cursor', 'pointer')
 
-        var selected_label = '#' + selectedId + '_label'
 
+        var selected_label = '#' + selectedId + '_label'
         d3.select(selected_label)
             .style('opacity', 1)
 
+        var selected_node = '#' + selectedId + '_group'
 
         d3.selectAll('.link')
             .style('opacity', function (link) {
@@ -378,6 +377,16 @@ function drawNodes() {
             .strength(function (link) { return 0.05 }));
         simulation.force("charge", d3.forceCollide().radius(30))
         simulation.alpha(1).restart();
+
+
+        // console.log(d3.select(selected_node))
+        // d3.select(selected_node)
+        //     .attr('transform', function () {
+        //         //transform = d3.transform(d3.select(this).attr("transform"));
+        //         console.log(d3.select(this).attr("transform") + ",scale(1.5, 1.5)")
+        //         return "translate(", width / 2 - radius, "," + height / 2, "),scale(1.5)";
+        //     })
+
     }
 
 
