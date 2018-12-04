@@ -1,3 +1,15 @@
+body{
+    /* background-image: url('../img/bk2.png'); */
+    background-color:#151515;
+    /* background-size: 300px 100px; */
+    background-repeat: no-repeat;
+    font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.movie_label {
+    z-index: 100;
+}
+
 .profile_pic {
     width: 50px;
     border-radius: 50%;
