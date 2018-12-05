@@ -71,6 +71,7 @@ function loadData() {
 
         drawgraph();
         setUpSearch();
+        drawTimeline();
     });
 
 }
@@ -568,6 +569,50 @@ function drawgraph() {
     //d3.selectAll('.wrapme').call(wrap);
 
 }
+
+function drawTimeline(){
+    var svg = d3.select('.timeline')
+        .append('svg')
+        .attr('width', 400)
+        .attr('height', 50)
+    var g = svg.append('g')
+
+    g.append('line')
+    .attr("x1", 10)
+    .attr("x2", 390)
+    .attr("y1", 25)
+    .attr("y2", 25)
+    .attr('stroke', COLOR_WHITE);
+
+    // hardcoding is fun isn't it
+    var linearScale = d3.scaleLinear().domain([2008.5, 2018.4]).range([30, 370])
+    g.selectAll("circle").data(movies.sort(function(a, b) { return a.year - b.year })).enter()
+    .append("circle")
+    .attr("id", function(d){ return processId(d.id) + "_timeline" })
+    .attr("class", "movie_circles")
+    .attr('r', 6)
+    .attr('cy', 25)
+    .attr('cx', function(d) { return linearScale(d.year)})
+    .attr('fill', COLOR_WHITE)
+    .on("mouseenter", handleTimelineMouseOver)
+    .on("mouseout", resetTimelineMouseOver)
+
+    function handleTimelineMouseOver(){
+        let evt = new MouseEvent("mouseover");
+
+        try {
+            d3.select("#" + processId(this.id.replace("_timeline", ""))).node().dispatchEvent(evt);
+        } catch (err) {
+            console.log(err)
+        }
+    }
+
+    function resetTimelineMouseOver(){
+
+    }
+}
+
+
 
 function setUpSearch() {
 
