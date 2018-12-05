@@ -358,6 +358,9 @@ function drawNodes() {
         d3.select(selected_node)
             .attr('r', char_node_size)
 
+        nodes.forEach(function(node){
+            node.mark = undefined
+        })
         selectedNode = nodes.filter(function (d) { return processId(d.id) == charId; })[0]
         if (selectedNode == undefined) {
             return
@@ -439,6 +442,16 @@ function drawNodes() {
         var linkList = [];
 
         connectedLinks.forEach(function (link) {
+            console.log(link.source)
+            console.log(link.target)
+            if (processId(link.target.id) != selectedId){
+            if (link.value == 1){
+                link.target.mark = 1
+            } else if (link.value == 2) {
+                link.target.mark = -1
+            }
+        }
+
             var source = processId(link.source.id);
             var target = processId(link.target.id);
 
@@ -453,6 +466,7 @@ function drawNodes() {
             var linkId = source + '_' + target;
             linkList.push(linkId)
         })
+
 
         // add the activated node itself
         nodeList.push(selectedId);
@@ -528,6 +542,13 @@ function drawNodes() {
             if (node.group == 0) {
                 var node = setUpMovies(node, counter);
                 counter++;
+            }
+            if (active_char && node.mark != undefined){
+                // character is selected
+                node.x = - (radius * Math.cos(5*node.mark)) + width / 2 - radius + 100*Math.random()-50;
+                node.y = (radius * Math.sin(5*node.mark)) + height / 2 + 100*Math.random()-50;
+                node.mark = undefined
+                return "translate(" + node.x + "," + node.y + ")";
             }
             return "translate(" + node.x + "," + node.y + ")";
         })
