@@ -233,6 +233,9 @@ function drawNodes() {
         .on("mouseout", reset)
 
     function handleMovieMouseOver() {
+        if (active_char){
+            resetChar(active_char);
+        }
         var selectedId = this.id;
         var connectedLinks = links.filter(function (link) {
 
