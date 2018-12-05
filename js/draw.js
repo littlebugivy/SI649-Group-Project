@@ -272,7 +272,7 @@ function drawNodes() {
             .forceLink()
             .links(connectedLinks)
             .strength(function (link) { return 0.05 }));
-        simulation.force("charge", d3.forceCollide().radius(30))
+        simulation.force("charge", d3.forceCollide().radius(function(d){ return d.group == 0? 70 :30}))
         simulation.alpha(1).restart();
     }
 
