@@ -504,12 +504,11 @@ function drawNodes() {
 
         selectedNode.fx = width / 2 - radius;
         selectedNode.fy = height / 2;
-
     }
 
     function setUpMovies(node, counter) {
-        var angle = (counter / (numOfMovie / 2)) * Math.PI;
-        var x = (radius * Math.cos(angle)) + width / 2 - radius;
+        var angle = (counter / (numOfMovie / 2) - 0.375) * Math.PI;
+        var x = - (radius * Math.cos(angle)) + width / 2 - radius;
         var y = (radius * Math.sin(angle)) + height / 2;
         node.x = x;
         node.y = y;
