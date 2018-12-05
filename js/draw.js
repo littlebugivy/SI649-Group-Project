@@ -5,6 +5,8 @@ $(document).ready(function () {
 const COLOR_RED = '#EA2327'
 const COLOR_BK = '#151515'
 const COLOR_WHITE = "rgba(255, 241, 191, 0.2)"
+const COLOR_ALLY = "rgba(255, 0, 0, 0.5"
+const COLOR_ENER = "rgba(21, 190, 233, 0.5)"
 var numOfMovie;
 var radius = 300;
 var movie_node_size = 48;
@@ -288,6 +290,7 @@ function drawNodes() {
             .style('opacity', 1)
         d3.selectAll('.link')
             .style('opacity', 1)
+            .attr('stroke', COLOR_WHITE)
 
         d3.selectAll('.char_label')
             .style('opacity', 0)
@@ -352,8 +355,8 @@ function drawNodes() {
         d3.select(selected_node)
             .attr('r', char_node_size)
 
-        selectedNode = nodes.filter(function(d){return processId(d.id) == charId;})[0]
-        if (selectedNode == undefined){
+        selectedNode = nodes.filter(function (d) { return processId(d.id) == charId; })[0]
+        if (selectedNode == undefined) {
             return
         }
         selectedNode.fx = null;
@@ -482,12 +485,12 @@ function drawNodes() {
                 return (linkList.includes(linkId)) ? 1 : 0;
             })
             .attr('stroke', function (link) {
-                if (link.value == 1){
-                    return 'orange' //for ally
+                if (link.value == 1) {
+                    return COLOR_ALLY //for ally
                 }
-                else if (link.value == 2){
-                    return 'lightblue' //for enermy
-                }else{
+                else if (link.value == 2) {
+                    return COLOR_ENER //for enermy
+                } else {
                     return COLOR_WHITE;
                 }
             })
@@ -505,12 +508,11 @@ function drawNodes() {
 
         selectedNode.fx = width / 2 - radius;
         selectedNode.fy = height / 2;
-
     }
 
     function setUpMovies(node, counter) {
-        var angle = (counter / (numOfMovie / 2)) * Math.PI;
-        var x = (radius * Math.cos(angle)) + width / 2 - radius;
+        var angle = (counter / (numOfMovie / 2) - 0.375) * Math.PI;
+        var x = - (radius * Math.cos(angle)) + width / 2 - radius;
         var y = (radius * Math.sin(angle)) + height / 2;
         node.x = x;
         node.y = y;
