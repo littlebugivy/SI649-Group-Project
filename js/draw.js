@@ -14,7 +14,7 @@ var movie_node_width = 110;
 var movie_node_height = 50;
 var active_char;
 var hover_char;
-
+var query_content = "";
 
 var poly = [{ "x": 0, "y": 10 },
 { "x": 0, "y": 50 },
@@ -68,8 +68,13 @@ function loadData() {
         //console.log(numOfMovie)
 
         drawNodes();
+        setUpSearch();
     });
 
+}
+
+function processId(id) {
+    return id.replace(/[:\s\(\)]+/g, '_');
 }
 
 function drawNodes() {
@@ -123,9 +128,7 @@ function drawNodes() {
         }
     }
 
-    function processId(id) {
-        return id.replace(/[:\s\(\)]+/g, '_');
-    }
+    
 
     var linkElements = svg.append("g")
         .attr("class", "links")
@@ -193,6 +196,7 @@ function drawNodes() {
         .attr('id', function (d) {
             return processId(d.id) + '_circle';
         })
+        .attr("opacity", 1)
         .attr('class', 'char_circle')
         .on("mouseover", handleCharMouseOver)
         .on("click", handleCharMouseClick)
@@ -414,7 +418,7 @@ function drawNodes() {
 
     function handleCharMouseClick() {
         var selectedId = this.id;
-
+        console.log("here");
         if (active_char)
             resetChar(active_char);
 
@@ -532,4 +536,100 @@ function drawNodes() {
 
     simulation.force("link").links(links);
     //d3.selectAll('.wrapme').call(wrap);
+ 
 }
+
+function setUpSearch(){
+    let searchDropdown = document.querySelector(".searchCandidates");
+    nodes.sort(function(a, b){ if (a.id < b.id) { return -1; } else { return 1; }});
+    for (var i = 0; i < nodes.length; i++){
+
+        if (nodes[i].group == 1){
+            var newNode = document.createElement('a');
+            newNode.className = "dropDownItems";
+            newNode.innerHTML = nodes[i].id;
+            searchDropdown.appendChild(newNode);
+        }
+    }
+    let xPosition = $(".searchBar").position().left;
+    let height = $(".searchBar").outerHeight();
+    let width = $(".searchBar").outerWidth(true);
+    $(".searchCandidates").css({width: width, top:height, left: xPosition});
+    $(".dropDownItems").hide();
+    $(".dropDownItems").bind("click", function(){
+        confirmSearch($(this));
+    })
+}
+function search(searchBar){
+    console.log(searchBar.value);
+    query_content = searchBar.value.replace(" ", "").toUpperCase();
+    let dropDownItems = $(".dropDownItems");
+
+    if (query_content != ""){
+        for (var i = 0; i < dropDownItems.length; i++) {
+            if ($(dropDownItems[i]).text().replace(" ", "").toUpperCase().includes(query_content)) {
+                $(dropDownItems[i]).show("fast");
+            } else{
+                $(dropDownItems[i]).hide("fast");
+            }
+        }
+        // d3.selectAll(".char_node")
+        // .style('opacity', function (chara) {
+        //     return chara.id.replace(" ", "").toUpperCase().includes(query_content) ? 1 : 0.1;
+        // })
+        // d3.selectAll(".link")
+        // .style('opacity', function (link) {
+        //     return link.target.id.replace(" ", "").toUpperCase().includes(query_content) ? 1 : 0;
+        // }).attr('stroke', COLOR_WHITE)
+    } else {
+        $(".dropDownItems").hide();    
+    }
+
+
+    // // console.log(links)
+    
+
+}
+
+function confirmSearch(element){
+    let text = $(element).text();
+    $(".searchBar").val(text);
+    $(".dropDownItems").hide();    
+    let evt = new MouseEvent("click");
+    try {
+        d3.select("#"+$(".searchBar").val().replace(" ", "_")).node().dispatchEvent(evt);
+    } catch(err) {
+
+    }
+}
+
+// function resetSearch(){
+//     $(".dropDownItems").hide();
+//     let nodes = d3.selectAll(".char_node");
+//     let links = d3.selectAll(".link");
+//     let nodesFinished = false;
+//     let linksFinished = false;
+//     nodes
+//     .style('opacity', 1)
+//     .each(function(d, i) { 
+//         if (i == nodes.size()-1) { 
+//             nodesFinished = true; 
+//             if (linksFinished) {
+//                 invokeClick();
+//             }
+//         } 
+//     });
+
+//     links
+//     .style('opacity', function(d) { return d.value == 0? 1 : 0})
+//     .attr('stroke', COLOR_WHITE)
+//     .each(function(d, i) { 
+//         if (i == links.size()-1) { 
+//             linksFinished = true; 
+//             if (nodesFinished) {
+//                 invokeClick();
+//             }
+//         } 
+//     });
+// }
+

@@ -28,3 +28,27 @@ body{
 .char_node{
     border:none;
 }
+
+.searchCandidates{
+    position: absolute;
+}
+.dropDownItems{
+    display: block;
+    border-radius: 4px;
+    cursor: pointer;
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    /* change dropdown background color here */
+    background-color: dimgrey;
+    /* change dropdown border color here */
+    border: 1px solid white;
+}
+
+.dropDownItems:hover{
+    /* change dropdown hover color here */
+    background-color: dimgrey;
+    color: black;
+    border-color: white;
+
+}

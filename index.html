@@ -22,6 +22,11 @@
                 <img src="img/marvel-logo.png" width="160px">
                 <p></p>
             </div>
+            <div class="searchDropDown">
+                <input type="search" class="searchBar" onfocus="search(this)" oninput="search(this)" onblur="window.setTimeout(function(){ $('.dropDownItems').hide();}, 200) ">
+                <div class="searchCandidates">
+                </div>
+            </div>
             <div class="graph-container nine columns alpha">
             </div>
         </div>
