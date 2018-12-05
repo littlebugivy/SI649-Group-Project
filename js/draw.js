@@ -80,12 +80,12 @@ function processId(id) {
 }
 
 function drawNodes() {
-    const width = window.innerWidth
-    const height = window.innerHeight
+    const width = window.innerWidth + 50
+    const height = window.innerHeight -20;
 
     var svg = d3.select('.graph-container')
         .append('svg')
-        .attr('width', width)
+        .attr('width', width / 3 * 2)
         .attr('height', height)
 
     // simulation setup with all forces
@@ -130,7 +130,7 @@ function drawNodes() {
         }
     }
 
-    
+
 
     var linkElements = svg.append("g")
         .attr("class", "links")
@@ -204,6 +204,9 @@ function drawNodes() {
         .on("click", handleCharMouseClick)
         .on("mouseout", handleCharMouseOut)
 
+    d3.select('body')
+        .on('keydown', reset)
+
 
     // add movie label, wrapped
     nodeElements
@@ -233,7 +236,7 @@ function drawNodes() {
         .on("mouseout", reset)
 
     function handleMovieMouseOver() {
-        if (active_char){
+        if (active_char) {
             resetChar(active_char);
         }
         var selectedId = this.id;
@@ -282,7 +285,7 @@ function drawNodes() {
             .forceLink()
             .links(connectedLinks)
             .strength(function (link) { return 0.05 }));
-        simulation.force("charge", d3.forceCollide().radius(function(d){ return d.group == 0? 70 :30}))
+        simulation.force("charge", d3.forceCollide().radius(function (d) { return d.group == 0 ? 70 : 30 }))
         simulation.alpha(1).restart();
     }
 
@@ -358,7 +361,7 @@ function drawNodes() {
         d3.select(selected_node)
             .attr('r', char_node_size)
 
-        nodes.forEach(function(node){
+        nodes.forEach(function (node) {
             node.mark = undefined
         })
         selectedNode = nodes.filter(function (d) { return processId(d.id) == charId; })[0]
@@ -444,13 +447,13 @@ function drawNodes() {
         connectedLinks.forEach(function (link) {
             console.log(link.source)
             console.log(link.target)
-            if (processId(link.target.id) != selectedId){
-            if (link.value == 1){
-                link.target.mark = 1
-            } else if (link.value == 2) {
-                link.target.mark = -1
+            if (processId(link.target.id) != selectedId) {
+                if (link.value == 1) {
+                    link.target.mark = 1
+                } else if (link.value == 2) {
+                    link.target.mark = -1
+                }
             }
-        }
 
             var source = processId(link.source.id);
             var target = processId(link.target.id);
@@ -543,10 +546,10 @@ function drawNodes() {
                 var node = setUpMovies(node, counter);
                 counter++;
             }
-            if (active_char && node.mark != undefined){
+            if (active_char && node.mark != undefined) {
                 // character is selected
-                node.x = - (radius * Math.cos(5*node.mark)) + width / 2 - radius + 100*Math.random()-50;
-                node.y = (radius * Math.sin(5*node.mark)) + height / 2 + 100*Math.random()-50;
+                node.x = (radius * Math.tan(2 * node.mark)) + 150;
+                node.y = -(radius * Math.cos(2 * node.mark)) + 200;
                 node.mark = undefined
                 return "translate(" + node.x + "," + node.y + ")";
             }
@@ -562,15 +565,15 @@ function drawNodes() {
 
     simulation.force("link").links(links);
     //d3.selectAll('.wrapme').call(wrap);
- 
+
 }
 
-function setUpSearch(){
+function setUpSearch() {
     let searchDropdown = document.querySelector(".searchCandidates");
-    nodes.sort(function(a, b){ if (a.id < b.id) { return -1; } else { return 1; }});
-    for (var i = 0; i < nodes.length; i++){
+    nodes.sort(function (a, b) { if (a.id < b.id) { return -1; } else { return 1; } });
+    for (var i = 0; i < nodes.length; i++) {
 
-        if (nodes[i].group == 1){
+        if (nodes[i].group == 1) {
             var newNode = document.createElement('a');
             newNode.className = "dropDownItems";
             newNode.innerHTML = nodes[i].id;
@@ -580,22 +583,23 @@ function setUpSearch(){
     let xPosition = $(".searchBar").position().left;
     let height = $(".searchBar").outerHeight();
     let width = $(".searchBar").outerWidth(true);
-    $(".searchCandidates").css({width: width, top:height, left: xPosition});
+    $(".searchCandidates").css({ width: width, top: height, left: xPosition });
     $(".dropDownItems").hide();
-    $(".dropDownItems").bind("click", function(){
+    $(".dropDownItems").bind("click", function () {
         confirmSearch($(this));
     })
 }
-function search(searchBar){
+
+function search(searchBar) {
     console.log(searchBar.value);
     query_content = searchBar.value.replace(" ", "").toUpperCase();
     let dropDownItems = $(".dropDownItems");
 
-    if (query_content != ""){
+    if (query_content != "") {
         for (var i = 0; i < dropDownItems.length; i++) {
             if ($(dropDownItems[i]).text().replace(" ", "").toUpperCase().includes(query_content)) {
                 $(dropDownItems[i]).show("fast");
-            } else{
+            } else {
                 $(dropDownItems[i]).hide("fast");
             }
         }
@@ -608,23 +612,23 @@ function search(searchBar){
         //     return link.target.id.replace(" ", "").toUpperCase().includes(query_content) ? 1 : 0;
         // }).attr('stroke', COLOR_WHITE)
     } else {
-        $(".dropDownItems").hide();    
+        $(".dropDownItems").hide();
     }
 
 
     // // console.log(links)
-    
+
 
 }
 
-function confirmSearch(element){
+function confirmSearch(element) {
     let text = $(element).text();
     $(".searchBar").val(text);
-    $(".dropDownItems").hide();    
+    $(".dropDownItems").hide();
     let evt = new MouseEvent("click");
     try {
-        d3.select("#"+$(".searchBar").val().replace(" ", "_")).node().dispatchEvent(evt);
-    } catch(err) {
+        d3.select("#" + $(".searchBar").val().replace(" ", "_")).node().dispatchEvent(evt);
+    } catch (err) {
 
     }
 }
