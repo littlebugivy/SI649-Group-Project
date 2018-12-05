@@ -69,7 +69,7 @@ function loadData() {
         // console.log(nodes)
         //console.log(numOfMovie)
 
-        drawNodes();
+        drawgraph();
         setUpSearch();
     });
 
@@ -79,7 +79,7 @@ function processId(id) {
     return id.replace(/[:\s\(\)]+/g, '_');
 }
 
-function drawNodes() {
+function drawgraph() {
     const width = window.innerWidth + 50
     const height = window.innerHeight - 20;
 
@@ -129,7 +129,6 @@ function drawNodes() {
             return char_node_size + 1;
         }
     }
-
 
 
     var linkElements = svg.append("g")
@@ -376,7 +375,7 @@ function drawNodes() {
         hover_char = selectedId;
 
         var selected_node = '#' + selectedId + '_circle'
-        console.log(d3.select(selected_node))
+        //console.log(d3.select(selected_node))
         d3.select(selected_node)
             .attr('r', char_node_size_enlarged)
             .attr('fill', COLOR_RED)
@@ -404,7 +403,7 @@ function drawNodes() {
         }
 
         if (hover_char == active_char) {
-            console.log("here")
+            //console.log("here")
             return
         }
         selectedNode.fx = null;
@@ -490,7 +489,7 @@ function drawNodes() {
             .style('cursor', 'pointer')
 
         var selected_node = '#' + selectedId + '_circle'
-        console.log(d3.select(selected_node))
+        //console.log(d3.select(selected_node))
         d3.select(selected_node)
             .attr('r', char_node_size_enlarged)
             .attr('fill', COLOR_RED)
@@ -516,7 +515,6 @@ function drawNodes() {
                     return COLOR_WHITE;
                 }
             })
-
 
         simulation.force("link", d3
             .forceLink()
@@ -598,7 +596,7 @@ function setUpSearch() {
 function search(searchBar) {
     event.stopPropagation();
 
-    console.log(searchBar.value);
+    //console.log(searchBar.value);
     query_content = searchBar.value.replace(" ", "").toUpperCase();
     let dropDownItems = $(".dropDownItems");
 
