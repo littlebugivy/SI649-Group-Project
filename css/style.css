@@ -44,9 +44,16 @@ h1,h2,h3,h4,h5,h6, span{
     color: white;
 }
 
+.timeline-div{
+    margin-top:40px;
+}
+
+.movie_circles{
+    cursor: pointer;
+}
 
 .searchDropDown{
-    margin-top:50px;
+    margin-top:10px;
 }
 
 .searchCandidates{
