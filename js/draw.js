@@ -550,8 +550,9 @@ function drawNodes() {
             }
             if (active_char && node.mark != undefined) {
                 // character is selected
-                node.x = (radius * Math.tan(2 * node.mark)) + 150;
-                node.y = -(radius * Math.cos(2 * node.mark)) + 200;
+                node.x = - (radius * Math.cos(2+node.mark)) + width / 2 - radius;
+               node.y = (radius * Math.sin(3*node.mark)) + height / 2 + 50;
+                console.log(node.y)
                 node.mark = undefined
                 return "translate(" + node.x + "," + node.y + ")";
             }
