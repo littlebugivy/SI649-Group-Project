@@ -4,6 +4,7 @@ $(document).ready(function () {
 });
 const COLOR_RED = '#EA2327'
 const COLOR_BK = '#151515'
+const COLOR_WHITE = "rgba(255, 241, 191, 0.2)"
 var numOfMovie;
 var radius = 300;
 var movie_node_size = 48;
@@ -13,6 +14,7 @@ var movie_node_width = 110;
 var movie_node_height = 50;
 var active_char;
 var hover_char;
+
 
 var poly = [{ "x": 0, "y": 10 },
 { "x": 0, "y": 50 },
@@ -87,9 +89,9 @@ function drawNodes() {
 
     const simulation = d3.forceSimulation()
         .force("link", linkForce)
-        .force("charge", d3.forceCollide().radius(25).strength(0.8))
+        .force("charge", d3.forceCollide().radius(25).strength(0.3))
         //.force("r", d3.forceRadial(function (d) { return d.group === "0" ? 100 : 200; }))
-        // .force('charge', d3.forceManyBody().strength(-10).distanceMax(radius-10).distanceMin(10))
+        //.force('charge', d3.forceManyBody().strength(-25).distanceMax(radius - 10).distanceMin(25))
         .force('center', d3.forceCenter(width / 2 - radius, height / 2))
 
 
@@ -124,7 +126,6 @@ function drawNodes() {
     function processId(id) {
         return id.replace(/[:\s\(\)]+/g, '_');
     }
-
 
     var linkElements = svg.append("g")
         .attr("class", "links")
@@ -168,7 +169,7 @@ function drawNodes() {
             }).join(" ");
         })
         .attr('fill', COLOR_BK)
-        .attr("stroke", "white")
+        .attr("stroke", 'white')
         .attr("stroke-width", 0.4);
     // .append('circle')
     // .attr('r', movie_node_size)
@@ -291,8 +292,8 @@ function drawNodes() {
 
         simulation.force("link").links(links)
         simulation
-            .force("charge", d3.forceCollide().radius(25).strength(0.8))
-            .force('center', d3.forceCenter(width / 2 - radius, height / 2));
+            .force("charge", d3.forceCollide().radius(25).strength(0.3))
+        //.force('center', d3.forceCenter(width / 2 - radius, height / 2));
         simulation.alpha(1).restart();
 
     }
@@ -352,14 +353,8 @@ function drawNodes() {
         if (hover_char && hover_char != active_char)
             resetChar(hover_char);
 
-        // hahahah??
-
         var selectedId = this.id;
         hover_char = selectedId;
-
-        var selected_label = '#' + selectedId + '_label'
-        d3.select(selected_label)
-            .style('opacity', 1)
 
         var selected_node = '#' + selectedId + '_circle'
         console.log(d3.select(selected_node))
@@ -367,8 +362,12 @@ function drawNodes() {
             .attr('r', char_node_size_enlarged)
             .attr('fill', COLOR_RED)
 
-        selectedNode = nodes.filter(function(d){return processId(d.id) == selectedId;})[0]
-        if (selectedNode == undefined){
+        var selected_label = '#' + selectedId + '_label'
+        d3.select(selected_label)
+            .style('opacity', 1)
+
+        selectedNode = nodes.filter(function (d) { return processId(d.id) == selectedId; })[0]
+        if (selectedNode == undefined) {
             return
         }
         selectedNode.fx = selectedNode.x;
@@ -380,12 +379,12 @@ function drawNodes() {
             return
         var selectedId = hover_char;
 
-        selectedNode = nodes.filter(function(d){return processId(d.id) == selectedId;})[0]
-        if (selectedNode ==undefined){
+        selectedNode = nodes.filter(function (d) { return processId(d.id) == selectedId; })[0]
+        if (selectedNode == undefined) {
             return
         }
 
-        if (hover_char == active_char){
+        if (hover_char == active_char) {
             console.log("here")
             return
         }
@@ -403,8 +402,6 @@ function drawNodes() {
 
         hover_char = null;
     }
-
-
 
 
     function handleCharMouseClick() {
@@ -439,12 +436,8 @@ function drawNodes() {
             linkList.push(linkId)
         })
 
+        // add the activated node itself
         nodeList.push(selectedId);
-
-        //console.log(nodeList)
-
-        // // console.log(charInMovieList)
-        // // console.log(linkList)
 
         d3.selectAll('.movie_node')
             .style('opacity', function (node) {
@@ -459,16 +452,15 @@ function drawNodes() {
             })
             .style('cursor', 'pointer')
 
-
-        var selected_label = '#' + selectedId + '_label'
-        d3.select(selected_label)
-            .style('opacity', 1)
-
         var selected_node = '#' + selectedId + '_circle'
         console.log(d3.select(selected_node))
         d3.select(selected_node)
             .attr('r', char_node_size_enlarged)
             .attr('fill', COLOR_RED)
+
+        var selected_label = '#' + selectedId + '_label'
+        d3.select(selected_label)
+            .style('opacity', 1)
 
         d3.selectAll('.link')
             .style('opacity', function (link) {
@@ -477,22 +469,30 @@ function drawNodes() {
                 var linkId = psource + '_' + ptarget;
                 return (linkList.includes(linkId)) ? 1 : 0;
             })
+            .attr('stroke', function (link) {
+                if (link.value == 1){
+                    return 'orange' //for ally
+                }
+                else if (link.value == 2){
+                    return 'lightblue' //for enermy
+                }else{
+                    return COLOR_WHITE;
+                }
+            })
 
 
         simulation.force("link", d3
             .forceLink()
             .links(connectedLinks)
-            .strength(function (link) { return processId(link.target.id) == selectedId? 0 : 0.05 }));
+            .strength(function (link) { return processId(link.target.id) == selectedId ? 0 : 0.05 }));
         simulation.force("charge", d3.forceCollide().radius(30))
         simulation.alpha(1).restart();
-        selectedNode = nodes.filter(function(d){return processId(d.id) == selectedId;})[0]
-        if (selectedNode == undefined){
+        selectedNode = nodes.filter(function (d) { return processId(d.id) == selectedId; })[0]
+        if (!selectedNode)
             return
-        }
-        selectedNode.fx = width/2 - radius;
-        selectedNode.fy = height/2;
-        
 
+        selectedNode.fx = width / 2 - radius;
+        selectedNode.fy = height / 2;
 
     }
 
