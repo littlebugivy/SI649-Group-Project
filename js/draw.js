@@ -347,6 +347,14 @@ function drawNodes() {
         //console.log(d3.select(selected_node))
         d3.select(selected_node)
             .attr('r', char_node_size)
+
+        selectedNode = nodes.filter(function(d){return processId(d.id) == charId;})[0]
+        if (selectedNode == undefined){
+            return
+        }
+        selectedNode.fx = null;
+        selectedNode.fy = null;
+        simulation.force("link").links(links);
     }
 
     function handleCharMouseOver() {
