@@ -29,26 +29,54 @@ body{
     border:none;
 }
 
-.searchCandidates{
-    position: absolute;
+#searchBar{
+    background-color:#151515;
+    border-width: 0.2;
+    border-color:rgba(250, 234, 234, 0.5);
+    border-radius: 0;
+    height:20px;
+    width: 150px;
+    margin-top:6px;
+    color:#EA2327;
 }
-.dropDownItems{
+
+h1,h2,h3,h4,h5,h6, span{
+    color: white;
+}
+
+
+.searchDropDown{
+    margin-top:50px;
+}
+
+.searchCandidates{
     display: block;
-    border-radius: 4px;
+    height: 100px;
+}
+
+input:focus { color:#EA2327 }
+
+.dropDownItems{
+    position: relative;
+    display: inline-block;
+    padding:6px 10px;
+    height:20px;
+    width: 150px;
+    font-size: 12px;
     cursor: pointer;
     color:white;
-    padding: 12px 16px;
+    border-collapse: collapse;
+    border-radius: 0;
     text-decoration: none;
     /* change dropdown background color here */
-    background-color: dimgrey;
+    background-color: #151515;
     /* change dropdown border color here */
-    border: 1px solid white;
+    border: 1px solid rgba(250, 234, 234, 0.5);;
 }
 
 .dropDownItems:hover{
     /* change dropdown hover color here */
-    background-color: dimgrey;
-    color: black;
-    border-color: white;
-
+    background-color: #151515;
+    color: #EA2327;
+    /* border-color: white; */
 }

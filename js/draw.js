@@ -81,7 +81,7 @@ function processId(id) {
 
 function drawNodes() {
     const width = window.innerWidth + 50
-    const height = window.innerHeight -20;
+    const height = window.innerHeight - 20;
 
     var svg = d3.select('.graph-container')
         .append('svg')
@@ -176,15 +176,6 @@ function drawNodes() {
         .attr('fill', COLOR_BK)
         .attr("stroke", 'white')
         .attr("stroke-width", 0.4);
-    // .append('circle')
-    // .attr('r', movie_node_size)
-    // .attr('id', function (d) {
-    //     return processId(d.id);
-    // })
-    // .attr('fill', 'black')
-    // .attr('stroke', 'white')
-    // .on("mouseover", handleMovieMouseOver)
-    // .on("mouseout", reset)
 
     // create char nodes
     nodeElements
@@ -204,8 +195,13 @@ function drawNodes() {
         .on("click", handleCharMouseClick)
         .on("mouseout", handleCharMouseOut)
 
-    d3.select('body')
-        .on('keydown', reset)
+
+    document.onkeydown = function (evt) {
+        evt = evt || window.event;
+        if (evt.keyCode == 27) {
+            reset();
+        }
+    };
 
 
     // add movie label, wrapped
@@ -256,11 +252,7 @@ function drawNodes() {
             var linkId = psource + '_' + ptarget;
             linkList.push(linkId)
         })
-        // console.log(charInMovieList)
-        // console.log(linkList)
 
-        // d3.select('#' + selectedId)
-        //     .attr('height', 100)
 
         d3.selectAll('.movie_node')
             .style('opacity', function (movie) {
@@ -290,6 +282,8 @@ function drawNodes() {
     }
 
     function reset() {
+        d3.select('#searchBar').attr("value", "")
+
         d3.selectAll('.movie_node')
             .style('opacity', 1)
         d3.selectAll('.char_node')
@@ -312,7 +306,6 @@ function drawNodes() {
     }
 
 
-
     nodeElements
         .filter(function (d) { return d.group == 1 })
         .append('image')
@@ -325,8 +318,6 @@ function drawNodes() {
         .on("mouseover", handleCharMouseOver)
         .on("mouseout", handleCharMouseOut)
         .on("click", handleCharMouseClick)
-    //.on("focusout", reset)
-
 
     // add character label, wrapped
     nodeElements
@@ -351,7 +342,7 @@ function drawNodes() {
         .style('opacity', 0)
 
     function resetChar(charId) {
-        console.log('reset')
+        d3.select('#searchBar').attr("value", "")
         var selected_label = '#' + charId + '_label'
         d3.select(selected_label)
             .style('opacity', 0)
@@ -420,7 +411,7 @@ function drawNodes() {
             .style('opacity', 0)
 
         var last_node = '#' + hover_char + '_circle'
-        console.log(d3.select(last_node))
+        //console.log(d3.select(last_node))
         d3.select(last_node)
             .attr('r', char_node_size)
 
@@ -429,8 +420,9 @@ function drawNodes() {
 
 
     function handleCharMouseClick() {
+        d3.select('#searchBar').attr("value", this.id)
         var selectedId = this.id;
-        console.log("here");
+
         if (active_char)
             resetChar(active_char);
 
@@ -445,8 +437,7 @@ function drawNodes() {
         var linkList = [];
 
         connectedLinks.forEach(function (link) {
-            console.log(link.source)
-            console.log(link.target)
+
             if (processId(link.target.id) != selectedId) {
                 if (link.value == 1) {
                     link.target.mark = 1
@@ -612,13 +603,13 @@ function search(searchBar) {
         //     return link.target.id.replace(" ", "").toUpperCase().includes(query_content) ? 1 : 0;
         // }).attr('stroke', COLOR_WHITE)
     } else {
-        $(".dropDownItems").hide();
+        $(".dropDownItems").show();
     }
+}
 
-
-    // // console.log(links)
-
-
+function dismiss() {
+    window.setTimeout(function () { $('.dropDownItems').hide(); }, 200)
+    //active_char = undefined;
 }
 
 function confirmSearch(element) {
@@ -633,33 +624,5 @@ function confirmSearch(element) {
     }
 }
 
-// function resetSearch(){
-//     $(".dropDownItems").hide();
-//     let nodes = d3.selectAll(".char_node");
-//     let links = d3.selectAll(".link");
-//     let nodesFinished = false;
-//     let linksFinished = false;
-//     nodes
-//     .style('opacity', 1)
-//     .each(function(d, i) { 
-//         if (i == nodes.size()-1) { 
-//             nodesFinished = true; 
-//             if (linksFinished) {
-//                 invokeClick();
-//             }
-//         } 
-//     });
 
-//     links
-//     .style('opacity', function(d) { return d.value == 0? 1 : 0})
-//     .attr('stroke', COLOR_WHITE)
-//     .each(function(d, i) { 
-//         if (i == links.size()-1) { 
-//             linksFinished = true; 
-//             if (nodesFinished) {
-//                 invokeClick();
-//             }
-//         } 
-//     });
-// }
 

@@ -20,8 +20,11 @@
         <div class="row">
             <div class="three columns alpha">
                 <img src="img/marvel-logo.png" width="160px">
+
                 <div class="searchDropDown">
-                    <input type="search" class="searchBar" onfocus="search(this)" oninput="search(this)" onblur="window.setTimeout(function(){ $('.dropDownItems').hide();}, 200) ">
+                    <span> Search Character:</span>
+                    <input type="search" class="searchBar" id="searchBar" onfocus="search(this)" oninput="search(this)"
+                        onblur="dismiss()">
                     <div class="searchCandidates">
                     </div>
                 </div>
@@ -31,29 +34,6 @@
             <div class="graph-container nine columns alpha">
             </div>
         </div>
-        <!-- <svg width="960" height="500" viewBox="-480 -250 960 500" class="graph-container">
-            <circle r="100" stroke="brown" stroke-opacity="0.5" fill="none"></circle>
-            <circle r="200" stroke="steelblue" stroke-opacity="0.5" fill="none"></circle>
-        </svg> -->
-        <!-- <div class="row">
-            <div class="nine columns alpha" id="color-property">
-                <h5></h5>
-            </div>
-            <div class="three columns alpha side-menu">
-                <div class="row color-prop default">
-                    <h6></h6>
-                </div>
-                <div class="row color-prop">
-                    <h6></h6>
-                </div>
-                <div class="row color-prop">
-                    <h6></h6>
-                </div>
-                <div class="row color-prop">
-                    <h6></h6>
-                </div>
-            </div>
-        </div> -->
     </div>
 </body>
 
