@@ -52,6 +52,10 @@ h1,h2,h3,h4,h5,h6, span{
     cursor: pointer;
 }
 
+.movie_circles:hover{
+    fill: rgba(255, 241, 191, 0.8);
+}
+
 .searchDropDown{
     margin-top:10px;
 }
@@ -88,3 +92,5 @@ input:focus { color:#EA2327 }
     color: #EA2327;
     /* border-color: white; */
 }
+
+

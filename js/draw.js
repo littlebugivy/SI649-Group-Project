@@ -599,7 +599,6 @@ function drawTimeline(){
 
     function handleTimelineMouseOver(){
         let evt = new MouseEvent("mouseover");
-
         try {
             d3.select("#" + processId(this.id.replace("_timeline", ""))).node().dispatchEvent(evt);
         } catch (err) {
