@@ -93,4 +93,32 @@ input:focus { color:#EA2327 }
     /* border-color: white; */
 }
 
+.hovertext{
+    /*width: 200px;*/
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 99;
+    bottom: 150%;
+    white-space: pre-line;
+}
+
+.hovertext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
+
+
+
 

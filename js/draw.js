@@ -576,7 +576,7 @@ function drawTimeline(){
         .attr('width', 400)
         .attr('height', 50)
     var g = svg.append('g')
-
+    $('.hovertext').hide();
     g.append('line')
     .attr("x1", 10)
     .attr("x2", 390)
@@ -589,6 +589,7 @@ function drawTimeline(){
     g.selectAll("circle").data(movies.sort(function(a, b) { return a.year - b.year })).enter()
     .append("circle")
     .attr("id", function(d){ return processId(d.id) + "_timeline" })
+    .attr("index", function(d, i){ return i; })
     .attr("class", "movie_circles")
     .attr('r', 6)
     .attr('cy', 25)
@@ -604,9 +605,16 @@ function drawTimeline(){
         } catch (err) {
             console.log(err)
         }
+        let circle_position = $(this).position()
+        $('.hovertext').show();
+        let node = movies[parseInt($(this).attr("index"))];
+        $('.hovertext').text(node.id + "\n" + node.year);
+        
+        $('.hovertext').css({top: circle_position.top -70, left: circle_position.left - $('.hovertext').width()/2 - 4});
     }
 
     function resetTimelineMouseOver(){
+        $('.hovertext').hide();
 
     }
 }
