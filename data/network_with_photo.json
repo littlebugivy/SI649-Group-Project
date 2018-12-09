@@ -2,12 +2,12 @@
   "nodes": [
     {
       "id": "Avengers: Infinity War",
-      "year": 2018.4,
+      "year": 2018.04,
       "group": 0
     },
     {
       "id": "Black Panther (Movie)",
-      "year": 2018.2,
+      "year": 2018.02,
       "group": 0
     },
     {
@@ -17,12 +17,12 @@
     },
     {
       "id": "Spider-Man: Homecoming",
-      "year": 2017.7,
+      "year": 2017.07,
       "group": 0
     },
     {
       "id": "Guardians of the Galaxy Vol 2",
-      "year": 2017.5,
+      "year": 2017.05,
       "group": 0
     },
     {
@@ -32,27 +32,27 @@
     },
     {
       "id": "Captain America: Civil War",
-      "year": 2016.5,
+      "year": 2016.05,
       "group": 0
     },
     {
       "id": "Ant-Man (Movie)",
-      "year": 2015.7,
+      "year": 2015.07,
       "group": 0
     },
     {
       "id": "Avengers: Age of Ultron",
-      "year": 2015.5,
+      "year": 2015.05,
       "group": 0
     },
     {
       "id": "Guardians of the Galaxy",
-      "year": 2014.8,
+      "year": 2014.08,
       "group": 0
     },
     {
       "id": "Captain America: The Winter Soldier",
-      "year": 2014.4,
+      "year": 2014.04,
       "group": 0
     },
     {
@@ -62,37 +62,37 @@
     },
     {
       "id": "Iron Man 3",
-      "year": 2013.5,
+      "year": 2013.05,
       "group": 0
     },
     {
       "id": "The Avengers",
-      "year": 2012.5,
+      "year": 2012.05,
       "group": 0
     },
     {
       "id": "Captain America: The First Avenger",
-      "year":2011.7,
+      "year":2011.07,
       "group": 0
     },
     {
       "id": "Thor (Movie)",
-      "year": 2011.5,
+      "year": 2011.05,
       "group": 0
     },
     {
       "id": "Iron Man 2",
-      "year": 2010.5,
+      "year": 2010.05,
       "group": 0
     },
     {
       "id": "The Incredible Hulk",
-      "year": 2008.6,
+      "year": 2008.06,
       "group": 0
     },
     {
       "id": "Iron Man (Movie)",
-      "year": 2008.5,
+      "year": 2008.05,
       "group": 0
     },
     {

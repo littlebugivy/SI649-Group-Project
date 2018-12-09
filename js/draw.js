@@ -585,15 +585,18 @@ function drawTimeline(){
     .attr('stroke', COLOR_WHITE);
 
     // hardcoding is fun isn't it
-    var linearScale = d3.scaleLinear().domain([2008.5, 2018.4]).range([30, 370])
-    g.selectAll("circle").data(movies.sort(function(a, b) { return a.year - b.year })).enter()
+    var linearScale = d3.scaleLinear().domain([new Date(2008, 5).getTime(), new Date(2018, 4).getTime()]).range([30, 370])
+    g.selectAll("circle").data(movies).enter()
     .append("circle")
     .attr("id", function(d){ return processId(d.id) + "_timeline" })
     .attr("index", function(d, i){ return i; })
     .attr("class", "movie_circles")
     .attr('r', 6)
     .attr('cy', 25)
-    .attr('cx', function(d) { return linearScale(d.year)})
+    .attr('cx', function(d) { 
+        let newDate = (d.year + "").split(".");
+        return linearScale(new Date(newDate[0], newDate[1]).getTime());
+    })
     .attr('fill', COLOR_WHITE)
     .on("mouseenter", handleTimelineMouseOver)
     .on("mouseout", resetTimelineMouseOver)
