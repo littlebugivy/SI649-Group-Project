@@ -1,12 +1,18 @@
 
 $(document).ready(function () {
     loadData();
+    floatingGraph();
 });
+
+window.onscroll = function(){ floatingGraph(); }
 const COLOR_RED = '#EA2327'
 const COLOR_BK = '#151515'
 const COLOR_WHITE = "rgba(255, 241, 191, 0.2)"
 const COLOR_ALLY = "rgba(255, 0, 0, 0.5"
 const COLOR_ENER = "rgba(21, 190, 233, 0.5)"
+const COLOR_COMPLEX = "rgba(247, 217, 76, 0.5)"
+const MIN_TOP = 170;
+const MAX_TOP = 370;
 var numOfMovie;
 var radius = 300;
 var movie_node_size = 48;
@@ -17,6 +23,7 @@ var movie_node_height = 50;
 var active_char;
 var hover_char;
 var query_content = "";
+var insight_stage = 0;
 
 var poly = [{ "x": 0, "y": 10 },
 { "x": 0, "y": 50 },
@@ -82,10 +89,11 @@ function processId(id) {
 
 function drawgraph() {
     const width = window.innerWidth + 50
-    const height = window.innerHeight - 20;
+    const height = 680;
 
-    var svg = d3.select('.graph-container')
+    var svg = d3.selectAll('.graph-container')
         .append('svg')
+        .attr('id', function(d, i){ return "svg" + i;})
         .attr('width', width / 3 * 2)
         .attr('height', height)
 
@@ -153,7 +161,7 @@ function drawgraph() {
         .enter().append('g')
 
 
-    svg.append("defs")
+    d3.select("#svg1").append("defs")
         .attr("id", "clip-def")
         .attr('class', 'node')
         .append('clipPath').attr('id', "clip-circle")
@@ -551,7 +559,6 @@ function drawgraph() {
                 // character is selected
                 node.x = - (radius * Math.cos(2+node.mark)) + width / 2 - radius;
                node.y = (radius * Math.sin(3*node.mark)) + height / 2 + 50;
-                console.log(node.y)
                 node.mark = undefined
                 return "translate(" + node.x + "," + node.y + ")";
             }
@@ -571,7 +578,7 @@ function drawgraph() {
 }
 
 function drawTimeline(){
-    var svg = d3.select('.timeline')
+    var svg = d3.selectAll('.timeline')
         .append('svg')
         .attr('width', 400)
         .attr('height', 50)
@@ -695,5 +702,39 @@ function confirmSearch(element) {
     }
 }
 
+function floatingGraph(){
+    if (window.pageYOffset > MAX_TOP + 400){
+        $("#floatingGraph").hide(500);
+        $("#insight_timeline").hide(500);
+        return;
+    } else {
+        $("#floatingGraph").show(500);
+        $("#insight_timeline").show(500);
+    }
+    if (window.pageYOffset < 280) {
+        if (insight_stage != 1){
+            let evt = new MouseEvent("click");
+            try {
+                d3.select("#Iron_Man").node().dispatchEvent(evt);
+                insight_stage = 1;
+            } catch (err) {
+
+            }
+        }
+    } else {
+        if (insight_stage != 2){
+            let evt = new MouseEvent("mouseover");
+            try {
+                insight_stage = 2;
+                d3.select("#Avengers_Infinity_War").node().dispatchEvent(evt);
+            } catch (err) {
+                console.log(err)
+            }
+        }
+    }
+    let topoffset = Math.max(MIN_TOP, Math.min(MAX_TOP, window.pageYOffset))
+
+    $("#floatingGraph").animate({top: topoffset}, 100)
+}
 
 

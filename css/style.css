@@ -10,6 +10,19 @@ body{
     z-index: 100;
 }
 
+.row {
+    margin-top: 80px;
+}
+
+#floatingGraph{
+    position: absolute;
+    left: 35%;
+
+}
+
+.content{
+    color: rgba(255, 241, 191, 0.5);
+}
 .char_node{
     position: relative;
     z-index:1;
@@ -46,6 +59,7 @@ h1,h2,h3,h4,h5,h6, span{
 
 .timeline-div{
     margin-top:40px;
+    z-index: 99;
 }
 
 .movie_circles{
