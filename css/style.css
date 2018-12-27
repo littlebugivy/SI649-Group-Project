@@ -23,6 +23,11 @@ body{
 .content{
     color: rgba(255, 241, 191, 0.5);
 }
+
+footer {
+    color: rgba(255, 241, 191, 0.5);
+    text-align: center;
+}
 .char_node{
     position: relative;
     z-index:1;
