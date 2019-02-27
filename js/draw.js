@@ -4,15 +4,15 @@ $(document).ready(function () {
     floatingGraph();
 });
 
-window.onscroll = function(){ floatingGraph(); }
+window.onscroll = function () { floatingGraph(); }
 const COLOR_RED = '#EA2327'
 const COLOR_BK = '#151515'
 const COLOR_WHITE = "rgba(255, 241, 191, 0.2)"
 const COLOR_ALLY = "rgba(255, 0, 0, 0.5"
 const COLOR_ENER = "rgba(21, 190, 233, 0.5)"
 const COLOR_COMPLEX = "rgba(247, 217, 76, 0.5)"
-const MIN_TOP = 170;
-const MAX_TOP = 370;
+const MIN_TOP = 400;
+const MAX_TOP = 400;
 var numOfMovie;
 var radius = 300;
 var movie_node_size = 48;
@@ -93,7 +93,7 @@ function drawgraph() {
 
     var svg = d3.selectAll('.graph-container')
         .append('svg')
-        .attr('id', function(d, i){ return "svg" + i;})
+        .attr('id', function (d, i) { return "svg" + i; })
         .attr('width', width / 3 * 2)
         .attr('height', height)
 
@@ -557,8 +557,8 @@ function drawgraph() {
             }
             if (active_char && node.mark != undefined) {
                 // character is selected
-                node.x = - (radius * Math.cos(2+node.mark)) + width / 2 - radius;
-               node.y = (radius * Math.sin(3*node.mark)) + height / 2 + 50;
+                node.x = - (radius * Math.cos(2 + node.mark)) + width / 2 - radius;
+                node.y = (radius * Math.sin(3 * node.mark)) + height / 2 + 50;
                 node.mark = undefined
                 return "translate(" + node.x + "," + node.y + ")";
             }
@@ -577,7 +577,7 @@ function drawgraph() {
 
 }
 
-function drawTimeline(){
+function drawTimeline() {
     var svg = d3.selectAll('.timeline')
         .append('svg')
         .attr('width', 400)
@@ -585,30 +585,30 @@ function drawTimeline(){
     var g = svg.append('g')
     $('.hovertext').hide();
     g.append('line')
-    .attr("x1", 10)
-    .attr("x2", 390)
-    .attr("y1", 25)
-    .attr("y2", 25)
-    .attr('stroke', COLOR_WHITE);
+        .attr("x1", 10)
+        .attr("x2", 390)
+        .attr("y1", 25)
+        .attr("y2", 25)
+        .attr('stroke', COLOR_WHITE);
 
     // hardcoding is fun isn't it
     var linearScale = d3.scaleLinear().domain([new Date(2008, 5).getTime(), new Date(2018, 4).getTime()]).range([30, 370])
     g.selectAll("circle").data(movies).enter()
-    .append("circle")
-    .attr("id", function(d){ return processId(d.id) + "_timeline" })
-    .attr("index", function(d, i){ return i; })
-    .attr("class", "movie_circles")
-    .attr('r', 6)
-    .attr('cy', 25)
-    .attr('cx', function(d) { 
-        let newDate = (d.year + "").split(".");
-        return linearScale(new Date(newDate[0], newDate[1]).getTime());
-    })
-    .attr('fill', COLOR_WHITE)
-    .on("mouseenter", handleTimelineMouseOver)
-    .on("mouseout", resetTimelineMouseOver)
+        .append("circle")
+        .attr("id", function (d) { return processId(d.id) + "_timeline" })
+        .attr("index", function (d, i) { return i; })
+        .attr("class", "movie_circles")
+        .attr('r', 6)
+        .attr('cy', 25)
+        .attr('cx', function (d) {
+            let newDate = (d.year + "").split(".");
+            return linearScale(new Date(newDate[0], newDate[1]).getTime());
+        })
+        .attr('fill', COLOR_WHITE)
+        .on("mouseenter", handleTimelineMouseOver)
+        .on("mouseout", resetTimelineMouseOver)
 
-    function handleTimelineMouseOver(){
+    function handleTimelineMouseOver() {
         let evt = new MouseEvent("mouseover");
         try {
             d3.select("#" + processId(this.id.replace("_timeline", ""))).node().dispatchEvent(evt);
@@ -619,11 +619,11 @@ function drawTimeline(){
         $('.hovertext').show();
         let node = movies[parseInt($(this).attr("index"))];
         $('.hovertext').text(node.id + "\n" + node.year);
-        
-        $('.hovertext').css({top: circle_position.top -70, left: circle_position.left - $('.hovertext').width()/2 - 4});
+
+        $('.hovertext').css({ top: circle_position.top - 70, left: circle_position.left - $('.hovertext').width() / 2 - 4 });
     }
 
-    function resetTimelineMouseOver(){
+    function resetTimelineMouseOver() {
         $('.hovertext').hide();
 
     }
@@ -702,17 +702,16 @@ function confirmSearch(element) {
     }
 }
 
-function floatingGraph(){
-    if (window.pageYOffset > MAX_TOP + 400){
+function floatingGraph() {
+    console.log(window.pageYOffset)
+    if (window.pageYOffset < 500 || window.pageYOffset > 1600) {
         $("#floatingGraph").hide(500);
-        $("#insight_timeline").hide(500);
         return;
     } else {
         $("#floatingGraph").show(500);
-        $("#insight_timeline").show(500);
     }
-    if (window.pageYOffset < 280) {
-        if (insight_stage != 1){
+    if (window.pageYOffset < 800) {
+        if (insight_stage != 1) {
             let evt = new MouseEvent("click");
             try {
                 d3.select("#Iron_Man").node().dispatchEvent(evt);
@@ -721,8 +720,10 @@ function floatingGraph(){
 
             }
         }
-    } else {
-        if (insight_stage != 2){
+    }
+
+    if (window.pageYOffset > 1000 && window.pageYOffset < 1400) {
+        if (insight_stage != 2) {
             let evt = new MouseEvent("mouseover");
             try {
                 insight_stage = 2;
@@ -732,9 +733,15 @@ function floatingGraph(){
             }
         }
     }
-    let topoffset = Math.max(MIN_TOP, Math.min(MAX_TOP, window.pageYOffset))
 
-    $("#floatingGraph").animate({top: topoffset}, 100)
+    if (window.pageYOffset > 1400) {
+        $("#insight_timeline").show(500);
+    }else{
+        $("#insight_timeline").hide(500);
+    }
+    let topoffset = window.pageYOffset - 300;
+
+    $("#floatingGraph").animate({ top: topoffset }, 100)
 }
 
 

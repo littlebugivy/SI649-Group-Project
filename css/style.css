@@ -138,6 +138,15 @@ input:focus { color:#EA2327 }
     border-color: white transparent transparent transparent;
 }
 
+footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.row {
+    margin-top: 300px !important;
+}
+
 
 
 
